@@ -4,9 +4,6 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
-* TOC
-{:toc}
-
 # Hobbies
 
 ## Music
