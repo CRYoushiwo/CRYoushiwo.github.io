@@ -4,10 +4,10 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
-* TOC
-{:toc}
 
-## Chinese Blogs
+# Blogs
+
+##  Course Recording
 
 ### 2023
 
