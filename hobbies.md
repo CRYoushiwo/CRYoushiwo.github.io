@@ -4,6 +4,9 @@ permalink: /hobbies/index.html
 title: Hobbies
 ---
 
+* TOC
+{:toc}
+
 # Hobbies
 
 ## Music
@@ -41,4 +44,3 @@ As a devoted fan of pop music who has been a constant presence in the Western mu
 
 [Taylor Swift](https://www.youtube.com/watch?v=P5JLMp08GC0)
 [Beyonce](https://www.youtube.com/watch?v=suIg9kTGBVI)
-
