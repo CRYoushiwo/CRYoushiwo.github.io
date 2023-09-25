@@ -8,7 +8,6 @@ title: Hobbies
 
 ## Music
 
-<!DOCTYPE html>
 <html>
 <head>
 <style>
@@ -39,21 +38,8 @@ title: Hobbies
 </body>
 </html>
 
+As a devoted fan of pop music who has been a constant presence in the Western music scenes, there is no doubt that my favorite musician is **Taylor Swift**. The albums displayed above are all my absolute favorites. They each have their own unique style and distinctive features, but without exception, they are all my cherished gems. Now, There's some extraordinary live performances. 
 
-
-<br>There must be **something truly magical** about MUSIC, which considerably lifts my spirits and energizes my entire body. If you desire to master a specific knowledge in depth, just give a prelection. If you can explain to others for complete understanding, you are already an expert. I really enjoy the accomplishment of imparting my knowledge to others, so what I strive for is to be **a student's favorite lecturer** at the [best universities in my hometown].
-
-[a fantastic speech]:https://youtu.be/Dzx84KpGNoE
-[best universities in my hometown]:https://www.fzu.edu.cn/
-
-
-
-## Swimming & Surfing
-
-<div class="third">
-<img src="/images/swimming2.JPG">
-<img src="/images/swimming.JPG">
-<img src="/images/surfing1.JPG">
-</div>
-<br>Swimming removes my worries, refreshes my body, and brings me courage to address any challenges. I extremely enjoy the feeling of being immersed in the water. Besides, I am a member of the Swimming Team at Fuzhou University, where I meet many sincere friends. I have reached **China National Second-level athlete Standard** in 50m breaststroke and won **Five Gold Medals** during my swimming career. Recently, I am also keen on surfing.
+[Taylor Swift](https://www.youtube.com/watch?v=P5JLMp08GC0)
+[Beyonce](https://www.youtube.com/watch?v=suIg9kTGBVI)
 
