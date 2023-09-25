@@ -4,6 +4,9 @@ permalink: /blogs/index.html
 title: Blogs
 ---
 
+* TOC
+{:toc}
+
 ## Chinese Blogs
 
 ### 2023
