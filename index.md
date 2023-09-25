@@ -4,7 +4,7 @@ layout: page
 
 # About Me
 
-<img src="https://CRYoushiwo.github.io/myprofile.jpg" class="floatpic" width="360" height="480">
+<img src="https://CRYoushiwo.github.io/ChangrongYou.png" class="floatpic" width="421" height="512">
 
 Here is **Changrong You (Pekko, 游昌榕)**.
 
