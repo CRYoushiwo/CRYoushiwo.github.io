@@ -34,16 +34,16 @@ owner:
 links:
   - title: About Me
     url: /
-  - title: Resume
-    url: /file/CV-HanlinCAI.pdf
+  #- title: Resume
+  #  url: /file/CV-HanlinCAI.pdf
   #- title: Publications
   #  url: /publications/
   #- title: Awards
   #  url: /awards/
   #- title: Fundings
   #  url: /fundings/
-  #- title: Hobbies
-  #  url: /hobbies/
+  - title: Hobbies
+    url: /hobbies/
   - title: Blogs
     url: /blogs/
 
