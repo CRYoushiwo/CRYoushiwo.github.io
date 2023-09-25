@@ -6,29 +6,40 @@ title: Hobbies
 
 # Hobbies
 
-## Teaching & Workshops
+## Music
 
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  .image-container {
+    white-space: nowrap; /* 防止图片换行 */
+    overflow-x: scroll; /* 水平滚动条 */
+    width: 100%; /* 宽度占满容器 */
+  }
 
-dajkjdlajk<div class="horizontal-scroll">
-  <div class="image-container">
-    <img src="/images/hobbies/taylor.jpg" alt="Image 1">
-  </div>
-  <div class="image-container">
-    <img src="/images/hobbies/lana.jpg" alt="Image 2">
-  </div>
-  <div class="image-container">
-    <img src="/images/hobbies/beyonce.jpg" alt="Image 3">
-  </div>
-  <div class="image-container">
-    <img src="/images/hobbies/anson.jpg" alt="Image 4">
-  </div>
-  <div class="image-container">
-    <img src="/images/hobbies/lorde.jpg" alt="Image 5">
-  </div>
-  <div class="image-container">
-    <img src="/images/hobbies/accusefive.jpg" alt="Image 6">
-  </div>
+  .image-container img {
+    display: inline-block; /* 图片在同一水平线上 */
+    max-width: 100%; /* 图片不超过容器宽度 */
+    height: auto; /* 保持纵横比 */
+  }
+</style>
+</head>
+<body>
+
+<div class="image-container">
+  <img src="/images/hobbies/taylor.jpg" alt="Image 1">
+  <img src="/images/hobbies/lana.jpg" alt="Image 2">
+  <img src="/images/hobbies/beyonce.jpg" alt="Image 3">
+  <img src="/images/hobbies/anson.jpg" alt="Image 4">
+  <img src="/images/hobbies/lorde.jpg" alt="Image 5">
+  <img src="/images/hobbies/accusefive.jpg" alt="Image 6">
 </div>
+
+</body>
+</html>
+
+
 
 <br>There must be **something truly magical** about MUSIC, which considerably lifts my spirits and energizes my entire body. If you desire to master a specific knowledge in depth, just give a prelection. If you can explain to others for complete understanding, you are already an expert. I really enjoy the accomplishment of imparting my knowledge to others, so what I strive for is to be **a student's favorite lecturer** at the [best universities in my hometown].
 
