@@ -27,14 +27,13 @@ title: Hobbies
 <body>
 
 <div class="image-container">
-  <img src="/images/hobbies/taylor.jpg" alt="Image 1">
-  <img src="/images/hobbies/lana.jpg" alt="Image 2">
-  <img src="/images/hobbies/beyonce.jpg" alt="Image 3">
-  <img src="/images/hobbies/anson.jpg" alt="Image 4">
-  <img src="/images/hobbies/lorde.jpg" alt="Image 5">
-  <img src="/images/hobbies/accusefive.jpg" alt="Image 6">
+  <img src="/images/hobbies/taylor.jpg" alt="Image 1" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/lana.jpg" alt="Image 2" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/beyonce.jpg" alt="Image 3" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/anson.jpg" alt="Image 4" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/lorde.jpg" alt="Image 5" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/accusefive.jpg" alt="Image 6" style="width: 50%; height: 50%;">
 </div>
-
 </body>
 </html>
 
