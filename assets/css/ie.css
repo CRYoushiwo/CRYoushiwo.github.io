@@ -263,3 +263,13 @@ html{font-size:112.5%;}
 .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;}
 .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;}
 .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;}
+
+/* 在您的 CSS 文件中添加以下样式 */
+.toc {
+    position: sticky;
+    top: 20px; /* 调整目录的位置 */
+    padding: 20px;
+    background-color: #f5f5f5; /* 调整背景颜色 */
+    border: 1px solid #ddd; /* 可选：添加边框 */
+  }
+  
