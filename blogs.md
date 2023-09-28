@@ -7,7 +7,7 @@ title: Blogs
 
 # Blogs
 
-##  [Courses Recording](https://CRYoushiwo.github.io/blogs/CoursesRecording)
+##  [Course Recording](https://CRYoushiwo.github.io/blogs/CourseRecording)
 
 ## [Daily Life](https://CRYoushiwo.github.io/blogs/DailyLife)
 

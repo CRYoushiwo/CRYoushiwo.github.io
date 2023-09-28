@@ -7,7 +7,7 @@ title: CourseRecording
 
 # ok
 
-##  Courses Recording
+##  Course Recording
 
 ## Daily Life
 
