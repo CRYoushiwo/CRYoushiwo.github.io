@@ -1,0 +1,678 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>指令系统</title><style>
+/* cspell:disable-file */
+/* webkit printing magic: print all background colors */
+html {
+	-webkit-print-color-adjust: exact;
+}
+* {
+	box-sizing: border-box;
+	-webkit-print-color-adjust: exact;
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+@media only screen {
+	body {
+		margin: 2em auto;
+		max-width: 900px;
+		color: rgb(55, 53, 47);
+	}
+}
+
+body {
+	line-height: 1.5;
+	white-space: pre-wrap;
+}
+
+a,
+a.visited {
+	color: inherit;
+	text-decoration: underline;
+}
+
+.pdf-relative-link-path {
+	font-size: 80%;
+	color: #444;
+}
+
+h1,
+h2,
+h3 {
+	letter-spacing: -0.01em;
+	line-height: 1.2;
+	font-weight: 600;
+	margin-bottom: 0;
+}
+
+.page-title {
+	font-size: 2.5rem;
+	font-weight: 700;
+	margin-top: 0;
+	margin-bottom: 0.75em;
+}
+
+h1 {
+	font-size: 1.875rem;
+	margin-top: 1.875rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+	margin-top: 1.5rem;
+}
+
+h3 {
+	font-size: 1.25rem;
+	margin-top: 1.25rem;
+}
+
+.source {
+	border: 1px solid #ddd;
+	border-radius: 3px;
+	padding: 1.5em;
+	word-break: break-all;
+}
+
+.callout {
+	border-radius: 3px;
+	padding: 1rem;
+}
+
+figure {
+	margin: 1.25em 0;
+	page-break-inside: avoid;
+}
+
+figcaption {
+	opacity: 0.5;
+	font-size: 85%;
+	margin-top: 0.5em;
+}
+
+mark {
+	background-color: transparent;
+}
+
+.indented {
+	padding-left: 1.5em;
+}
+
+hr {
+	background: transparent;
+	display: block;
+	width: 100%;
+	height: 1px;
+	visibility: visible;
+	border: none;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
+}
+
+img {
+	max-width: 100%;
+}
+
+@media only print {
+	img {
+		max-height: 100vh;
+		object-fit: contain;
+	}
+}
+
+@page {
+	margin: 1in;
+}
+
+.collection-content {
+	font-size: 0.875rem;
+}
+
+.column-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.column {
+	padding: 0 1em;
+}
+
+.column:first-child {
+	padding-left: 0;
+}
+
+.column:last-child {
+	padding-right: 0;
+}
+
+.table_of_contents-item {
+	display: block;
+	font-size: 0.875rem;
+	line-height: 1.3;
+	padding: 0.125rem;
+}
+
+.table_of_contents-indent-1 {
+	margin-left: 1.5rem;
+}
+
+.table_of_contents-indent-2 {
+	margin-left: 3rem;
+}
+
+.table_of_contents-indent-3 {
+	margin-left: 4.5rem;
+}
+
+.table_of_contents-link {
+	text-decoration: none;
+	opacity: 0.7;
+	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
+}
+
+table,
+th,
+td {
+	border: 1px solid rgba(55, 53, 47, 0.09);
+	border-collapse: collapse;
+}
+
+table {
+	border-left: none;
+	border-right: none;
+}
+
+th,
+td {
+	font-weight: normal;
+	padding: 0.25em 0.5em;
+	line-height: 1.5;
+	min-height: 1.5em;
+	text-align: left;
+}
+
+th {
+	color: rgba(55, 53, 47, 0.6);
+}
+
+ol,
+ul {
+	margin: 0;
+	margin-block-start: 0.6em;
+	margin-block-end: 0.6em;
+}
+
+li > ol:first-child,
+li > ul:first-child {
+	margin-block-start: 0.6em;
+}
+
+ul > li {
+	list-style: disc;
+}
+
+ul.to-do-list {
+	padding-inline-start: 0;
+}
+
+ul.to-do-list > li {
+	list-style: none;
+}
+
+.to-do-children-checked {
+	text-decoration: line-through;
+	opacity: 0.375;
+}
+
+ul.toggle > li {
+	list-style: none;
+}
+
+ul {
+	padding-inline-start: 1.7em;
+}
+
+ul > li {
+	padding-left: 0.1em;
+}
+
+ol {
+	padding-inline-start: 1.6em;
+}
+
+ol > li {
+	padding-left: 0.2em;
+}
+
+.mono ol {
+	padding-inline-start: 2em;
+}
+
+.mono ol > li {
+	text-indent: -0.4em;
+}
+
+.toggle {
+	padding-inline-start: 0em;
+	list-style-type: none;
+}
+
+/* Indent toggle children */
+.toggle > li > details {
+	padding-left: 1.7em;
+}
+
+.toggle > li > details > summary {
+	margin-left: -1.1em;
+}
+
+.selected-value {
+	display: inline-block;
+	padding: 0 0.5em;
+	background: rgba(206, 205, 202, 0.5);
+	border-radius: 3px;
+	margin-right: 0.5em;
+	margin-top: 0.3em;
+	margin-bottom: 0.3em;
+	white-space: nowrap;
+}
+
+.collection-title {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+.page-description {
+    margin-bottom: 2em;
+}
+
+.simple-table {
+	margin-top: 1em;
+	font-size: 0.875rem;
+	empty-cells: show;
+}
+.simple-table td {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table th {
+	height: 29px;
+	min-width: 120px;
+}
+
+.simple-table-header-color {
+	background: rgb(247, 246, 243);
+	color: black;
+}
+.simple-table-header {
+	font-weight: 500;
+}
+
+time {
+	opacity: 0.5;
+}
+
+.icon {
+	display: inline-block;
+	max-width: 1.2em;
+	max-height: 1.2em;
+	text-decoration: none;
+	vertical-align: text-bottom;
+	margin-right: 0.5em;
+}
+
+img.icon {
+	border-radius: 3px;
+}
+
+.user-icon {
+	width: 1.5em;
+	height: 1.5em;
+	border-radius: 100%;
+	margin-right: 0.5rem;
+}
+
+.user-icon-inner {
+	font-size: 0.8em;
+}
+
+.text-icon {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+.page-cover-image {
+	display: block;
+	object-fit: cover;
+	width: 100%;
+	max-height: 30vh;
+}
+
+.page-header-icon {
+	font-size: 3rem;
+	margin-bottom: 1rem;
+}
+
+.page-header-icon-with-cover {
+	margin-top: -0.72em;
+	margin-left: 0.07em;
+}
+
+.page-header-icon img {
+	border-radius: 3px;
+}
+
+.link-to-page {
+	margin: 1em 0;
+	padding: 0;
+	border: none;
+	font-weight: 500;
+}
+
+p > .user {
+	opacity: 0.5;
+}
+
+td > .user,
+td > time {
+	white-space: nowrap;
+}
+
+input[type="checkbox"] {
+	transform: scale(1.5);
+	margin-right: 0.6em;
+	vertical-align: middle;
+}
+
+p {
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.image {
+	border: none;
+	margin: 1.5em 0;
+	padding: 0;
+	border-radius: 0;
+	text-align: center;
+}
+
+.code,
+code {
+	background: rgba(135, 131, 120, 0.15);
+	border-radius: 3px;
+	padding: 0.2em 0.4em;
+	border-radius: 3px;
+	font-size: 85%;
+	tab-size: 2;
+}
+
+code {
+	color: #eb5757;
+}
+
+.code {
+	padding: 1.5em 1em;
+}
+
+.code-wrap {
+	white-space: pre-wrap;
+	word-break: break-all;
+}
+
+.code > code {
+	background: none;
+	padding: 0;
+	font-size: 100%;
+	color: inherit;
+}
+
+blockquote {
+	font-size: 1.25em;
+	margin: 1em 0;
+	padding-left: 1em;
+	border-left: 3px solid rgb(55, 53, 47);
+}
+
+.bookmark {
+	text-decoration: none;
+	max-height: 8em;
+	padding: 0;
+	display: flex;
+	width: 100%;
+	align-items: stretch;
+}
+
+.bookmark-title {
+	font-size: 0.85em;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	height: 1.75em;
+	white-space: nowrap;
+}
+
+.bookmark-text {
+	display: flex;
+	flex-direction: column;
+}
+
+.bookmark-info {
+	flex: 4 1 180px;
+	padding: 12px 14px 14px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.bookmark-image {
+	width: 33%;
+	flex: 1 1 180px;
+	display: block;
+	position: relative;
+	object-fit: cover;
+	border-radius: 1px;
+}
+
+.bookmark-description {
+	color: rgba(55, 53, 47, 0.6);
+	font-size: 0.75em;
+	overflow: hidden;
+	max-height: 4.5em;
+	word-break: break-word;
+}
+
+.bookmark-href {
+	font-size: 0.75em;
+	margin-top: 0.25em;
+}
+
+.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
+.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
+.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
+.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
+.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
+.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
+.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
+.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, "Apple Color Emoji", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
+.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
+.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
+.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
+.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
+.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
+.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
+.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
+.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
+.highlight-default {
+	color: rgba(55, 53, 47, 1);
+}
+.highlight-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.highlight-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.highlight-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.highlight-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.highlight-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.highlight-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.highlight-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.highlight-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.highlight-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.highlight-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.highlight-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.highlight-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.highlight-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.highlight-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.highlight-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.highlight-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.highlight-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.highlight-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.block-color-default {
+	color: inherit;
+	fill: inherit;
+}
+.block-color-gray {
+	color: rgba(120, 119, 116, 1);
+	fill: rgba(120, 119, 116, 1);
+}
+.block-color-brown {
+	color: rgba(159, 107, 83, 1);
+	fill: rgba(159, 107, 83, 1);
+}
+.block-color-orange {
+	color: rgba(217, 115, 13, 1);
+	fill: rgba(217, 115, 13, 1);
+}
+.block-color-yellow {
+	color: rgba(203, 145, 47, 1);
+	fill: rgba(203, 145, 47, 1);
+}
+.block-color-teal {
+	color: rgba(68, 131, 97, 1);
+	fill: rgba(68, 131, 97, 1);
+}
+.block-color-blue {
+	color: rgba(51, 126, 169, 1);
+	fill: rgba(51, 126, 169, 1);
+}
+.block-color-purple {
+	color: rgba(144, 101, 176, 1);
+	fill: rgba(144, 101, 176, 1);
+}
+.block-color-pink {
+	color: rgba(193, 76, 138, 1);
+	fill: rgba(193, 76, 138, 1);
+}
+.block-color-red {
+	color: rgba(212, 76, 71, 1);
+	fill: rgba(212, 76, 71, 1);
+}
+.block-color-gray_background {
+	background: rgba(241, 241, 239, 1);
+}
+.block-color-brown_background {
+	background: rgba(244, 238, 238, 1);
+}
+.block-color-orange_background {
+	background: rgba(251, 236, 221, 1);
+}
+.block-color-yellow_background {
+	background: rgba(251, 243, 219, 1);
+}
+.block-color-teal_background {
+	background: rgba(237, 243, 236, 1);
+}
+.block-color-blue_background {
+	background: rgba(231, 243, 248, 1);
+}
+.block-color-purple_background {
+	background: rgba(244, 240, 247, 0.8);
+}
+.block-color-pink_background {
+	background: rgba(249, 238, 243, 0.8);
+}
+.block-color-red_background {
+	background: rgba(253, 235, 236, 1);
+}
+.select-value-color-interactiveBlue { background-color: rgba(35, 131, 226, .07); }
+.select-value-color-pink { background-color: rgba(245, 224, 233, 1); }
+.select-value-color-purple { background-color: rgba(232, 222, 238, 1); }
+.select-value-color-green { background-color: rgba(219, 237, 219, 1); }
+.select-value-color-gray { background-color: rgba(227, 226, 224, 1); }
+.select-value-color-translucentGray { background-color: rgba(255, 255, 255, 0.0375); }
+.select-value-color-orange { background-color: rgba(250, 222, 201, 1); }
+.select-value-color-brown { background-color: rgba(238, 224, 218, 1); }
+.select-value-color-red { background-color: rgba(255, 226, 221, 1); }
+.select-value-color-yellow { background-color: rgba(253, 236, 200, 1); }
+.select-value-color-blue { background-color: rgba(211, 229, 239, 1); }
+.select-value-color-pageGlass { background-color: undefined; }
+.select-value-color-washGlass { background-color: undefined; }
+
+.checkbox {
+	display: inline-flex;
+	vertical-align: text-bottom;
+	width: 16;
+	height: 16;
+	background-size: 16px;
+	margin-left: 2px;
+	margin-right: 5px;
+}
+
+.checkbox-on {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+
+.checkbox-off {
+	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
+}
+	
+</style></head><body><article id="91895c33-6f06-481e-90ab-bb42b0a4362c" class="page sans"><header><h1 class="page-title">指令系统</h1><p class="page-description"></p></header><div class="page-body"><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">重点题型</summary><div class="indented"><ul id="4dacc901-367a-4d94-b992-907e34025583" class="bulleted-list"><li style="list-style-type:disc">操作码编码方案（特别是扩展操作码编码）5.9</li></ul><ul id="39c07574-d94e-4878-af4e-4ea878c52ac6" class="bulleted-list"><li style="list-style-type:disc">结合地址码的情况，分析扩展操作码的可行性和指令数量的变化情况 5.10，5.12</li></ul><ul id="ee372f59-e318-4152-a31e-423c7cb1283c" class="bulleted-list"><li style="list-style-type:disc">数据存储&lt;大端，小端&gt; 5.14 <strong>注意可能会结合后面寻址结果</strong></li></ul><ul id="ef5080db-f26f-405c-a24d-a4a0bb5efab2" class="bulleted-list"><li style="list-style-type:disc">依据基本寻址方式，分析新的寻址方式（主要是寻址方式的名称，最后的寻址结果）</li></ul><ul id="4601dbb3-eccc-4081-8161-5e967cbb94ad" class="bulleted-list"><li style="list-style-type:disc">设计指令格式</li></ul><ul id="a2fa9c2c-ac8a-482e-8813-e3e0e1fbef7a" class="bulleted-list"><li style="list-style-type:disc">根据指令功能，设计某一具体指令</li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">术语</summary><div class="indented"><ul id="ab85890e-cc55-40c0-b755-ffe836c267aa" class="bulleted-list"><li style="list-style-type:disc">指令：控制计算机硬件完成指定基本操作的命令</li></ul><ul id="3dc178da-acc2-4194-b521-934016273b04" class="bulleted-list"><li style="list-style-type:disc">指令系统：指令集合</li></ul><ul id="bcc33800-4353-49b9-a327-9e24611ef305" class="bulleted-list"><li style="list-style-type:disc">指令字长：指令的位数</li></ul><ul id="31af4151-5292-416f-bd09-1f895a9b8efa" class="bulleted-list"><li style="list-style-type:disc">操作码：指定指令要完成的功能</li></ul><ul id="d5cd9797-8dfd-4d76-a34b-1cd04335be4b" class="bulleted-list"><li style="list-style-type:disc">地址码（操作数）：提供该指令的操作对象</li></ul><ul id="8c5dd1fe-3cdb-4a6d-9da9-cf4e2739ed3c" class="bulleted-list"><li style="list-style-type:disc">寻址方式：指令获取操作数的方式</li></ul><ul id="a53d17a8-9acd-4b41-a677-f7a0f109d5d9" class="bulleted-list"><li style="list-style-type:disc">CISC：复杂指令系统</li></ul><ul id="0329abae-f0d1-4805-a005-3ecc523311ac" class="bulleted-list"><li style="list-style-type:disc">RISC：精简指令系统</li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">指令系统概述</summary><div class="indented"><ul id="8a9a3ef4-1d25-4518-9794-6ff7a9b40f07" class="bulleted-list"><li style="list-style-type:disc">指令系统是从程序设计者看到的机器的主要属性，是软、硬件的主要界面</li></ul><ul id="c26ff801-877d-4746-915b-aa6eec575d33" class="bulleted-list"><li style="list-style-type:disc">指令系统的设计主要包括<strong>指令功能</strong>和<strong>指令格式</strong>的设计。</li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">指令系统结构层定义</summary><div class="indented"><ul id="6945bfca-cfac-4f57-b676-25559899363c" class="toggle"><li><details open=""><summary>存储模式</summary><ul id="27987ef3-9f2c-42b5-ba1f-16e4bd81656e" class="bulleted-list"><li style="list-style-type:disc">数据存储顺序<ul id="54159024-b842-4e5a-b0bb-a297c7e7633f" class="bulleted-list"><li style="list-style-type:circle">大端存储【字符打印】</li></ul><ul id="558d662a-7413-47e2-9ae2-b6b14f22c14c" class="bulleted-list"><li style="list-style-type:circle">小端存储【算术运算】</li></ul><ul id="94634eef-8e18-4fb3-84ce-1de379d35f53" class="bulleted-list"><li style="list-style-type:circle">例题</li></ul><figure id="6b8c2bd7-7a69-49d1-8696-653d51b3cd87" class="image" style="text-align:center"><a href="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled.png"><img style="width:240px" src="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled.png"/></a></figure></li></ul><ul id="b0316206-9cd9-4661-a2e5-c9be0ce707a6" class="bulleted-list"><li style="list-style-type:disc">边界对齐<ul id="2826536d-80df-481c-b2f3-b7ef66945300" class="bulleted-list"><li style="list-style-type:circle">按字节编址， 边界对齐</li></ul></li></ul><ul id="fbca7fa6-3615-4c7b-8632-32d79cf42a14" class="bulleted-list"><li style="list-style-type:disc">堆栈<ul id="6d209d62-3e2a-4f43-aaeb-c6d56b0011e5" class="bulleted-list"><li style="list-style-type:circle">管理堆栈&lt;堆栈指针，堆栈基址，堆栈界限&gt;</li></ul><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="dc58f030-44ce-48e8-95db-e745d71dca40"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%">堆栈界限 &gt; 堆栈基址 VS 堆栈界限 &lt; 堆栈基址</div></figure></li></ul><ul id="a92a32fd-e2bf-490b-b8f2-e74c5a62cd9a" class="bulleted-list"><li style="list-style-type:disc">冯·诺依曼结构和哈佛结构<ul id="2a40511c-6d25-4e93-9e5b-89cd287d0241" class="bulleted-list"><li style="list-style-type:circle">优缺点分析【主存空间利用，数据操作对指令的破坏性，】</li></ul></li></ul><ul id="88a5e08e-68de-4e95-83ad-93733242e8af" class="bulleted-list"><li style="list-style-type:disc">加载/存储体系结构<ul id="a8bc762a-5d64-4fa1-8452-fbeca437adcd" class="bulleted-list"><li style="list-style-type:circle">Load，Store指令</li></ul></li></ul></details></li></ul><ul id="c8cf2032-4ddb-47b3-a4b4-f099000efa58" class="bulleted-list"><li style="list-style-type:disc">寄存器组织<ul id="d50d6fbb-4552-4f92-87da-e1fe2836483a" class="bulleted-list"><li style="list-style-type:circle">软件设计者唯一能操作的CPU内部资源</li></ul><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="9eea30dd-08e8-4c1d-933a-e51c32c89e16"><div style="font-size:1.5em"><span class="icon">📢</span></div><div style="width:100%">标志寄存器常作为条件跳转指令的跳转条件</div></figure></li></ul><ul id="7ad2159b-fab0-46cf-bdf9-3c072cb8fc0b" class="bulleted-list"><li style="list-style-type:disc">数据类型</li></ul><ul id="9cefc247-c7b7-4c44-959e-3ef2a8901594" class="bulleted-list"><li style="list-style-type:disc">I/O模式<ul id="98cef1c7-2b1d-4629-936c-e83c332d135e" class="bulleted-list"><li style="list-style-type:circle">统一编址</li></ul><ul id="47d0d32e-5e14-4fd7-93c8-b4f3f617ba71" class="bulleted-list"><li style="list-style-type:circle">独立编址</li></ul></li></ul><ul id="5dc47c60-a1ca-4c0b-b6c8-4c5c026899ce" class="bulleted-list"><li style="list-style-type:disc">指令类型<ul id="9bf903ff-2afe-40c5-a130-2748ce8f3362" class="bulleted-list"><li style="list-style-type:circle">程序控制类<ul id="939c504a-9ebb-4760-a31d-973ffe02dee8" class="bulleted-list"><li style="list-style-type:square">转移指令&lt;无条件转移指令, 条件转移指令&gt;</li></ul><ul id="8a6cc2af-2d5e-4c6e-a5ae-30630e79d371" class="bulleted-list"><li style="list-style-type:square">循环控制指令</li></ul><ul id="e02f125f-b419-4d1a-bc85-b35357afb254" class="bulleted-list"><li style="list-style-type:square">过程调用和返回指令</li></ul><ul id="8c960aff-ec3c-4b88-8d2b-6cbed1bdad1a" class="bulleted-list"><li style="list-style-type:square">程序自中断指令</li></ul></li></ul></li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">指令设计</summary><div class="indented"><ul id="85a6efff-6a12-4a9d-9999-1917d20480a8" class="bulleted-list"><li style="list-style-type:disc">指令格式&lt;操作码，操作数&gt;</li></ul><ul id="0d00a3fa-5a99-47dd-900a-d6a7126a79a1" class="bulleted-list"><li style="list-style-type:disc">指令长度<ul id="79725330-5031-4ec0-9fd0-a3f7f8e775c6" class="bulleted-list"><li style="list-style-type:circle"><style>@import url('https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.13.2/katex.min.css')</style><span data-token-index="0" contenteditable="false" class="notion-text-equation-token" style="user-select:all;-webkit-user-select:all;-moz-user-select:all"><span></span><span><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mtext>指令长度</mtext><mo>=</mo><mtext>操作码</mtext><mo>+</mo><mtext>地址码（注意按字节向上取整）</mtext></mrow><annotation encoding="application/x-tex">指令长度 = 操作码+地址码（注意按字节向上取整）</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">指令长度</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.76666em;vertical-align:-0.08333em;"></span><span class="mord cjk_fallback">操作码</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.68333em;vertical-align:0em;"></span><span class="mord cjk_fallback">地址码（注意按字节向上取整）</span></span></span></span></span><span>﻿</span></span></li></ul></li></ul><ul id="92adf942-49df-44c2-a964-70d161123b8d" class="toggle"><li><details open=""><summary>地址码设计</summary><table id="37ff4a7e-0832-479b-87bb-385b5e57e2ae" class="simple-table"><tbody><tr id="05c81436-843d-4896-877a-f68716cea0de"><td id="xVk=" class="">源操作数 </td><td id="bzMX" class="">目的操作数</td><td id="^Cm]" class="">下条指令地址</td></tr></tbody></table><figure id="2fc176a2-38ff-4503-ba3c-b64a0ca868f3" class="image" style="text-align:center"><a href="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%201.png"><img style="width:384px" src="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%201.png"/></a></figure><figure id="82a083ea-6f50-4316-af41-1a696992d7b1" class="image" style="text-align:center"><a href="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%202.png"><img style="width:384px" src="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%202.png"/></a></figure></details></li></ul><ul id="0f77f85b-b777-43bd-ba66-96dbd8c91411" class="toggle"><li><details open=""><summary><mark class="highlight-red_background">操作码设计</mark></summary><ul id="0c3f5aa0-667e-450a-b454-1357e8a652b9" class="bulleted-list"><li style="list-style-type:disc">定长操作码</li></ul><ul id="488e6238-7c36-4875-bd4c-d7d7f7418d01" class="bulleted-list"><li style="list-style-type:disc">变长操作码<ul id="0f16a7d7-b472-411b-b615-2ce65f6af4a4" class="bulleted-list"><li style="list-style-type:circle">霍夫曼编码</li></ul><ul id="e2358867-68c3-474e-bf89-364a83902d54" class="bulleted-list"><li style="list-style-type:circle">扩展操作码（为充分利用操指令的二进制位）<figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="2ced60ea-88be-46e6-a8c0-37177780f137"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%">拓展操作码的设计</div></figure><figure id="5626c7e7-915d-4006-8f70-614d2c8fc543" class="image"><a href="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%203.png"><img style="width:1104px" src="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%203.png"/></a></figure></li></ul></li></ul></details></li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0"><mark class="highlight-red_background">寻址方式</mark></summary><div class="indented"><ul id="bb3ac0e7-3aea-4f2d-83f0-708675dc25e0" class="bulleted-list"><li style="list-style-type:disc">基本寻址方式</li></ul><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="0433ef3c-3a1e-41fb-a810-de9f1ecf949d"><div style="font-size:1.5em"><span class="icon">📢</span></div><div style="width:100%">寻址方式在指令中的体现：
+<strong>由操作码决定（隐含寻址），操作数中设置寻址方式字段（显式寻址）</strong></div></figure><table id="f182e7ec-f23c-41e0-9295-7da8fa48d4d0" class="simple-table"><tbody><tr id="600ad232-b834-40d6-a533-bd79be7a385d"><td id="cGhr" class="" style="width:120px">隐含寻址</td><td id="]=ic" class="" style="width:273px"></td></tr><tr id="58967953-d6ab-49a0-aa8a-349ec8550f9b"><td id="cGhr" class="" style="width:120px">立即寻址</td><td id="]=ic" class="" style="width:273px"></td></tr><tr id="ed5aed0f-05de-4e00-b72f-bb50c1244f97"><td id="cGhr" class="" style="width:120px">寄存器寻址</td><td id="]=ic" class="" style="width:273px">寄存器编号</td></tr><tr id="66f612fa-946b-4bd9-ba58-55b25f536c17"><td id="cGhr" class="" style="width:120px">直接寻址</td><td id="]=ic" class="" style="width:273px">操作数地址</td></tr><tr id="253dc8d9-a79c-4574-b75f-891ef1a0f779"><td id="cGhr" class="" style="width:120px">间接寻址</td><td id="]=ic" class="" style="width:273px">操作数地址的地址→操作数地址</td></tr><tr id="adee54f7-5556-4743-b608-079692f16abe"><td id="cGhr" class="" style="width:120px">寄存器间接寻址</td><td id="]=ic" class="" style="width:273px">寄存器编号→操作数地址</td></tr><tr id="ada3c53b-4af0-4f9e-be2f-1975ec6b6025"><td id="cGhr" class="" style="width:120px"><mark class="highlight-yellow_background">相对寻址</mark></td><td id="]=ic" class="" style="width:273px"><mark class="highlight-yellow_background">地址偏移 (+PC)</mark></td></tr><tr id="dd0558fa-47e9-4487-827b-ab1f5f556fc2"><td id="cGhr" class="" style="width:120px"><mark class="highlight-yellow_background">基址寻址</mark></td><td id="]=ic" class="" style="width:273px"><mark class="highlight-yellow_background">基址寄存器寻址位+地址偏移</mark></td></tr><tr id="a5dc8f19-57fb-4e9f-8b73-e900961294e0"><td id="cGhr" class="" style="width:120px"><mark class="highlight-yellow_background">变址寻址</mark></td><td id="]=ic" class="" style="width:273px"><mark class="highlight-yellow_background">变址寄存器寻址位+地址偏移</mark></td></tr><tr id="e183ee17-a356-406b-9c9b-0ee1eb7e14e1"><td id="cGhr" class="" style="width:120px">堆栈寻址</td><td id="]=ic" class="" style="width:273px"></td></tr></tbody></table><ul id="b3c6e36b-5b8a-4f44-9ab6-042c1d4ca53c" class="bulleted-list"><li style="list-style-type:disc"><strong>RISC-V 和 x86 寻址方式</strong></li></ul><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="1988f205-fa51-413d-8498-d66878082416"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%">额外内容</div></figure><table id="7744060d-0c76-41be-83ad-da028855d336" class="simple-table"><tbody><tr id="d586f4f2-0ba7-45a8-a9b9-bd0b7bffc1c7"><td id=";Eah" class="">RISC-V</td><td id="~vvt" class=""></td><td id="lpVm" class="">x86</td><td id="XJWE" class=""></td></tr><tr id="0b6f1379-ffe1-4eb1-b448-e92a2c5b70b8"><td id=";Eah" class="">立即寻址</td><td id="~vvt" class=""></td><td id="lpVm" class="">立即寻址</td><td id="XJWE" class=""></td></tr><tr id="36d6f1e8-8eff-492a-bc1b-15d694e78ef8"><td id=";Eah" class="">寄存器寻址</td><td id="~vvt" class=""></td><td id="lpVm" class="">寄存器寻址</td><td id="XJWE" class=""></td></tr><tr id="811a52d0-d438-49dc-b9cb-0628dbef7c93"><td id=";Eah" class="">基址寻址</td><td id="~vvt" class=""></td><td id="lpVm" class=""><strong>主存储器寻址</strong></td><td id="XJWE" class=""></td></tr><tr id="0b3df2c7-ff5d-49de-be5b-fee762a8ec47"><td id=";Eah" class="">相对寻址</td><td id="~vvt" class=""></td><td id="lpVm" class=""></td><td id="XJWE" class=""></td></tr></tbody></table><ul id="89c73684-e83b-4a3f-b272-777cc89c513b" class="bulleted-list"><li style="list-style-type:disc">例题</li></ul><figure id="243c3d31-4777-4ed2-8633-a9f7b5bff4f6" class="image" style="text-align:center"><a href="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%204.png"><img style="width:384px" src="%E6%8C%87%E4%BB%A4%E7%B3%BB%E7%BB%9F%2091895c336f06481e90abbb42b0a4362c/Untitled%204.png"/></a></figure></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">指令系统结构的发展</summary><div class="indented"><ul id="e1861c37-7e23-48f9-bba1-54b9996e3c90" class="toggle"><li><details open=""><summary>CISC 复杂指令系统计算机</summary><ul id="31ffcc40-f0ce-4332-8e24-2e01f71ee87e" class="bulleted-list"><li style="list-style-type:disc">指令系统复杂庞大</li></ul><ul id="c2bab01d-7b4f-4520-bd71-28646c5f8352" class="bulleted-list"><li style="list-style-type:disc">指令长度不固定，指令格式种类多，寻址方式种类多</li></ul><ul id="7fc1548b-f5d4-49d3-946c-68ff091b496f" class="bulleted-list"><li style="list-style-type:disc">可以访存的指令不受限制</li></ul><ul id="50f3d93a-799d-4128-bcd4-c13dec957bc4" class="bulleted-list"><li style="list-style-type:disc">控制器大多数采用微程序控制</li></ul></details></li></ul><ul id="351b7720-7492-4140-944a-5aad28491e3f" class="toggle"><li><details open=""><summary>RISC 精简指令系统计算机</summary><ul id="57a6029f-467b-43bf-9b32-398faa587309" class="bulleted-list"><li style="list-style-type:disc">指令系统简单</li></ul><ul id="31229e1c-2a47-4d19-8503-69728f86c3b9" class="bulleted-list"><li style="list-style-type:disc">采用Load/Store结构</li></ul><ul id="ac22463c-954a-41fe-a660-22274f5d94aa" class="bulleted-list"><li style="list-style-type:disc">重视提高流水线的执行效率</li></ul><ul id="3e76f5e9-8634-4ca4-903b-2a3c3d2db63a" class="bulleted-list"><li style="list-style-type:disc">强调优化编译技术的作用</li></ul></details></li></ul></div></details><details open=""><summary style="font-weight:600;font-size:1.5em;line-height:1.3;margin:0">指令系统实例</summary><div class="indented"><figure class="block-color-gray_background callout" style="white-space:pre-wrap;display:flex" id="95d665bf-d5fd-4465-a57d-082a481d706c"><div style="font-size:1.5em"><span class="icon">⚠️</span></div><div style="width:100%">新增，考试重点</div></figure><ul id="53fd338b-c827-4b14-9dcc-a9d9d4381cd1" class="bulleted-list"><li style="list-style-type:disc">RISC-V 指令系统</li></ul><ul id="5573b476-bdcc-40b0-ae1c-af1041c2a46f" class="bulleted-list"><li style="list-style-type:disc">Intel CPU 指令系统<ul id="f33ca3a5-5afb-4438-82ca-e77e7e975a69" class="bulleted-list"><li style="list-style-type:circle">Intel 64  和 IA-32</li></ul><ul id="c30d5003-791a-447c-ab34-21d18df56af3" class="bulleted-list"><li style="list-style-type:circle">IA-32e</li></ul><ul id="506c20ab-da37-40bd-97cd-55cb27344a70" class="bulleted-list"><li style="list-style-type:circle">Intel AVX</li></ul></li></ul><ul id="e5d6852b-02f0-4ff4-b985-959ea36b14f3" class="bulleted-list"><li style="list-style-type:disc">MIPS 指令系统<p id="a344295b-abd5-4f0c-a394-351412c979dc" class="">
+</p></li></ul></div></details></div></article></body></html>
