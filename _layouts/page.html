@@ -47,6 +47,7 @@
   {% endcomment %}
     <div class="article-wrap" itemprop="text">
       {{ content }}
+      {% include toc.html html=content %}
     </div><!-- /.article-wrap -->
   </article>
 </div><!-- /#index -->
