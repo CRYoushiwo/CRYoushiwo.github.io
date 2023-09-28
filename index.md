@@ -1,6 +1,5 @@
 ---
 layout: page
-toc: true
 ---
 
 

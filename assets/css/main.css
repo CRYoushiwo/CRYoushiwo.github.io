@@ -395,7 +395,6 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   top: 20px; /* 调整目录的位置 */
   padding: 20px;
   background-color: #f5f5f5; /* 调整背景颜色 */
-  border: 1px solid #005A34; /* 可选：添加边框 */
 }
 /* 一级目录项 */
 .toc > ul > li {
