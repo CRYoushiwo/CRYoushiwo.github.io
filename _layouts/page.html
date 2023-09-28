@@ -48,6 +48,10 @@
     <div class="article-wrap" itemprop="text">
       {{ content }}
       {% include toc.html html=content %}
+    <div id="sidebar">
+      <!-- 插入目录 -->
+      * TOC
+      {:toc}
     </div><!-- /.article-wrap -->
   </article>
 </div><!-- /#index -->
