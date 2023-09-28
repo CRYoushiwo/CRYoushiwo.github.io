@@ -48,6 +48,9 @@
     <div class="article-wrap" itemprop="text">
       {{ content }}
     </div><!-- /.article-wrap -->
+    <div class="toc">
+      {% include toc.html html=content %}
+    </div>
   </article>
 </div><!-- /#index -->
 
