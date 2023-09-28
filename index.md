@@ -2,6 +2,8 @@
 layout: page
 ---
 
+* TOC
+{:toc}
 
 ## About Me
 
