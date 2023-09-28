@@ -36,7 +36,7 @@ title: ComputerOrganizationChapter5
         - 大端存储【字符打印】
         - 小端存储【算术运算】
         - 例题
-        <img src="https://CRYoushiwo.github.io/images\blogs\CoursesRecording\ComputerOrganization\Chapter5\Untitled.png" class="floatpic">
+        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled.png" class="floatpic">
         
     - 边界对齐
         - 按字节编址， 边界对齐
@@ -82,9 +82,8 @@ title: ComputerOrganizationChapter5
     | 源操作数  | 目的操作数 | 下条指令地址 |
     | --- | --- | --- |
     
-    ![Untitled](images\blogs\CoursesRecording\ComputerOrganization\Chapter5/Untitled%201.png)
-    
-    ![Untitled](images\blogs\CoursesRecording\ComputerOrganization\Chapter5/Untitled%202.png)
+    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%201.png" class="floatpic">
+    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%202.png" class="floatpic">
     
 - 操作码设计
     - 定长操作码
@@ -97,7 +96,7 @@ title: ComputerOrganizationChapter5
             
             </aside>
             
-            ![Untitled](images\blogs\CoursesRecording\ComputerOrganization\Chapter5/Untitled%203.png)
+            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%203.png" class="floatpic">
             
 
 ## 寻址方式
@@ -136,7 +135,7 @@ title: ComputerOrganizationChapter5
 | 相对寻址 |  |  |  |
 - 例题
 
-![Untitled](images\blogs\CoursesRecording\ComputerOrganization\Chapter5/Untitled%204.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%204.png" class="floatpic">
 
 ## 指令系统结构的发展
 
