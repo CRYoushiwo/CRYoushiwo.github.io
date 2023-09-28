@@ -5,16 +5,16 @@ title: CourseRecording
 ---
 
 
-# ok
+# 2021
 
-##  Course Recording
+# 2022
 
-## Daily Life
+# 2023
 
-## Paper Reading
+## [计算机组成](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization)
 
-## Web Star History
+## [操作系统与设计](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/OperatingSystem)
 
-[Leave a star if you like it 🥰](https://github.com/GuangLun2000/GuangLun2000.github.io)
+## [模拟电子技术基础](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/AnalogElectronicTechnology)
 
-<iframe style="width:100%;height:auto;min-width:600px;min-height:400px;" src="https://star-history.com/embed?secret=Z2l0aHViX3BhdF8xMUFSVkxCRUEwVUplM1kxYnU1aG1UX3V1TUtTVjZhbnM2MHFIZnZlMkhweEpvaFVsdmdDVVZhYkEwTTBuYmtyZjhSRTI0UVMzTEd1R0hnVW5M#GuangLun2000/GuangLun2000.github.io&Date" frameBorder="0"></iframe>
+## [数据库原理](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/Database)
