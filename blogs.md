@@ -7,9 +7,11 @@ title: Blogs
 
 # Blogs
 
-##  Courses Recording
+##  [Courses Recording](https://CRYoushiwo.github.io/blogs/CoursesRecording)
 
-- [2023Spring](https://CRYoushiwo.github.io/blogs/Courses/2023Spring)
+## [Daily Life](https://CRYoushiwo.github.io/blogs/DailyLife)
+
+## [Paper Reading](https://CRYoushiwo.github.io/blogs/PaperReading)
 
 ## Web Star History
 
