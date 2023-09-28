@@ -1,0 +1,90 @@
+<!-- 插件官网地址：http://ruby-china.org/topics/17028 -->
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <title>markdownToc</title>
+        <link rel="stylesheet" type="text/css" href="./markdownToc_files/github2-rightpart.css" media="all">
+        <link rel="stylesheet" type="text/css" href="./markdownToc_files/github1-contents.css">
+        <link rel="stylesheet" href="./markdownToc_files/zTreeStyle.css" type="text/css">
+        <style>
+            .ztree li a.curSelectedNode {
+                padding-top: 0px;
+                background-color: #FFE6B0;
+                color: black;
+                height: 16px;
+                border: 1px #FFB951 solid;
+                opacity: 0.8;
+            }
+            .ztree{
+                overflow: auto;
+                height:100%;
+                min-height: 200px;
+                top: 0px;
+            }
+        </style>
+    </head>
+    <body style="">
+        <div>
+            <div style="width:30%;">
+                <ul id="tree" class="ztree" style="width: 260px; overflow: auto; position: fixed; z-index: 2147483647; border: 0px none; left: 0px; bottom: 0px;">
+                <!-- 目录内容在网页另存为之后将插入到此处 -->
+                </ul>
+            </div>
+            <div id="readme" style="width:70%;margin-left:25%;">
+                <article class="markdown-body">
+
+
+<!-- ***********************************************************内容分割线****************************************************************** -->
+<!-- 请把你的html正文部分粘贴到此处，在浏览器中打开之后将会自动生成目录。如果想要将目录保留并嵌入到此文档中，只需在浏览器中“另存为->网页，全部”即可 -->
+
+<hr>
+<h2>layout: page</h2>
+<h2>About Me</h2>
+<p>&lt;img src=&quot;https://CRYoushiwo.github.io/ChangrongYou.png&quot; class=&quot;floatpic&quot; width=&quot;421&quot; height=&quot;512&quot;&gt;</p>
+<p>Here is <strong>Changrong You (Pekko, 游昌榕)</strong>.</p>
+<p>I am a junior student majoring in <strong>Computer Science and Technology</strong> at <strong>Xidian University</strong>. Currently, I am in the process of learning the fundamental concepts of Computer Vision. As a newcomer to the field of computer vision and a novice blogger, I plan to maintain a long-term record of my growth journey, including, but not limited to, project experiences, course studies, and daily life. I warmly welcome you to visit my little corner of the internet and engage in further discussions with me.</p>
+<p>&lt;br&gt;</p>
+<hr>
+<h2>Academic Background</h2>
+<p><strong>&lt;font color='red'&gt;[Highlight]&lt;/font&gt; I am looking for Ph.D/master to start in 2025 Fall. Contact me if you have any leads!</strong></p>
+<ul>
+<li><strong>Sep 2021 - June 2025:</strong> Xidian University (BEng)</li>
+</ul>
+<p>&lt;br&gt;</p>
+<hr>
+<h2>Research Interests</h2>
+<ul>
+<li>Medical Image Processing</li>
+<li>Rich Text Generation</li>
+<li>Combining Knowledge Graph with LLM</li>
+</ul>
+<p>My current focus lies primarily in the realm of medical image processing, a choice largely driven by my <strong>long-standing passion for medicine</strong>. However, I am equally enthusiastic about exploring other research directions.</p>
+<p>If you share an interest in any of these areas, please feel free to book an [<a href="https://calendly.com/cryoushiwo/meet-me-at-midnight">online talk with me</a>].</p>
+<p>&lt;br&gt;</p>
+<hr>
+<h2>News and Updates</h2>
+<ul>
+<li>**Jun 2023：**Proud to become a probationary member of Communist Party of China.</li>
+<li>**May 2023：**Nominated as an outstanding member of the Communist Youth League.</li>
+</ul>
+
+
+<!-- ***********************************************************内容分割线****************************************************************** -->
+
+                </article>
+            </div>
+        </div>
+    <script src="./markdownToc_files/jquery-1.10.2.min.js"></script>
+    <script src="./markdownToc_files/jquery.ztree.all-3.5.min.js"></script>
+    <script src="./markdownToc_files/jquery.ztree_toc.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#tree').ztree_toc({
+                is_auto_number:false,
+                documment_selector:'.markdown-body',
+                is_expand_all: true
+            });
+        });
+    </script>
+    </body>
+</html>
