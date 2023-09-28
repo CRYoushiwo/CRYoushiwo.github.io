@@ -28,9 +28,13 @@ title: ComputerOrganizationChapter6
 - 微地址：控制存储器的地址
 - 周期
 
+{% capture table %}
 | 指令周期 | CPU周期（机器周期） | 节拍周期 | 微指令周期 |
 | --- | --- | --- | --- |
 | 执行一条指令时间 | 指令周期的子周期 | 完成一个微操作时间 | 一条微指令执行时间（包括取出微指令） |
+{% endcapture %}
+{{ table | markdownify }}
+
 - 经典CPU周期分法：
     - 取址周期（公操作）
     - 中断周期（保护的是PC中的内容）
@@ -113,25 +117,33 @@ title: ComputerOrganizationChapter6
     - 地址域设计
         - 两地址格式（断定方式）
             
-            
+            {% capture table %}
             | AC（=0or1） | 地址1 | 地址2 | 控制域 |
             | --- | --- | --- | --- |
+            {% endcapture %}
+            {{ table | markdownify }}
         - 单地址格式（计数方式，增量方式）
             
-            
+            {% capture table %}
             | AC（=0or1） | 地址 | 控制域 |
             | --- | --- | --- |
+            {% endcapture %}
+            {{ table | markdownify }}
         - 可变格式
             1. 控制微指令
                 
-                
+                {% capture table %}
                 | S（=0） | 控制域 |
                 | --- | --- |
+                {% endcapture %}
+                {{ table | markdownify }}
             2. 转移微指令
                 
-                
+                {% capture table %}
                 | S（=1） | 分支控制 | 地址 |
                 | --- | --- | --- |
+                {% endcapture %}
+                {{ table | markdownify }}
         
         <aside>
         📢 两地址格式直接获取顺序地址和跳转地址
@@ -157,10 +169,11 @@ title: ComputerOrganizationChapter6
             - 直接译码方式，间接译码方式
         - 垂直型微指令控制域编码
             
-            
+            {% capture table %}
             | 微操作码 | 微操作数 |
             | --- | --- |
-        
+            {% endcapture %}
+            {{ table | markdownify }}
         <aside>
         ⚠️ 注意区分：垂直型微指令针对的是微操作，垂直编码针对的是控制信号
         
