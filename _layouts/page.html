@@ -22,6 +22,19 @@
   gtag('config', 'G-T5N5JY1E21');
 </script>
 
+<div class="container">
+  <div class="row">
+    <div class="col-md-9">
+      {{ content }}
+    </div>
+    <div class="col-md-3">
+      <div class="toc">
+        {% include toc.html html=content %}
+      </div>
+    </div>
+  </div>
+</div>
+
 </head>
 
 
@@ -58,19 +71,6 @@
 </div><!-- /.footer-wrap -->
 
 {% include scripts.html %}
-
-<div class="container">
-  <div class="row">
-    <div class="col-md-9">
-      {{ content }}
-    </div>
-    <div class="col-md-3">
-      <div class="toc">
-        {% include toc.html html=content %}
-      </div>
-    </div>
-  </div>
-</div>
 
 </body>
 </html>
