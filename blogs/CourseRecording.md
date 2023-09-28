@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blogs/CourseRecording/index.html
-title: Blogs
+title: CourseRecording
 ---
 
 
