@@ -45,12 +45,12 @@
       <h1 itemprop="headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
   {% endcomment %}
-    <div class="article-wrap" itemprop="text">
-      {{ content }}
-    </div><!-- /.article-wrap -->
     <div class="toc">
       {% include toc.html html=content %}
     </div>
+    <div class="article-wrap" itemprop="text">
+      {{ content }}
+    </div><!-- /.article-wrap -->
   </article>
 </div><!-- /#index -->
 
