@@ -2,22 +2,6 @@
 layout: page
 ---
 
-function locateCatelogList(){
- var alis = $('.article :header');
- var sidebar_alis = $('.sidebar_catelog').find('a');
- var scroll_height = $(window).scrollTop();
- for(var i =0;i<alis.length;i++){
-     var a_height = $(alis[i]).offset().top;
-     if (a_height<scroll_height){
-         sidebar_alis.removeClass('list_click');
-         $(sidebar_alis[i]).addClass('list_click');
-     }
- }
-}
-$(function() {
- $(window).bind('scroll',locateCatelogList); 
-});
-
 
 ## About Me
 
