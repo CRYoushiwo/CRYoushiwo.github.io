@@ -1,3 +1,9 @@
+---
+layout: page
+permalink: /blogs/CourseRecording/2023/ComputerOrganization/Chapter6/index.html
+title: ComputerOrganizationChapter6
+---
+
 # 中央处理器
 
 ## 重点题型
