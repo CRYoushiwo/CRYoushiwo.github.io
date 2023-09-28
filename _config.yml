@@ -55,7 +55,9 @@ highlighter: rouge
 # markdown: redcarpet
 # pygments: true
 
-
+plugins:
+  - jekyll-toc
+  
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
