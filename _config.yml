@@ -61,8 +61,6 @@ plugins:
 # https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink:   /:categories/:title
 
-markdown: kramdown
-
 kramdown:
   math_engine: katex
   auto_ids: true
