@@ -37,6 +37,7 @@ title: Hobbies
 </body>
 </html>
 
+{: .indent}
 As a devoted fan of pop music who has been a constant presence in the Western music scenes, there is no doubt that my favorite musician is **Taylor Swift**. The albums displayed above are all my absolute favorites. They each have their own unique style and distinctive features, but without exception, they are all my cherished gems. Now, There's some extraordinary live performances. 
 
 [Taylor Swift](https://www.youtube.com/watch?v=P5JLMp08GC0)

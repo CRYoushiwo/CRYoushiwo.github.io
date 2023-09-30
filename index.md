@@ -4,8 +4,8 @@ layout: page
 
 
 ## About Me
-<br>
 <img src="https://CRYoushiwo.github.io/ChangrongYou.png" class="floatpic" width="421" height="512">
+<br>
 
 Here is **Changrong You (Pekko, 游昌榕)**.
 
