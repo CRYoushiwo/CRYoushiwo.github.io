@@ -93,7 +93,7 @@ title: ComputerOrganizationChapter6
 - 两级时序（产生节拍周期和CPU周期）
 - 例题（x86控制单元为例）
 
-![Untitled](%E4%B8%AD%E5%A4%AE%E5%A4%84%E7%90%86%E5%99%A8%20dbc3a49fe825411694c2d9d432e8ad01/Untitled.png)
+<img src="https://CRYoushiwo.github.io/ChangrongYou.png" class="blog-image" >
 
 - 优缺点【速度，修改不灵活，电路实现困难】
 
