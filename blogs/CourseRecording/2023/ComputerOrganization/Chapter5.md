@@ -85,9 +85,9 @@ title: ComputerOrganizationChapter5
    |源操作数 |目的操作数|下条指令地址 |
    |---|---|--- |
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled1.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%201.png" class="blog-image" >
 
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled2.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%202.png" class="blog-image" >
     
 - 操作码设计
     - 定长操作码
@@ -100,7 +100,7 @@ title: ComputerOrganizationChapter5
             
             </aside>
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled3.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%203.png" class="blog-image" >
             
 
 ## 寻址方式
@@ -139,7 +139,7 @@ title: ComputerOrganizationChapter5
 |相对寻址||||
 - 例题
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled4.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%204.png" class="blog-image" >
 
 ## 指令系统结构的发展
 
