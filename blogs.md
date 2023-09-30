@@ -14,7 +14,7 @@ title: Blogs
 > Explore everyday adventures and musings.
 
 - ## [📄 Paper Reading](https://CRYoushiwo.github.io/blogs/PaperReading)
-> Uncover the key takeaways from different academic papers.
+> Derive the take-home message from different academic papers.
 
 
 Web Star History
