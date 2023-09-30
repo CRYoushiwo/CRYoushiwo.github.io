@@ -28,7 +28,13 @@ title: ComputerOrganizationChapter6
 - 微地址：控制存储器的地址
 - 周期
 
-| 指令周期 | CPU周期（机器周期） | 节拍周期 | 微指令周期 |
+
+| First cell|Second cell|Third cell
+| First | Second | Third |
+
+First | Second | | Fourth |
+
+| 指令周期 | CPU周期（机器周期） | 节拍周期 | 微指令周期 
 | 执行一条指令时间 | 指令周期的子周期 | 完成一个微操作时间 | 一条微指令执行时间（包括取出微指令） |
 - 经典CPU周期分法：
     - 取址周期（公操作）
