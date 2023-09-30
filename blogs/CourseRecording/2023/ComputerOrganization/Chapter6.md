@@ -28,11 +28,9 @@ title: ComputerOrganizationChapter6
 - 微地址：控制存储器的地址
 - 周期
 
-<!-- Rest of your content -->
 | 指令周期 | CPU周期（机器周期） | 节拍周期 | 微指令周期 |
 | --- | --- | --- | --- |
 | 执行一条指令时间 | 指令周期的子周期 | 完成一个微操作时间 | 一条微指令执行时间（包括取出微指令） |
-<!-- Rest of your content -->
 
 - 经典CPU周期分法：
     - 取址周期（公操作）
@@ -44,12 +42,12 @@ title: ComputerOrganizationChapter6
     - 控制单元：组合逻辑，输出微命令
         - 微命令表达式：
             
-            $C_i = \sum(M_m\cdot T_n\cdot I_j\cdot F_k)$ 以二级时序为例
+            \(C_i = \sum(M_m\cdot T_n\cdot I_j\cdot F_k)\) 以二级时序为例
             
-            - $M_m$：CPU周期
-            - $T_n$：节拍
-            - $I_J$：指令译码器的第j个输出
-            - $F_K$：第k个CPU内部状态标志或CPU外部请求信号
+            - \(M_m\)：CPU周期
+            - \(T_n\)：节拍
+            - \(I_J\)：指令译码器的第j个输出
+            - \(F_K\)：第k个CPU内部状态标志或CPU外部请求信号
 - **微程序控制器：由控制存储器，微指令寄存器，微地址寄存器，时序逻辑组成**
     - 依据微程序顺序产生所需一条指令执行时所需的全部控制信号
 - 主存与控存的区别：主存在CPU外，用于执行程序的。 控制存储器在CPU内，是CPU的组成部分，用于存储微程序的。
@@ -103,8 +101,8 @@ title: ComputerOrganizationChapter6
 ## 微程序控制器设计
 
 - 组成
-    - 控制存储器 $CM$（控存）
-    - 微指令寄存器$\mu IR$，微地址寄存器$\mu AR$
+    - 控制存储器 \(CM\)（控存）
+    - 微指令寄存器 \(\mu IR\)，微地址寄存器 \(\mu AR\)
     - 时序逻辑
 - 工作过程：
     1. CPU执行某条指令，该指令的操作码和地址码经译码器生成该指令对应微程序的首地址，微程序启动
@@ -116,32 +114,28 @@ title: ComputerOrganizationChapter6
     - 地址域设计
         - 两地址格式（断定方式）
             
-            ---
             | AC（=0or1） | 地址1 | 地址2 | 控制域 |
             | --- | --- | --- | --- |
-            ---
+
         - 单地址格式（计数方式，增量方式）
-            
-            ---
+
             | AC（=0or1） | 地址 | 控制域 |
             | --- | --- | --- |
-            ---
+
         - 可变格式
             1. 控制微指令
-                
 
                 | S（=0） | 控制域 |
                 | --- | --- |
 
             2. 转移微指令
-                
 
                 | S（=1） | 分支控制 | 地址 |
                 | --- | --- | --- |
         
         <aside>
         📢 两地址格式直接获取顺序地址和跳转地址
-        单地址格式不增加微程序长度（微指令数量），用 $\mu PC$ 替换 $\mu AR$ ，减少了指令的长度
+        单地址格式不增加微程序长度（微指令数量），用 \(\mu PC\) 替换 \(\mu AR\) ，减少了指令的长度
         可变格式仅有地址域或控制域中的一种，指令长度最短，但增加了微程序的长度
         
         </aside>
@@ -151,11 +145,11 @@ title: ComputerOrganizationChapter6
             
             直接表示法
             
-            - 一个位 $\rightarrow$ 一个控制信号（$n\rightarrow n$）
+            - 一个位 \(\rightarrow\) 一个控制信号（\(n\rightarrow n\)）
             
             译码法
             
-            - 一种编码 $\rightarrow$ 一个控制信号（$n\rightarrow 2^{n}$）
+            - 一种编码 \(\rightarrow\) 一个控制信号（\(n\rightarrow 2^{n}\)）
             
             字段译码法
             
@@ -190,7 +184,7 @@ title: ComputerOrganizationChapter6
         - 确定微指令控制域格式
     - 微程序与控制存储器设计
         
-        $控制存储器容量＝微指令长度×(平均微程序长度(微指令数)/一条指令)×指令数$ 
+        \(控制存储器容量＝微指令长度×(平均微程序长度(微指令数)/一条指令)×指令数$ 
         
         - 确定微程序结构
         - 确定微程序入口地址的生成方式
@@ -200,11 +194,11 @@ title: ComputerOrganizationChapter6
 
 ## CPU性能测量与提高
 
-- CPU性能测量
-    - $T_{CPU} = N*T_{CLK} = \frac{N}{f_{CLK}}$（s）CPU时间
-    - $N = \sum{CPI_i\cdot I_i}$
-    - $MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}$
-    - $FLOPS = \frac{M}{T_{CPU}}$
+- CPU性能测量 
+    - \(T_{CPU} = N*T_{CLK} = \frac{N}{f_{CLK}}\)（s）CPU时间
+    - \(N = \sum{CPI_i\cdot I_i}\)
+    - \(MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}\)
+    - \(FLOPS = \frac{M}{T_{CPU}}\)
 - 提高CPU速度的策略
     1. 采用更先进的硅加工制造技术
     2. 缩短指令执行路径长度
