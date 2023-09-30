@@ -63,13 +63,12 @@ permalink:   /:categories/:title
 
 markdown: kramdown
 kramdown:
-  math_engine: katex
+  input: GFM
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
   toc_levels: 1..6
   enable_coderay: false
-  parse_block_html: true
 
   # coderay:
   #   coderay_line_numbers:
