@@ -16,11 +16,6 @@ title: ComputerOrganizationChapter6
 - 给出元件设计数据通路；给出数据通路，确定元件功能
 - CPU性能测量  \(T_{CPU}，CPI，MIPS，FLOPS\)
 
-
-{% katex %}
-c = \pm\sqrt{a^2 + b^2}
-{% endkatex %}
-
 ## 概念与术语
 
 - 微操作与微命令
