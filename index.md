@@ -4,14 +4,13 @@ layout: page
 
 
 ## About Me
-
+<br>
 <img src="https://CRYoushiwo.github.io/ChangrongYou.png" class="floatpic" width="421" height="512">
 
 Here is **Changrong You (Pekko, 游昌榕)**.
 
+{: .indent}
 I am a junior student majoring in **Computer Science and Technology** at **Xidian University**. Currently, I am in the process of learning the fundamental concepts of Computer Vision. As a newcomer to the field of computer vision and a novice blogger, I plan to maintain a long-term record of my growth journey, including, but not limited to, project experiences, course studies, and daily life. I warmly welcome you to visit my little corner of the internet and engage in further discussions with me.
-
-<br>
 
 ---
 
@@ -21,8 +20,6 @@ I am a junior student majoring in **Computer Science and Technology** at **Xidia
 
 - **Sep 2021 - June 2025:** Xidian University (BEng)
 
-<br>
-
 ---
 
 ## Research Interests
@@ -31,11 +28,11 @@ I am a junior student majoring in **Computer Science and Technology** at **Xidia
 - Rich Text Generation
 - Combining Knowledge Graph with LLM
 
+{: .indent}
 My current focus lies primarily in the realm of medical image processing, a choice largely driven by my **long-standing passion for medicine**. However, I am equally enthusiastic about exploring other research directions.
 
+{: .indent}
 If you share an interest in any of these areas, please feel free to book an [[online talk with me](https://calendly.com/cryoushiwo/meet-me-at-midnight)].
-
-<br>
 
 ---
 
