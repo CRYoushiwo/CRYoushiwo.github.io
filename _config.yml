@@ -62,7 +62,6 @@ plugins:
 permalink:   /:categories/:title
 
 kramdown:
-  math_engine: katex
   auto_ids: true
   footnote_nr: 1
   entity_output: as_char
