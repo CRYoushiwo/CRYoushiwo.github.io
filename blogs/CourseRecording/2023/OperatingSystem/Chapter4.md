@@ -108,10 +108,10 @@ title: OperatingSystemChapter4
     - 寻道时间
         - $T_s = s + m*n$
     - 延迟时间
-        -$$T_R = \frac{1}{2}\frac{1}{r}$$
+        - $T_R = \frac{1}{2}\frac{1}{r}$
         - 减少方法<交替编号，错位命名>
     - 传输时间
-        - $$T_t = \frac{b}{N}\frac{1}{r}$$
+        - $T_t = \frac{b}{N}\frac{1}{r}$
 - 调度算法
     
     <aside>
