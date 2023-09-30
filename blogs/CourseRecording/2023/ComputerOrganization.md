@@ -15,7 +15,7 @@ title: ComputerOrganization
 
 ## [第四章—存储系统](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization/Chapter4)
 
-## [第五章—指令系统](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization/Chapter5.pdf)
+## [第五章—指令系统](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization/Chapter5)
 
 ## [第六章—中央处理器](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization/Chapter6)
 
