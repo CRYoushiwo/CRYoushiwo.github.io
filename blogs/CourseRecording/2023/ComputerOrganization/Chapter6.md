@@ -14,7 +14,7 @@ title: ComputerOrganizationChapter6
 - 控存容量的计算（一般放在设计之后，按照设计结果计算）6.12
 - 依据假想机框图/运算器框图/指令的微操作流程示例，完成指定功能的指令的微操作流程，给出每个微操作对应的微命令 6.15，6.17
 - 给出元件设计数据通路；给出数据通路，确定元件功能
-- CPU性能测量  \(T_{CPU}，CPI，MIPS，FLOPS\)
+- CPU性能测量  $T_{CPU}，CPI，MIPS，FLOPS$
 
 ## 概念与术语
 
@@ -197,7 +197,7 @@ title: ComputerOrganizationChapter6
 - CPU性能测量
     - $T_{CPU} = N*T_{CLK} = \frac{N}{f_{CLK}}$（s）CPU时间
     - $N = \sum{CPI_i\cdot I_i}$
-    - $MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}$
+    - $$MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}$$
     - $FLOPS = \frac{M}{T_{CPU}}$
 - 提高CPU速度的策略
     1. 采用更先进的硅加工制造技术
