@@ -7,13 +7,17 @@ title: Blogs
 
 # Blogs
 
-    ##  [Course Recording](https://CRYoushiwo.github.io/blogs/CourseRecording)
+- ## [🎓 Course Recording](https://CRYoushiwo.github.io/blogs/CourseRecording)
+> Delve into summaries and insights from various courses.
 
-    ## [Daily Life](https://CRYoushiwo.github.io/blogs/DailyLife)
+- ## [🌿 Daily Life](https://CRYoushiwo.github.io/blogs/DailyLife)
+> Explore everyday adventures and musings.
 
-    ## [Paper Reading](https://CRYoushiwo.github.io/blogs/PaperReading)
+- ## [📄 Paper Reading](https://CRYoushiwo.github.io/blogs/PaperReading)
+> Uncover the key takeaways from different academic papers.
 
-    ## Web Star History
+
+Web Star History
 
 [Leave a star if you like it 🥰](https://github.com/GuangLun2000/GuangLun2000.github.io)
 
