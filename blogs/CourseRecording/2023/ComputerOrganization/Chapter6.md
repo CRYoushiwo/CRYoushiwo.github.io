@@ -197,7 +197,7 @@ title: ComputerOrganizationChapter6
 - CPU性能测量
     - $T_{CPU} = N*T_{CLK} = \frac{N}{f_{CLK}}$（s）CPU时间
     - $N = \sum{CPI_i\cdot I_i}$
-    - $MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}$
+    - $$MIPS = \frac{I}{T_{CPU}*10^6} = \frac{f_{CLK}}{CPI*10^6}$$
     - $FLOPS = \frac{M}{T_{CPU}}$
 - 提高CPU速度的策略
     1. 采用更先进的硅加工制造技术
