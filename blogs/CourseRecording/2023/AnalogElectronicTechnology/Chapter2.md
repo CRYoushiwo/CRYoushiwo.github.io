@@ -17,4 +17,4 @@ title: AnalogElectronicTechnologyChapter2
     - 阻容耦合
     - 变压器耦合
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter2/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter2/Untitled.jpg" class="blog-image" >

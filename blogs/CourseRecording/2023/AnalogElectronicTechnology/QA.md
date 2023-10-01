@@ -30,11 +30,11 @@ title: AnalogElectronicTechnologyQA
     - 温度对特性曲线的影响$U_{BE}，I_{CEO}，I_{CBO}，\beta$
         - 输入特性曲线左移
         - 输出特征曲线上移动
-- 根据$I_B,I_C$变化量，估算$\beta$
+- 根据 $I_B,I_C$ 变化量，估算 $\beta$
 - 判断NPN/PNP，硅管/锗管，e/b/c极，工作状态
-    - NPN/PNP：$U_{BE}$正负
-    - 硅管/锗管：$|U_{BE}|= 0.7V or 0.2V$
-    - e/b/c极：$U_B,U_C,U_E$大小关系
+    - NPN/PNP：$U_{BE}$ 正负
+    - 硅管/锗管：$\lvert U_{BE} \lvert = 0.7V or 0.2V$
+    - e/b/c极： $U_B,U_C,U_E$ 大小关系
     - 工作状态
         
         饱和：$U_{CE} = 0.3V$
@@ -48,12 +48,12 @@ title: AnalogElectronicTechnologyQA
 
 - 概念与术语
     - 静态工作点的作用：保证工作在放大区
-    - $R_b,R_c,U_{cc}$对静态工作点的影响
+    - $R_b,R_c,U_{cc}$ 对静态工作点的影响
 - 静态工作点的确定
     - 解析法
         - $I_B,U_{CE}$
     - 图解法
-        - 先确定$I_{BQ}$
+        - 先确定 $I_{BQ}$
         - 再绘制直流负载线
         - 交点即为工作点
 - 交流负载线的确定
@@ -65,30 +65,30 @@ title: AnalogElectronicTechnologyQA
     - 注意如果是求有效值，则还要除$\sqrt{2}$
 - 直流通路和交流通路的绘制
 - 三种基本放大电路放大性能指标，及其计算
-    - $A_u，A_us，r_i，r_O$
+    - $A_u，A_{us}，r_i，r_O$
 - 静态工作点的稳定及其偏置电路
 - 多级放大电路的性能指标分析
 
 ## 场效应管放大电路
 
 - 工作原理
-    - 结型场效应管：改变$U_{GS}$，从而改变PN结阻挡层的宽度，沟道电阻随之改变，达到控制漏极电流的效果
+    - 结型场效应管：改变 $U_{GS}$，从而改变PN结阻挡层的宽度，沟道电阻随之改变，达到控制漏极电流的效果
     - 增强型MOS场效应管：利用$U_{GS}$控制“感应电荷”数量，沟道电阻随之改变，达到控制漏极电流的效果
 - 六种场效应管的符号与特性曲线
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/qa/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/QA/Untitled.png" class="blog-image" >
     
 
 - 分压式偏置电路和自给偏压电路
     - 分压式偏置电路
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/qa/Untitled%201.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%201.png" class="blog-image" >
         
         - $U_{GS} = \frac{R_1}{R_1+R_2}U_{DD}-I_DR_S$
         - $I_D = I_{DSS}(1-\frac{U_{GS}}{U_P})^2$
     - 自给偏压电路（不适合增强型！！）
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/qa/Untitled%202.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%202.png" class="blog-image" >
         
     - $U_{GS} = -I_DR_S$
     - $I_D = I_{DSS}(1-\frac{U_{GS}}{U_P})^2$
@@ -147,7 +147,7 @@ title: AnalogElectronicTechnologyQA
         - 提高共模抑制比
         - $**r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}**$
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/qa/Untitled%203.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%203.png" class="blog-image" >
         
     
 

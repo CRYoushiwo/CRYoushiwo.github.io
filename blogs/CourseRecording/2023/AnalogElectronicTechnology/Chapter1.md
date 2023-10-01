@@ -14,4 +14,4 @@ title: AnalogElectronicTechnologyChapter1
     - 光电耦合器件（反向击穿）
     - 变容二极管（反向偏置）
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter1/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter1/Untitled.jpg" class="blog-image" >

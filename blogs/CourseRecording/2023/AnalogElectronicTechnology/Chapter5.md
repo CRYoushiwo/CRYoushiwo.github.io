@@ -37,7 +37,7 @@ title: AnalogElectronicTechnologyChapter5
     - 反馈系数：$F = \frac{x_f}{x_o}$
     - 闭环放大倍数：$A_f = \frac{x_o}{x_i}$
     - 环路增益：$AF = \frac{x_f}{x_{id}}$
-    - 反馈深度：$|1 + AF|$
+    - 反馈深度：$\lvert 1 + AF\rvert$
 
 ## 反馈类型的判断
 
@@ -111,7 +111,7 @@ $X_i = X_f$
 
 <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%202.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%203.png" class="blog-image" >
 
 ## 根据性能要求，引入负反馈
 
