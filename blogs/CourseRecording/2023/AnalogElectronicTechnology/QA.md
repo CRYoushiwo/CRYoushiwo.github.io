@@ -145,7 +145,7 @@ title: AnalogElectronicTechnologyQA
         - 共模输入电阻$r_{ic}$
     - 恒流源
         - 提高共模抑制比
-        - $**r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}**$
+        - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
         
         <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%203.png" class="blog-image" >
         
