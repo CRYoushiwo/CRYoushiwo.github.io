@@ -2,6 +2,7 @@
 layout: page
 permalink: /blogs/CourseRecording/index.html
 title: CourseRecording
+comments: true
 ---
 
 # 2023
