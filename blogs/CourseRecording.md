@@ -4,11 +4,6 @@ permalink: /blogs/CourseRecording/index.html
 title: CourseRecording
 ---
 
-
-# 2021
-
-# 2022
-
 # 2023
 
 - ## [计算机组成](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerOrganization)
