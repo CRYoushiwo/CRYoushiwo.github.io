@@ -57,15 +57,16 @@
   </div>
 </div><!-- /#index -->
 
+{% if page.comments %}
+{% include disqus.html %}
+{% endif %}
+
 <div class="footer-wrap">
   <footer>
     {% include footer.html %}
   </footer>
 </div><!-- /.footer-wrap -->
 
-{% if page.comments %}
-{% include disqus.html %}
-{% endif %}
 
 {% include scripts.html %}
 </body>
