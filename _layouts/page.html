@@ -63,6 +63,10 @@
   </footer>
 </div><!-- /.footer-wrap -->
 
+{% if page.comments %}
+{% include disqus.html %}
+{% endif %}
+
 {% include scripts.html %}
 </body>
 </html>
