@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/Databasee/QA/index.html
+permalink: /blogs/CourseRecording/2023/Database/QA/index.html
 title: DatabaseQA
 ---
 
