@@ -6,8 +6,6 @@ title: ComputerOrganizationChapter3
 
 # 运算方法与运算器
 
-## 第三章 运算方法与运算器
-
 - 本位进位函数 $G_i = X_i\cdot Y_i$
 - 进位传递函数 $P_i = X_i + Y_i$
 - 行波进位的n位加/减法器

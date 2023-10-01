@@ -6,8 +6,6 @@ title: ComputerOrganizationChapter4
 
 # 存储系统
 
-## 第四章 存储系统
-
 - SRAM：“静态”——只要保持通电，数据可以无限制读取
 - DRAM：“刷新”
     - 集中式
