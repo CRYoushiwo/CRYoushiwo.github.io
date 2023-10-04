@@ -16,4 +16,7 @@ title: Blogs
 - ## [📄 Paper Reading](https://CRYoushiwo.github.io/blogs/PaperReading)
 > Derive the take-home message from different academic papers.
 
+- ## [💡 Enlightened Thought](https://CRYoushiwo.github.io/blogs/EnlightenedThought)
+> Record the truths and principles discovered along the journey.
+
 [🥰 Leave a star if you like it ](https://github.com/cryoushiwo/cryoushiwo.github.io)
