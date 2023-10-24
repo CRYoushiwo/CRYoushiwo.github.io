@@ -112,7 +112,7 @@ title: ComputerOrganizationChapter5
 
 </aside>
 
-| 隐含寻址|  |
+| 隐含寻址|解释|
 |-
 立即寻址| |
 寄存器寻址|寄存器编号|
