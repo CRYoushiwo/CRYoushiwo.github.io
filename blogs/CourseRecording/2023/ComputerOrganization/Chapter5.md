@@ -82,7 +82,7 @@ title: ComputerOrganizationChapter5
 - 地址码设计
     
     
-   |源操作数 |目的操作数|下条指令地址 |
+   |源操作数|目的操作数|下条指令地址 |
    |---|---|--- |
     
     <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%201.png" class="blog-image" >
@@ -113,9 +113,9 @@ title: ComputerOrganizationChapter5
 
 </aside>
 
-| 隐含寻址||
+| 隐含寻址| |
 |---|--- |
-|立即寻址||
+|立即寻址| |
 |寄存器寻址|寄存器编号 |
 |直接寻址|操作数地址 |
 |间接寻址|操作数地址的地址→操作数地址 |
@@ -133,10 +133,10 @@ title: ComputerOrganizationChapter5
 
 | RISC-V||x86||
 |---|---|---|--- |
-|立即寻址||立即寻址||
-|寄存器寻址||寄存器寻址||
-|基址寻址||主存储器寻址||
-|相对寻址||||
+|立即寻址| |立即寻址| |
+|寄存器寻址| |寄存器寻址| |
+|基址寻址| |主存储器寻址| |
+|相对寻址| | | |
 - 例题
 
 <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%204.png" class="blog-image" >
