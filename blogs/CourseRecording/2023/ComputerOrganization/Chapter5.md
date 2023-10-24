@@ -113,8 +113,8 @@ title: ComputerOrganizationChapter5
 
 </aside>
 
-| 隐含寻址| |
-|---|--- |
+| 隐含寻址|  |
+|-
 |立即寻址| |
 |寄存器寻址|寄存器编号 |
 |直接寻址|操作数地址 |
@@ -123,7 +123,7 @@ title: ComputerOrganizationChapter5
 |相对寻址|地址偏移 (+PC) |
 |基址寻址|基址寄存器寻址位+地址偏移 |
 |变址寻址|变址寄存器寻址位+地址偏移 |
-|堆栈寻址||
+|堆栈寻址| |
 - **RISC-V 和 x86 寻址方式**
 
 <aside>
@@ -131,12 +131,13 @@ title: ComputerOrganizationChapter5
 
 </aside>
 
-| RISC-V||x86||
-|---|---|---|--- |
-|立即寻址| |立即寻址| |
-|寄存器寻址| |寄存器寻址| |
-|基址寻址| |主存储器寻址| |
-|相对寻址| | | |
+| RISC-V||x86| |
+|-
+立即寻址| |立即寻址| |
+寄存器寻址| |寄存器寻址| |
+基址寻址| |主存储器寻址| |
+相对寻址| | | |
+
 - 例题
 
 <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%204.png" class="blog-image" >
