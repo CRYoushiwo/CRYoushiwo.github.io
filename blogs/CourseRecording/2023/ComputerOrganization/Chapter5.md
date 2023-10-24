@@ -106,11 +106,8 @@ title: ComputerOrganizationChapter5
 
 - 基本寻址方式
 
-<aside>
 📢 寻址方式在指令中的体现：
 **由操作码决定（隐含寻址），操作数中设置寻址方式字段（显式寻址）**
-
-</aside>
 
 | 隐含寻址|解释|
 |-
