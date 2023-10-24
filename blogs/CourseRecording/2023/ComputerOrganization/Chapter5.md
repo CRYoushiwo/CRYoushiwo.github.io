@@ -82,8 +82,7 @@ title: ComputerOrganizationChapter5
 - 地址码设计
     
     
-   |源操作数|目的操作数|下条指令地址 |
-   |---|---|--- |
+   | 源操作数|目的操作数|下条指令地址|
     
     <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter5/Untitled%201.png" class="blog-image" >
 
