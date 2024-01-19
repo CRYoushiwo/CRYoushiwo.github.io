@@ -23,12 +23,12 @@ I am a junior student majoring in **Computer Science and Technology** at **Xidia
 
 ## Research Interests
 
+- Multi-modal understanding (vision and language) & generation
+- Image/video perception and understanding
 - Medical Image Processing
-- Rich Text Generation
-- Combining Knowledge Graph with LLM
 
 {: .indent}
-My current focus lies primarily in the realm of medical image processing, a choice largely driven by my **long-standing passion for medicine**. However, I am equally enthusiastic about exploring other research directions.
+I'm looking to dive into **creative roles** like image and video creation, as I see them as endlessly enjoyable and fulfilling.
 
 {: .indent}
 If you share an interest in any of these areas, please feel free to book an [[online talk with me](https://calendly.com/cryoushiwo/meet-me-at-midnight)].
