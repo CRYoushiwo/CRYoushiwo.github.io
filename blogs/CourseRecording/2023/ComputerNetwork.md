@@ -6,7 +6,7 @@ title: ComputerNetwork
 
 # 期末复习
 
-- ## [绪论](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork/Introduction)
+- ## [概论](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse)
 
 - ## [物理层](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer)
 
