@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/NetworkModel.html
-title: Introduction
+title: NetworkModel
 ---
 
 # 网络模型
