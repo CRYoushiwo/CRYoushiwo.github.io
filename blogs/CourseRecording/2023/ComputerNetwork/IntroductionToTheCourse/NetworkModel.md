@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/NetworkModel.index.html
+permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/NetworkModel.html
 title: Introduction
 ---
 
