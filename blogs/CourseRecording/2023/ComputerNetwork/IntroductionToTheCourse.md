@@ -5,7 +5,7 @@ title: IntroductionToTheCourse
 ---
 
 
-# 期末复习
+# 概论
 
 - ## [绪论](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/Introduction)
 
