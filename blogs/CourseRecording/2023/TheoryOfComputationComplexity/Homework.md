@@ -1,0 +1,38 @@
+---
+layout: page
+permalink: /blogs/CourseRecording/2023/TheoryOfComputationComplexity/Homework/index.html
+title: Homework
+---
+
+
+# 十次作业
+
+![733354936818384047.png](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/733354936818384047.png)
+
+**Question 2(SOLUTION)**
+
+TFFTTT
+
+FTTTFF
+
+![497497643770110364.png](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/497497643770110364.png)
+
+**Question 4(SOLUTION)**
+
+![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled.png)
+
+**Question 5(SOLUTION)**
+
+![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%201.png)
+
+**Question 6(SOLUTION)**
+
+![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%202.png)
+
+![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%203.png)
+
+![01.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/01.jpg)
+
+![02.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/02.jpg)
+
+![03.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/03.jpg)

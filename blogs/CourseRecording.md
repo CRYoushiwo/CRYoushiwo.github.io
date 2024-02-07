@@ -19,5 +19,4 @@ comments: true
 
 - ## [计算机网络](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork)
 
-- ## [人工智能导论](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/IntroductionOfArtificialIntelligence)
-
+- ## [计算复杂性理论](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/TheoryOfComputationComplexity)
