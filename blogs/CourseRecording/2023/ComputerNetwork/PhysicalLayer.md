@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer.html
+permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/index.html
 title: PhysicalLayer
 ---
 
