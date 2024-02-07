@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/index.html
+permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/.html
 title: IntroductionToTheCourse
 ---
 
