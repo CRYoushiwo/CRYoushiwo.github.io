@@ -32,8 +32,7 @@ title: Introduction
     - 物理结构
         - 连接类型：点到点连接与多点连接
             
-            ![Untitled](%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%BB%AA%E8%AE%BA%206c902b82eb02419f9c9f2fd6519f3ad5/Untitled.png)
-            
+            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter1/Untitled.png" class="blog-image" >
         - 物理拓扑结构
             
             
@@ -53,8 +52,7 @@ title: Introduction
         | 城域网（MAN） | 5到50千米 | 光纤或无线 | 星型、环状 |
         | 广域网（WAN） | 几十到几千千米 | 卫星、光纤、电话线 | 网状、星型 |
         
-        ![**由四个广域网和两个局域网组成的混合网络**](%E7%AC%AC%E4%B8%80%E7%AB%A0%20%E7%BB%AA%E8%AE%BA%206c902b82eb02419f9c9f2fd6519f3ad5/Untitled%201.png)
-        
+        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter1/Untitled%201.png" class="blog-image" >
         **由四个广域网和两个局域网组成的混合网络**
         
     - 互联网（互连网）：当两个或者多个网络彼此连接
