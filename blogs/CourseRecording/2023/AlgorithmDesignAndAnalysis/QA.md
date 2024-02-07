@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /blogs/CourseRecording/2023/AlgorithmDesignAndAnalysis/QA/index.html
-title: AlgorithmDesignAndAnalysis
+title: AlgorithmDesignAndAnalysisQA
 ---
 
 # 总复习
