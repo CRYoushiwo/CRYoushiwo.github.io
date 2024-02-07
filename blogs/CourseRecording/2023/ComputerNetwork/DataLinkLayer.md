@@ -5,7 +5,7 @@ title: DataLinkLayer
 ---
 
 
-# 概论
+# 数据链路层
 
 - ## [检错与纠错](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/ErrorDetectionAndCorrection)
 

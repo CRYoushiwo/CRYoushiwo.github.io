@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/ApplicationLayer/index.ht
 title: ApplicationLayer
 ---
 
-# P5-应用层
+# 应用层
 
 ## 域名系统
 
