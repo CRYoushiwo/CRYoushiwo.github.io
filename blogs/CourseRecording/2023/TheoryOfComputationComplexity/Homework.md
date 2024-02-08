@@ -36,4 +36,4 @@ FTTTFF
 
 <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/02.jpg" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/03.jpg class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/03.jpg" class="blog-image" >
