@@ -7,7 +7,8 @@ title: Homework
 
 # 十次作业
 
-![733354936818384047.png](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/733354936818384047.png)
+
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/733354936818384047.png" class="blog-image" >
 
 **Question 2(SOLUTION)**
 
@@ -15,24 +16,24 @@ TFFTTT
 
 FTTTFF
 
-![497497643770110364.png](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/497497643770110364.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/497497643770110364.png" class="blog-image" >
 
 **Question 4(SOLUTION)**
 
-![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled.png" class="blog-image" >
 
 **Question 5(SOLUTION)**
 
-![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%201.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%201.png" class="blog-image" >
 
 **Question 6(SOLUTION)**
 
-![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%202.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%202.png" class="blog-image" >
 
-![Untitled](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/Untitled%203.png)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%203.png" class="blog-image" >
 
-![01.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/01.jpg)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/01.png" class="blog-image" >
 
-![02.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/02.jpg)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/02.png" class="blog-image" >
 
-![03.jpg](%E5%8D%81%E6%AC%A1%E4%BD%9C%E4%B8%9A%2069bb7a524c2346919ef9270c5eeb7761/03.jpg)
+<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/TheoryOfComputationComplexity/Homework/03.png" class="blog-image" >
