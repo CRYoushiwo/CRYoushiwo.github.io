@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/WirelessLAN
 title: WirelessLANs
 ---
 
-# 第十四章 无线局域网
+# 无线局域网
 
 ## 分类
 

@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/AnalogTrans
 title: AnalogTransmission
 ---
 
-# 第五章 模拟传输
+# 模拟传输
 
 - 数字数据转换为帯通模拟信号传统上称为数字到模拟转换
 - 将低通模拟信号转换为帯通信号传统上被称为模拟到模拟转换

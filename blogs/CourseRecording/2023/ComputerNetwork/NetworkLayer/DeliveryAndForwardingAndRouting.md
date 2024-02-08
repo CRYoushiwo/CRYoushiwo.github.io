@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/DeliveryAndF
 title: DeliveryAndForwardingAndRouting
 ---
 
-# 第二十二章 传递、转发和路由选择
+# 传递、转发和路由选择
 
 ## 基本概念
 

@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/Switching/i
 title: Switching
 ---
 
-# 第八章 交换
+# 交换
 
 ## 电路交换
 

@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/ConnectingL
 title: ConnectingLANs
 ---
 
-# 第十五章 连接局域网、主干网和虚拟局域网
+# 连接局域网、主干网和虚拟局域网
 
 ## 连接局域网
 

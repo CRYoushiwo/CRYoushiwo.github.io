@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/MultipleAcc
 title: MultipleAccess
 ---
 
-# 第十二章 多路访问
+# 多路访问
 
 ## 基本概念
 

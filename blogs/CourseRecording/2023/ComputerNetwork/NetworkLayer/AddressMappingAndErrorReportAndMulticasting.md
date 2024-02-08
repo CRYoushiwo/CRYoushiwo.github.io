@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/AddressMappi
 title: AddressMappingAndErrorReportAndMulticasting
 ---
 
-# 第二十一章 地址映射、差错报告和多播
+# 地址映射、差错报告和多播
 
 ## 地址映射
 

@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/WiredLANs/i
 title: WiredLANs
 ---
 
-# 第十三章 有线局域网-以太网
+# 有线局域网-以太网
 
 ## 网卡（网络适配器）
 

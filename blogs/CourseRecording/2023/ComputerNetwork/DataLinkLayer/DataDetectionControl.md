@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/DataDetecti
 title: DataDetectionControl
 ---
 
-# 第十一章 数据链路控制
+# 数据链路控制
 
 - 可靠传输
 - 流量控制：用来限制发送方在等到确认之前发送的数据数量

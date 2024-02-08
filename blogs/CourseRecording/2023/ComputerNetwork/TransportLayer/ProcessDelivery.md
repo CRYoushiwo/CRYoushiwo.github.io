@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/TransportLayer/ProcessDel
 title: ProcessDelivery
 ---
 
-# 第二十三章 进程到进程的传递
+# 进程到进程的传递
 
 ## 端口号
 

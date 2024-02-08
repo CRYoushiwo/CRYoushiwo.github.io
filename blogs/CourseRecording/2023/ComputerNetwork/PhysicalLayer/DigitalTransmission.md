@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/DigitalTran
 title: DigitalTransmission
 ---
 
-# 第四章 数字传输
+# 数字传输
 
 ## 数字到数字转换
 

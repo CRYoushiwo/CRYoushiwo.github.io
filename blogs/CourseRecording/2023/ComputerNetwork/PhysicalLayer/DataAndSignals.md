@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/DataAndSign
 title: DataAndSignals
 ---
 
-# 第三章 数据与信号
+# 数据与信号
 
 ## 信号
 

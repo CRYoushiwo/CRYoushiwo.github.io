@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/TransportLayer/Congestion
 title: CongestionControlAndQualityOfService
 ---
 
-# 第二十四章 拥塞控制和服务质量
+# 拥塞控制和服务质量
 
 - 拥塞控制
     - 闭环拥塞控制

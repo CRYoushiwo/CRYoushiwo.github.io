@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/ErrorDetect
 title: ErrorDetectionAndCorrection
 ---
 
-# 第十章 检错与纠错
+# 检错与纠错
 
 ## 差错的区别
 

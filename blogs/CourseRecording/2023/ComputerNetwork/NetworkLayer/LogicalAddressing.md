@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/LogicalAddre
 title: LogicalAddressing
 ---
 
-# 第十九章 IP地址（逻辑寻址）
+# IP地址（逻辑寻址）
 
 ## **IP 地址与硬件地址**
 

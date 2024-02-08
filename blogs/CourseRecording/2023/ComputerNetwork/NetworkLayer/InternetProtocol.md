@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/InternetProt
 title: InternetProtocol
 ---
 
-# 第二十章 IP协议
+# IP协议
 
 ## IPv4
 

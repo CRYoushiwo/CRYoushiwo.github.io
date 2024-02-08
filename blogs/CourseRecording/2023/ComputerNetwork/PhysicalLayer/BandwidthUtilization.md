@@ -4,7 +4,7 @@ permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/BandwidthUt
 title: BandwidthUtilization
 ---
 
-# 第六章 带宽利用
+# 带宽利用
 
 ## 复用
 
