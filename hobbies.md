@@ -32,8 +32,9 @@ comments: true
   <img src="/images/hobbies/music/lana.jpg" alt="Image 2" style="width: 50%; height: 50%;">
   <img src="/images/hobbies/music/beyonce.jpg" alt="Image 3" style="width: 50%; height: 50%;">
   <img src="/images/hobbies/music/anson.jpg" alt="Image 4" style="width: 50%; height: 50%;">
-  <img src="/images/hobbies/music/lorde.jpg" alt="Image 5" style="width: 50%; height: 50%;">
-  <img src="/images/hobbies/music/accusefive.jpg" alt="Image 6" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/music/lalaland.jpg" alt="Image 5" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/music/lorde.jpg" alt="Image 6" style="width: 50%; height: 50%;">
+  <img src="/images/hobbies/music/accusefive.jpg" alt="Image 7" style="width: 50%; height: 50%;">
 </div>
 </body>
 </html>
