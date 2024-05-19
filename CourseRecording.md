@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /CourseRecording/index.html
-title: CourseRecording
+title: Course Recording
 ---
 
 # 2023
