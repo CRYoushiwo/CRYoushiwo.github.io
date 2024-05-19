@@ -46,6 +46,8 @@ links:
     url: /hobbies/
   - title: Blogs
     url: /blogs/
+  - title Course Recording
+    url: /CourseRecording/
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
