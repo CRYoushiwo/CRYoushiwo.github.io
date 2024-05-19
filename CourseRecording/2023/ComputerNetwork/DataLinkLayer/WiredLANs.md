@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/WiredLANs/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/DataLinkLayer/WiredLANs/index.html
 title: WiredLANs
 ---
 
@@ -28,7 +28,7 @@ title: WiredLANs
     - 广播地址：接收方是整个局域网中的所有站点
     - **六位字符均为F：广播地址**
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled.png" class="blog-image" >
     
 - Example
     - 写出MAC地址 47:20:1B:2E:08:EE 在线路上的发送次序
@@ -36,7 +36,7 @@ title: WiredLANs
         1. 地址被一个字节一个字节地从左向右发送，每个字节是一位一位地 从右向左发送的
         2. 74:02:B1:E2:80:EE
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%201.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%201.png" class="blog-image" >
         
 
 ## 四种以太网标准
@@ -81,12 +81,12 @@ title: WiredLANs
 
 假设交换机的转发表已经学习到了所有主机与自己各接口的对应关系
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%202.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%203.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%204.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%204.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%205.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%205.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%206.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter13/Untitled%206.png" class="blog-image" >

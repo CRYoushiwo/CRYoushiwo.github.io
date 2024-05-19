@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter9/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter9/index.html
 title: AnalogElectronicTechnologyChapter9
 ---
 
@@ -41,7 +41,7 @@ title: AnalogElectronicTechnologyChapter9
 - 作用：提高电流放大倍数，扩大电流的驱动能力
 - 规则
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter9/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter9/Untitled.png" class="blog-image" >
     
 - 计算
     - $\beta = \beta_1\beta_2$

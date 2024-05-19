@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/ErrorDetectionAndCorrection/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/DataLinkLayer/ErrorDetectionAndCorrection/index.html
 title: ErrorDetectionAndCorrection
 ---
 
@@ -58,4 +58,4 @@ $n = 2^m - 1$ |
             - 36 = **10**0100 $\rightarrow$6 = 0110（和，由左边超出部分与右边部分相加，即 0100 + 0010） $\rightarrow$ 9 = 1001（检验和，即反码）
     - Example 2
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter10/Untitled.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter10/Untitled.png" class="blog-image" >

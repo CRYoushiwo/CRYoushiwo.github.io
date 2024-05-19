@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter5/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter5/index.html
 title: AnalogElectronicTechnologyChapter5
 ---
 
@@ -105,13 +105,13 @@ title: AnalogElectronicTechnologyChapter5
 
 $X_i = X_f$
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%201.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%201.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%202.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%203.png" class="blog-image" >
 
 ## 根据性能要求，引入负反馈
 

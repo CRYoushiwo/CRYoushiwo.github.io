@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/NetworkModel/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/IntroductionToTheCourse/NetworkModel/index.html
 title: NetworkModel
 ---
 
@@ -8,7 +8,7 @@ title: NetworkModel
 
 ## 发展史
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled.png" class="blog-image" >
 
 - 第一代：以传输信息为目的
 - 第二代：以相互共享资源为目的
@@ -18,7 +18,7 @@ title: NetworkModel
 
 - “分而治之”的思想
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled%201.png" class="blog-image" > 
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled%201.png" class="blog-image" > 
 
 ## 协议与划分层次
 

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/ApplicationLayer/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/ApplicationLayer/index.html
 title: ApplicationLayer
 ---
 
@@ -20,11 +20,11 @@ title: ApplicationLayer
     - 域名服务器解析
         - **本地域名服务器向根域名服务器的查询**通常是采用**迭代查询**
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled.png" class="blog-image" >
             
         - **主机向本地域名服务器的查询**一般都是采用**递归查询**
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%201.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%201.png" class="blog-image" >
             
 
 ## 文件传送协议
@@ -51,14 +51,14 @@ title: ApplicationLayer
 
 ## 远程终端协议 TELNET
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%202.png" class="blog-image" >
 
 - NVT格式
     - 网络虚拟终端的数据传输格式
 
 ## 电子邮件
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%203.png" class="blog-image" >
 
 - 简单邮件传送协议 SMTP
     - 只能传送 ASCII码

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/OperatingSystem/Chapter5/index.html
+permalink: /CourseRecording/2023/OperatingSystem/Chapter5/index.html
 title: OperatingSystemChapter5
 ---
 

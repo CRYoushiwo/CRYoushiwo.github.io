@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/ConnectingLANs/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/DataLinkLayer/ConnectingLANs/index.html
 title: ConnectingLANs
 ---
 

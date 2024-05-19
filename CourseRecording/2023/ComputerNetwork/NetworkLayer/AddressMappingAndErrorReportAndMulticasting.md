@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/AddressMappingAndErrorReportAndMulticasting/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/NetworkLayer/AddressMappingAndErrorReportAndMulticasting/index.html
 title: AddressMappingAndErrorReportAndMulticasting
 ---
 
@@ -10,7 +10,7 @@ title: AddressMappingAndErrorReportAndMulticasting
 
 - 逻辑地址与物理地址的转换
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled.png" class="blog-image" >
 
 ## ARP（地址解析协议）
 
@@ -33,7 +33,7 @@ title: AddressMappingAndErrorReportAndMulticasting
     - IP层的协议，作为 IP 层数据报的数据
     - 为了提高 IP 数据报交付成功的机会
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled%201.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled%201.png" class="blog-image" >
 
 - 类型
     - 差错报告报文
@@ -81,7 +81,7 @@ title: AddressMappingAndErrorReportAndMulticasting
 
 ## D 类 IP 地址 与以太网多播地址的映射关系
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter21/Untitled%202.png" class="blog-image" >
 
 - 多播物理地址范围：01: 00: 5E: 00: 00: 00—01: 00: 5E: **7**F: FF: FF
 - Example

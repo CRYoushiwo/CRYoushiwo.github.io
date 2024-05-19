@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/OperatingSystem/QA/index.html
+permalink: /CourseRecording/2023/OperatingSystem/QA/index.html
 title: OperatingSystemQA
 ---
 

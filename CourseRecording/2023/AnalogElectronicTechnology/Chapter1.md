@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter1/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter1/index.html
 title: AnalogElectronicTechnologyChapter1
 ---
 
@@ -14,4 +14,4 @@ title: AnalogElectronicTechnologyChapter1
     - 光电耦合器件（反向击穿）
     - 变容二极管（反向偏置）
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter1/Untitled.jpg" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter1/Untitled.jpg" class="blog-image" >

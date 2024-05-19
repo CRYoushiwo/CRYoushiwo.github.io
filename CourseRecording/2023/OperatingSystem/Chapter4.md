@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/OperatingSystem/Chapter4/index.html
+permalink: /CourseRecording/2023/OperatingSystem/Chapter4/index.html
 title: OperatingSystemChapter4
 ---
 
@@ -27,7 +27,7 @@ title: OperatingSystemChapter4
         - 直接存取法
         - 按键存取法
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/OperatingSystem/Chapter4/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled.png" class="blog-image" >
     
 
 ## 文件目录
@@ -83,9 +83,9 @@ title: OperatingSystemChapter4
 - 文件共享
     - 基于索引节点【指针是否共享（静态），进程是否并发（动态）】
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/OperatingSystem/Chapter4/Untitled%201.png" class="blog-image" >
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/OperatingSystem/Chapter4/Untitled%202.png" class="blog-image" >
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/OperatingSystem/Chapter4/Untitled%203.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%201.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%202.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%203.png" class="blog-image" >
     
     - 利用符号链接共享文件
 

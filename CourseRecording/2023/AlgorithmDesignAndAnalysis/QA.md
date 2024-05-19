@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AlgorithmDesignAndAnalysis/QA/index.html
+permalink: /CourseRecording/2023/AlgorithmDesignAndAnalysis/QA/index.html
 title: AlgorithmDesignAndAnalysisQA
 ---
 

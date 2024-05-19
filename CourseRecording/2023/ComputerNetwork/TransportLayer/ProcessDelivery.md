@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/TransportLayer/ProcessDelivery/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/TransportLayer/ProcessDelivery/index.html
 title: ProcessDelivery
 ---
 
@@ -16,19 +16,19 @@ title: ProcessDelivery
 
 ## 用户数据报协议（UDP）
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled.png" class="blog-image" >
 
 - UDP长度 = IP长度 - IP头部长度
 - 伪头部：用于校验和计算
 - 校验计算
     - Example
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%201.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%201.png" class="blog-image" >
         
 
 ## 传输控制协议（TCP）
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%202.png" class="blog-image" >
 
 - 控制字段
     
@@ -48,7 +48,7 @@ title: ProcessDelivery
     
     </aside>
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%203.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%203.png" class="blog-image" >
     
 - 流量控制和拥塞控制
     - 滑动窗口
@@ -57,7 +57,7 @@ title: ProcessDelivery
         - 窗口大小连接建立时，由双方确定；在通信过程，只有接收方动态调整窗口大小（此时发送方不再调整窗口大小）
     - 慢开始和拥塞避免
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%204.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/TransportLayer/Chapter23/Untitled%204.png" class="blog-image" >
         
         - 基本概念
             - 发送窗口

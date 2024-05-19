@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter6/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter6/index.html
 title: AnalogElectronicTechnologyChapter6
 ---
 
@@ -44,4 +44,4 @@ title: AnalogElectronicTechnologyChapter6
     - 提高共模抑制比
     - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter6/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter6/Untitled.png" class="blog-image" >

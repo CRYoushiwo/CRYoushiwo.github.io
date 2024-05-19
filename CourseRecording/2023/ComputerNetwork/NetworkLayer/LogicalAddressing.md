@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/NetworkLayer/LogicalAddressing/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/NetworkLayer/LogicalAddressing/index.html
 title: LogicalAddressing
 ---
 
@@ -8,7 +8,7 @@ title: LogicalAddressing
 
 ## **IP 地址与硬件地址**
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled.png" class="blog-image" >
 
 ## IPv4
 
@@ -24,7 +24,7 @@ title: LogicalAddressing
 - 标志一个主机（路由器）和一条链路的接口
 - 分类
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%201.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%201.png" class="blog-image" >
     
 - 特殊IP地址
     
@@ -40,7 +40,7 @@ title: LogicalAddressing
     | 127 | 非全0或全1的任何数 | 可以 | 可以 | 用作本地软件环回测试之用 |
 - Example
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%202.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%202.png" class="blog-image" >
     
 
 ### 子网的划分（对最基本的编址方法改进）
@@ -55,7 +55,7 @@ title: LogicalAddressing
 - $x.y.z.t/n$
     - 二级层次结构
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%203.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%203.png" class="blog-image" >
         
         n=4时
         
@@ -72,7 +72,7 @@ title: LogicalAddressing
     
     - 三级层次结构
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%204.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%204.png" class="blog-image" >
         
         - Example
             
@@ -84,15 +84,15 @@ title: LogicalAddressing
             
             设计这些子块，并求出分配后还有多少可用的地址？
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%205.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%205.png" class="blog-image" >
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%206.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%206.png" class="blog-image" >
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%207.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%207.png" class="blog-image" >
             
     - 网络地址转换（NAT）：私网地址和公网地址的转换
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%208.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%208.png" class="blog-image" >
         
         - NAT转换表
             
@@ -100,7 +100,7 @@ title: LogicalAddressing
             | 专用地址 | 外部地址 |  |
             | --- | --- | --- |
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%209.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%209.png" class="blog-image" >
             
         
 
@@ -110,11 +110,11 @@ title: LogicalAddressing
 
 - 基本：十六进制冒号标记法
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%2010.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%2010.png" class="blog-image" >
     
 - 缩写
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%2011.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter19/Untitled%2011.png" class="blog-image" >
     
 - 几种特殊地址
     - 单播地址

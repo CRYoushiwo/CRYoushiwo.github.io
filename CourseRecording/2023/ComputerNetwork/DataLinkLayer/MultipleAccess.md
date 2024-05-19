@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/MultipleAccess/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/DataLinkLayer/MultipleAccess/index.html
 title: MultipleAccess
 ---
 
@@ -21,7 +21,7 @@ title: MultipleAccess
         - 点对点通信
         - 广播通信
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled.png" class="blog-image" >
         
 
 ## 多路访问控制协议
@@ -43,7 +43,7 @@ title: MultipleAccess
 - ALOHA协议
     - 二进制指数回退
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%201.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%201.png" class="blog-image" >
         
     - 纯ALOHA可能冲突的时间（脆弱时间）：$2\cdot T_{fr}$
     - 纯ALOHA吞吐量：$S = G\times e^{-2G}$
@@ -63,7 +63,7 @@ title: MultipleAccess
         - 站点从发送帧开始，经过争用期 𝟐𝝉 这段时间还没有检测到碰撞，就可以肯定这次发送不会产生碰撞
     - 关键截点
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%202.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%202.png" class="blog-image" >
         
         - 最短碰撞检测时间（中间处发生碰撞）：$\tau$
         - 最长碰撞检测时间（接收方处发生碰撞）：$2\cdot \tau$
@@ -84,7 +84,7 @@ title: MultipleAccess
         - 其中 $r \in \{0,1,...,2^k - 1\}$
     - 信道利用率
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%203.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%203.png" class="blog-image" >
         
         - $S_{max} = \frac{T_0}{T_0 + \tau}$（忽略前面的等待时间）
         - 提高信道利用率
@@ -104,7 +104,7 @@ title: MultipleAccess
     - 设备分为主站和从站。主设备控制链路，从设备跟随指令工作
     - 两个功能
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%204.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%204.png" class="blog-image" >
         
         左边是选择，右边是轮询
         
@@ -125,7 +125,7 @@ title: MultipleAccess
     - 每个站点都被指派一个唯一的 m 比特码片序列
     - 正交序列（芯片数字序列）
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%205.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter12/Untitled%205.png" class="blog-image" >
         
         - 每个序列都有 $N$ 个元素， $N$ 为站点数
         - 相同序列相乘，结果为 $N$

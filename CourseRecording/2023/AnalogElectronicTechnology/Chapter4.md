@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter4/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter4/index.html
 title: AnalogElectronicTechnologyChapter4
 ---
 
@@ -31,7 +31,7 @@ title: AnalogElectronicTechnologyChapter4
 耗尽型：绝缘层中认为掺入正离子，$U_{GS} = 0$时，存在沟道
 增强型：只有在$U_{GS} > U_T > 0$时，存在沟道
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter4/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter4/Untitled.png" class="blog-image" >
 
 ## 场效应管主要参数
 

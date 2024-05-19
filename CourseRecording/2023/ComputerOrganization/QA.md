@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerOrganization/QA/index.html
+permalink: /CourseRecording/2023/ComputerOrganization/QA/index.html
 title: ComputerOrganizationQA
 ---
 

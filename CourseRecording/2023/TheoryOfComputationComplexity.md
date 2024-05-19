@@ -1,12 +1,12 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/TheoryOfComputationComplexity/index.html
+permalink: /CourseRecording/2023/TheoryOfComputationComplexity/index.html
 title: TheoryOfComputationComplexity
 ---
 
 
 # 期末复习
 
-- ## [课本知识点](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/TheoryOfComputationComplexity/Textbook)
+- ## [课本知识点](https://CRYoushiwo.github.io/CourseRecording/2023/TheoryOfComputationComplexity/Textbook)
 
-- ## [十次作业](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/TheoryOfComputationComplexity/Homework)
+- ## [十次作业](https://CRYoushiwo.github.io/CourseRecording/2023/TheoryOfComputationComplexity/Homework)

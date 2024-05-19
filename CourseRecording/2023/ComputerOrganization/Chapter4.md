@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerOrganization/Chapter4/index.html
+permalink: /CourseRecording/2023/ComputerOrganization/Chapter4/index.html
 title: ComputerOrganizationChapter4
 ---
 
@@ -14,11 +14,11 @@ title: ComputerOrganizationChapter4
 - DRAM中，CAS具有OE引脚的功能！
 - DRAM刷新周期
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter4/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter4/Untitled.png" class="blog-image" >
     
 - 闪存
 
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter4/Untitled%201.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter4/Untitled%201.png" class="blog-image" >
     
 - 同步DRAM（SDRM）
     - 内含两个交错的存储阵列，当CPU从一个存储体或阵列访问数据时，另一个就已为读写数据做好了准备，通过这两个存储阵列的紧密切换，读取效率就能得到成倍的提高
@@ -38,12 +38,12 @@ title: ComputerOrganizationChapter4
         - 数据位顺序相连
         - 注意字节允许型号的书写
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter4/Untitled%202.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter4/Untitled%202.png" class="blog-image" >
         
         - 交叉组织方式
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter4/Untitled%203.png" class="blog-image" >
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerOrganization/Chapter4/Untitled%204.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter4/Untitled%203.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter4/Untitled%204.png" class="blog-image" >
             
     - 双端口存储器
     - 先进先出存储器

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/TransportLayer/CongestionControlAndQualityOfService/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/TransportLayer/CongestionControlAndQualityOfService/index.html
 title: CongestionControlAndQualityOfService
 ---
 

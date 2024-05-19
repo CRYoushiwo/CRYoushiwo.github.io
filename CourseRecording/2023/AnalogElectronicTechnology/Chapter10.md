@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter10/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter10/index.html
 title: AnalogElectronicTechnologyChapter10
 ---
 
@@ -61,7 +61,7 @@ title: AnalogElectronicTechnologyChapter10
 - CW78系列<输出电压 $U_{XX}$：3引角-2引角>
 - CW79系列<输出电压 $U_{XX}$：3引脚-1引脚>
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter10/Untitled.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter10/Untitled.png" class="blog-image" >
     - 应用
         - 输出为固定电压的电路
         - 输出正负电压的电路

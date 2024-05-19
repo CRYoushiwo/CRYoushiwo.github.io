@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/AnalogTransmission/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/PhysicalLayer/AnalogTransmission/index.html
 title: AnalogTransmission
 ---
 
@@ -19,7 +19,7 @@ title: AnalogTransmission
         - 一个信号的比特率为8000 bps ，波特率为1000 baud，问每个信号元素携带多少个数据元素？需要多少个信号元素?
         - 解：
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter5/Untitled.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter5/Untitled.png" class="blog-image" >
             
 - 载波信号：在模拟传输中，发送设备产生一个高频率信号作为基波来承载信息
 - 幅移键控

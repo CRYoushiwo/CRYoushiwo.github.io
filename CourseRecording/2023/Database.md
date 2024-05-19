@@ -1,10 +1,10 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/Database/index.html
+permalink: /CourseRecording/2023/Database/index.html
 title: Database
 ---
 
 
 # 期末复习
 
-- ## [题型分析](https://CRYoushiwo.github.io/blogs/CourseRecording/2023/Database/QA)
+- ## [题型分析](https://CRYoushiwo.github.io/CourseRecording/2023/Database/QA)

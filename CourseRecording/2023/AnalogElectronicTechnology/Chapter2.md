@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter2/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter2/index.html
 title: AnalogElectronicTechnologyChapter2
 ---
 
@@ -17,4 +17,4 @@ title: AnalogElectronicTechnologyChapter2
     - 阻容耦合
     - 变压器耦合
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter2/Untitled.jpg" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter2/Untitled.jpg" class="blog-image" >

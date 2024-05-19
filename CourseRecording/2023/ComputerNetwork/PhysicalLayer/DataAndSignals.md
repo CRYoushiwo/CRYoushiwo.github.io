@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/PhysicalLayer/DataAndSignals/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/PhysicalLayer/DataAndSignals/index.html
 title: DataAndSignals
 ---
 
@@ -14,20 +14,20 @@ title: DataAndSignals
 - 模拟信号
     - 频域和时域的表示
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled.png" class="blog-image" >
         
         - 用频域图中单个峰值可表示时域图中一个完整正弦波
     - 复合信号
         - 周期和非周期信号分解
             
-            <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%201.png" class="blog-image" >
+            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%201.png" class="blog-image" >
             
 - 数字信号
     - 电平与信号
         - **信号有L个电平，则每个信号位可以携带log2L个bit位**
     - 周期和非周期信号分解
         
-        <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%202.png" class="blog-image" >
+        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%202.png" class="blog-image" >
         
 
 ## 数字信号传输
@@ -68,7 +68,7 @@ title: DataAndSignals
 
 ## 数据速率限制
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter3/Untitled%203.png" class="blog-image" >
 
 - 定义
     - $N$：比特率

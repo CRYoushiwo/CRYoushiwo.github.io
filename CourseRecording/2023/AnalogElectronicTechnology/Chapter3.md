@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter3/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter3/index.html
 title: AnalogElectronicTechnologyChapter3
 ---
 
@@ -18,4 +18,4 @@ title: AnalogElectronicTechnologyChapter3
     - 放大电路的耦合电容是引起低频响应的主要原因
     - 结电容和分布电容是引起放大电路高频响应的主要原因
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter3/Untitled.jpg" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter3/Untitled.jpg" class="blog-image" >

@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/ComputerNetwork/DataLinkLayer/DataDetectionControl/index.html
+permalink: /CourseRecording/2023/ComputerNetwork/DataLinkLayer/DataDetectionControl/index.html
 title: DataDetectionControl
 ---
 
@@ -28,11 +28,11 @@ title: DataDetectionControl
 
 ## 停等ARQ
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled.png" class="blog-image" >
 
 - 信道利用率
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%201.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%201.png" class="blog-image" >
     
 
 ## 后退N帧ARQ
@@ -50,14 +50,14 @@ title: DataDetectionControl
     
     </aside>
     
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%202.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%202.png" class="blog-image" >
 
 ### 接收窗口
 
 - 用变量 $R_n$ 定义了大小为1的接收窗口
 - 采用累计确认：连续收到多个按序到达且无误码的数据分组后，才针对最后一个数据分组发送确认分组
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%203.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%203.png" class="blog-image" >
 
 ## 选择性重传ARQ
 

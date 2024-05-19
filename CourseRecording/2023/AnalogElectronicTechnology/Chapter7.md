@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /blogs/CourseRecording/2023/AnalogElectronicTechnology/Chapter7/index.html
+permalink: /CourseRecording/2023/AnalogElectronicTechnology/Chapter7/index.html
 title: AnalogElectronicTechnologyChapter7
 ---
 
@@ -30,35 +30,35 @@ title: AnalogElectronicTechnologyChapter7
     $A_u = -\frac{R_2}{R_1}$
     
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled.png" class="blog-image" >
 
 - 同相比例运算电路
     - 特殊：电压跟随器$（R_2 = 0\ or\ R_1 =\infty）$
     
     $A_u = 1+\frac{R_2}{R_1}$
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%201.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%201.png" class="blog-image" >
     
 - 差动比例运算电路
     
     $U_o = -\frac{R_2}{R_1}U_{i1} + (1+\frac{R_2}{R_1})\frac{R_p}{R_2 + R_p}U_{i2}$
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%202.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%202.png" class="blog-image" >
     
 
 ### 求和电路
 
 - 反相求和电路
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%203.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%203.png" class="blog-image" >
     
 - 同相求和电路
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%204.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%204.png" class="blog-image" >
     
 - 代数求和电路
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%205.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%205.png" class="blog-image" >
     
 
 ### 积分电路和微分电路
@@ -67,12 +67,12 @@ title: AnalogElectronicTechnologyChapter7
     - 同相积分电路误差大（不考虑）
     - 反相积分电路 求$u_o = -\frac{1}{RC}\int u_i dt - u_c(0)$
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%206.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%206.png" class="blog-image" >
     
 - 微分电路
     - $u_o = -RC\frac{du_i}{dt}$
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%207.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%207.png" class="blog-image" >
     
 
 ## 有源滤波电路
@@ -102,29 +102,29 @@ title: AnalogElectronicTechnologyChapter7
 - 比例运算电路
     - 电压跟随器
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%208.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%208.png" class="blog-image" >
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%209.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%209.png" class="blog-image" >
     
 - 加减运算放大器
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2010.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2010.png" class="blog-image" >
     
     **同相：**
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2011.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2011.png" class="blog-image" >
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2012.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2012.png" class="blog-image" >
     
     **反相：**
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2013.png" class="blog-image" >
+    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2013.png" class="blog-image" >
     
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2014.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2014.png" class="blog-image" >
 
 - 占空比：矩形波的高电平持续时间与其周期之比
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2015.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2015.png" class="blog-image" >
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2016.png" class="blog-image" >
+<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter7/Untitled%2016.png" class="blog-image" >
