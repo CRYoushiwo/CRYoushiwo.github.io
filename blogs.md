@@ -7,9 +7,6 @@ title: Blogs
 
 # Blogs
 
-- ## [🎓 Course Recording](https://CRYoushiwo.github.io/blogs/CourseRecording)
-> Delve into summaries and insights from various courses.
-
 - ## [🌿 Daily Life](https://CRYoushiwo.github.io/blogs/DailyLife)
 > Explore everyday adventures and musings.
 
