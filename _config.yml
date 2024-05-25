@@ -44,8 +44,8 @@ links:
   #  url: /fundings/
   - title: Hobbies
     url: /hobbies/
-  - title: Blogs
-    url: /blogs/
+  # - title: Blogs
+  #   url: /blogs/
   - title: Course Recording
     url: /CourseRecording/
 
