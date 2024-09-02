@@ -459,10 +459,10 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 .daily-details h2 {
   margin-top: 0;
-  margin-bottom: 10px; /* 标题下方间距 */
-  color: #333; /* 标题颜色 */
-  font-size: 1em; /* 标题字体大小 */
-  text-decoration: underline; /* 添加下划线 */
+  margin-bottom: 5px; /* 减少标题与日期之间的间隙 */
+  color: #333; /* 标题颜色保持不变 */
+  font-size: 1em; /* 减小标题字体大小 */
+  text-decoration: underline; /* 保持标题下划线 */
 }
 
 .daily-details a {
