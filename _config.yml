@@ -12,9 +12,9 @@ links:
   - title: Bio
     url: /
   - title: Daily
-    url: /pages/Daily/
+    url: /pages/Daily.md
   - title: Course Recording
-    url: /pages/CourseRecording/
+    url: /pages/CourseRecording.md
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 timezone: Asia/Shanghai
