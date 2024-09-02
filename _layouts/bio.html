@@ -1,61 +1,62 @@
 <!doctype html>
-<html lang="en">
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"><!--<![endif]-->
 
 <head>
-  {% include head.html %}
+{% include head.html %}
 
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
-  <script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+<script>
     window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
+    function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
+
     gtag('config', 'G-T5N5JY1E21');
-  </script>
+</script>
+
 </head>
+
 
 <body class="page" itemscope itemtype="http://schema.org/WebPage">
 
-  {% include chrome-frame.html %}
-  {% include navigation.html %}
+{% include chrome-frame.html %}
 
-  {% if page.image.feature %}
-  <figure class="feature-image">
+{% include navigation.html %}
+
+{% if page.image.feature %}<div class="image-wrap">
     <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-  </figure>
-  {% endif %}
+</div><!-- /.image-wrap -->{% endif %}
 
-  <main id="main" role="main" itemprop="mainContentOfPage">
-    <header class="author-header">
-      {% include author-bio.html %}
-    </header>
-
+<div id="main" role="main"  itemprop="mainContentOfPage">
+    <div class="article-author-top">
+    {% include author-bio.html %}
+    </div>
     <article itemscope itemtype="http://schema.org/CreativeWork">
-      <section class="article-content" itemprop="text">
+    {% comment %}
+    <div class="headline-wrap">
+        <h1 itemprop="headline">{{ page.title }}</h1>
+    </div><!--/ .headline-wrap -->
+    {% endcomment %}
+    <div class="article-wrap" itemprop="text">
         {{ content }}
-      </section>
+    </div><!-- /.article-wrap -->
     </article>
+    <div class="table">
+    {% include table.html html=content %}
+    </div>
+</div><!-- /#index -->
 
-    <nav class="toc">
-      {% include toc.html html=content %}
-    </nav>
-
-    <section class="related-table">
-      {% include table.html html=content %}
-    </section>
-  </main>
-
-  {% if page.comments %}
-  <section class="comments-section">
-    {% include disqus.html %}
-  </section>
-  {% endif %}
-
-  <footer class="footer-wrap">
+<!-- /.footer-wrap -->
+<div class="footer-wrap">
+  <footer>
     {% include footer.html %}
   </footer>
+</div>
 
-  {% include scripts.html %}
+
+{% include scripts.html %}
 </body>
-
 </html>
