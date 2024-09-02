@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  {% include head.html %}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-T5N5JY1E21"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-T5N5JY1E21');
+  </script>
+</head>
+
+<body class="page" itemscope itemtype="http://schema.org/WebPage">
+
+  {% include chrome-frame.html %}
+  {% include navigation.html %}
+
+  {% if page.image.feature %}
+  <figure class="feature-image">
+    <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
+  </figure>
+  {% endif %}
+
+  <main id="main" role="main" itemprop="mainContentOfPage">
+    <header class="author-header">
+      {% include author-bio.html %}
+    </header>
+
+    <article itemscope itemtype="http://schema.org/CreativeWork">
+      <section class="article-content" itemprop="text">
+        {{ content }}
+      </section>
+    </article>
+
+    <nav class="toc">
+      {% include toc.html html=content %}
+    </nav>
+
+    <section class="related-table">
+      {% include table.html html=content %}
+    </section>
+  </main>
+
+  {% if page.comments %}
+  <section class="comments-section">
+    {% include disqus.html %}
+  </section>
+  {% endif %}
+
+  <footer class="footer-wrap">
+    {% include footer.html %}
+  </footer>
+
+  {% include scripts.html %}
+</body>
+
+</html>

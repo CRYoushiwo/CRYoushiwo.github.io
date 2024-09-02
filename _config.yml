@@ -32,7 +32,7 @@ owner:
 # Links to include in top navigation
 # For external links add external: true
 links:
-  - title: About Me
+  - title: Bio
     url: /
   #- title: Resume
   #  url: /file/CV-HanlinCAI.pdf
