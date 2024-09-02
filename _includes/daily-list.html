@@ -1,13 +1,12 @@
 <div class="daily-list">
-    <a href="{{ include.daily_url }}" class="daily-image-link">
-      <img src="{{ include.image_url }}" alt="Cover image of {{ include.title }}">
-    </a>
-    <div class="daily-details">
-      <h2><a href="{{ include.daily_url }}">{{ include.title }}</a></h2>
-      <p class="daily-date">{{ include.date }}</p>
-      <div class="daily-description">
-        {{ include.description }}
-      </div>
+  <div class="daily-details">
+    <h2><a href="{{ include.daily_url }}">{{ include.title }}</a></h2>
+    <p class="daily-date">{{ include.date }}</p>
+    <div class="daily-description">
+      {{ include.description }}
     </div>
   </div>
-  
+  <a href="{{ include.daily_url }}" class="daily-image-link">
+    <img src="{{ include.image_url }}" alt="Cover image of {{ include.title }}">
+  </a>
+</div>
