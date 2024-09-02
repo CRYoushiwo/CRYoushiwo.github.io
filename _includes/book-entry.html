@@ -1,12 +1,12 @@
 <div class="book-entry">
-    <a href="{{ book_url }}" class="book-image-link">
-      <img src="{{ image_url }}" alt="Cover image of {{ title }}">
+    <a href="{{ include.book_url }}" class="book-image-link">
+      <img src="{{ include.image_url }}" alt="Cover image of {{ include.title }}">
     </a>
     <div class="book-details">
-      <h2><a href="{{ book_url }}">{{ title }}</a></h2>
-      <p class="book-date">{{ date }}</p>
+      <h2><a href="{{ include.book_url }}">{{ include.title }}</a></h2>
+      <p class="book-date">{{ include.date }}</p>
       <div class="book-description">
-        {{ description }}
+        {{ include.description }}
       </div>
     </div>
   </div>
