@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /CourseRecording/index.html
+permalink: /pages/CourseRecording/index.html
 title: Course Recording
 ---
 

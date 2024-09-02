@@ -1,6 +1,6 @@
 ---
 layout: daily
-permalink: /Daily/index.html
+permalink: /pages/Daily/index.html
 title: Daily
 comments: true
 ---
