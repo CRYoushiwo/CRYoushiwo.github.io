@@ -476,7 +476,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 日期和描述的样式 */
 .daily-date {
-  font-size: 0.9em; /* 日期字体大小 */
+  font-size: 0.6em; /* 日期字体大小 */
   color: #666; /* 日期颜色 */
   margin-bottom: 5px; /* 与描述的间距 */
 }
