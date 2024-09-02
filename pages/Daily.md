@@ -6,7 +6,7 @@ comments: true
 ---
 
 {% include daily-list.html 
-  page_url="https://limboy.me/books/me-and-altar-of-earth/" 
+  daily_url="https://limboy.me/books/me-and-altar-of-earth/" 
   image_url="https://CRYoushiwo.github.io/files/images/bio/myprofile.png" 
   title="我与地坛" 
   date="2024-05-15" 
@@ -14,7 +14,7 @@ comments: true
 %}
 
 {% include daily-list.html 
-  page_url="https://limboy.me/books/when-breath-becomes-air/" 
+  daily_url="https://limboy.me/books/when-breath-becomes-air/" 
   image_url="https://CRYoushiwo.github.io/files/images/bio/myprofile.png" 
   title="当呼吸化为空气" 
   date="2024-02-20" 
@@ -22,7 +22,7 @@ comments: true
 %}
 
 {% include daily-list.html 
-  page_url="https://limboy.me/books/change/" 
+  daily_url="https://limboy.me/books/change/" 
   image_url="https://CRYoushiwo.github.io/files/images/bio/myprofile.png" 
   title="改变，问题形成和解决的原则" 
   date="2023-07-10" 
