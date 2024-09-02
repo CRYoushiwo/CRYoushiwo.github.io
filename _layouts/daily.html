@@ -29,31 +29,24 @@
 
 {% include navigation.html %}
 
-{% if page.image.feature %}
-<div class="image-wrap">
+{% if page.image.feature %}<div class="image-wrap">
   <img src="{{ site.url }}/images/{{ page.image.feature }}" alt="{{ page.title }} feature image" itemprop="primaryImageOfPage">
-</div><!-- /.image-wrap -->
-{% endif %}
+</div><!-- /.image-wrap -->{% endif %}
 
 <div id="main" role="main"  itemprop="mainContentOfPage">
   <div class="article-author-top">
     {% include author-bio.html %}
   </div>
-  
-  <!-- 博客文章内容开始 -->
   <article itemscope itemtype="http://schema.org/CreativeWork">
+  {% comment %}
     <div class="headline-wrap">
       <h1 itemprop="headline">{{ page.title }}</h1>
     </div><!--/ .headline-wrap -->
+  {% endcomment %}
     <div class="article-wrap" itemprop="text">
-      <p>这里是博客文章的完整内容。</p>
-      <p>你可以在这里添加更多的段落、图片或代码块。</p>
-      <img src="{{ site.url }}/images/sample-image.jpg" alt="示例图片">
-      <p>结束语部分，包含对内容的总结或引导读者的链接。</p>
+      {{ content }}
     </div><!-- /.article-wrap -->
   </article>
-  <!-- 博客文章内容结束 -->
-
   <div class="toc">
     {% include toc.html html=content %}
   </div>
@@ -66,13 +59,6 @@
 {% if page.comments %}
 {% include disqus.html %}
 {% endif %}
-
-<!-- /.footer-wrap -->
-<div class="footer-wrap">
-  <footer>
-    {% include footer.html %}
-  </footer>
-</div>
 
 {% include scripts.html %}
 </body>
