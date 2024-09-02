@@ -1,33 +1,25 @@
-<div class="flex flex-col gap-8 my-6">
-  
-    <!-- 单个条目部分 -->
-    <div class="flex flex-row gap-4">
-  
-      <!-- 图片部分 -->
-      <div class="h-48 avg-color w-32 flex-shrink-0" style="flex-basis: 8rem;">
-        <img loading="lazy" class="object-cover h-40 w-full" referrerpolicy="no-referrer" src="{{ include.image_url }}">
-      </div>
-  
-      <!-- 文字内容部分 -->
-      <div class="flex-grow">
-        <div class="flex flex-col">
-          <!-- 标题部分，带有超链接 -->
-          <p><a class="border-b-2 border-gray-600 text-2xl font-bold" href="{{ include.book_url }}">{{ include.title }}</a></p>
-        </div>
-  
-        <!-- 日期部分 -->
-        <time class="text-sm text-gray-500 inline-block py-2">{{ include.date }}</time>
-  
-        <!-- 描述部分 -->
-        <div class="prose text-gray-800">
-          <p>{{ include.description }}</p>
-        </div>
-      </div>
-  
+<div class="flex flex-row gap-4">
+    <!-- Image Section -->
+    <div class="hidden sm:block h-48 avg-color w-32 flex-shrink-0" style="flex-basis: 8rem;">
+        <a href="{{ book_url }}">
+            <img loading="lazy" class="object-cover h-40" referrerpolicy="no-referrer" src="{{ image_url }}">
+        </a>
     </div>
-    
-    <!-- 分割线 -->
-    <hr class="my-6 border-gray-300 border-2">
-  
-  </div>
-  
+
+    <!-- Text Section -->
+    <div class="flex-grow">
+        <div class="flex flex-col">
+            <p>
+                <a class="border-b-2 border-gray-600 text-2xl" href="{{ book_url }}">
+                    {{ title }}
+                </a>
+            </p>
+        </div>
+        <time class="text-sm text-gray-500 inline-block py-2">
+            {{ date }}
+        </time>
+        <div class="prose text-gray-800">
+            <p>{{ description }}</p>
+        </div>
+    </div>
+</div>
