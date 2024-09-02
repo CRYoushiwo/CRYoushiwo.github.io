@@ -1,4 +1,4 @@
-<div class="flex flex-row gap-4">
+<div class="flex flex-row items-start gap-4">
     <!-- 图片部分 -->
     <div class="h-48 w-32 flex-shrink-0" style="flex-basis: 8rem;">
         <img loading="lazy" class="object-cover h-full w-full" referrerpolicy="no-referrer" src="{{ include.image_url }}">
@@ -6,7 +6,7 @@
 
     <div class="flex-grow">
         <div class="flex flex-col">
-            <p><a class="border-b-2 border-gray-600 text-3xl font-bold" href="{{ include.book_url }}">{{ include.title }}</a></p>
+            <p class="text-3xl font-bold">{{ include.title }}</p>
         </div>
 
         <time class="text-sm text-gray-500 inline-block py-2">{{ include.date }}</time>
