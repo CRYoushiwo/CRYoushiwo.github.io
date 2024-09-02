@@ -5,9 +5,7 @@ title: Daily
 comments: false
 ---
 
-# Hobbies
-
-- ## Music
+# Pop Fan
 
 <html>
 <head>
