@@ -6,10 +6,14 @@
 
     <div class="flex-grow">
         <div class="flex flex-col">
-            <p class="text-3xl font-bold">{{ include.title }}</p>
+            <!-- 标题部分，包含超链接，加粗并增大字体 -->
+            <p><a class="text-3xl font-bold border-b-2 border-gray-600" href="{{ include.book_url }}">{{ include.title }}</a></p>
         </div>
 
+        <!-- 日期部分 -->
         <time class="text-sm text-gray-500 inline-block py-2">{{ include.date }}</time>
+
+        <!-- 描述部分 -->
         <div class="prose text-gray-800">
             <p>{{ include.description }}</p>
         </div>
