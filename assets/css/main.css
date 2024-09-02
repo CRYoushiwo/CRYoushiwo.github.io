@@ -461,13 +461,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   margin-top: 0;
   margin-bottom: 5px; /* 减少标题与日期之间的间隙 */
   color: #333; /* 标题颜色保持不变 */
-  font-size: 1em; /* 减小标题字体大小 */
+  font-size: 1.15em; /* 减小标题字体大小 */
   text-decoration: underline; /* 保持标题下划线 */
 }
 
 .daily-details a {
   text-decoration: none; /* 去除下划线 */
-  color: #0056b3; /* 链接颜色 */
+  color: #000; /* 链接颜色 */
 }
 
 .daily-details a:hover {
@@ -476,7 +476,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 日期和描述的样式 */
 .daily-date {
-  font-size: 0.6em; /* 日期字体大小 */
+  font-size: 0.8em; /* 日期字体大小 */
   color: #666; /* 日期颜色 */
   margin-bottom: 3px; /* 与描述的间距 */
 }
