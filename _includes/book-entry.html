@@ -1,24 +1,33 @@
-<div class="flex flex-row items-start gap-4">
-    <!-- 图片部分 -->
-    <div class="h-48 w-32 flex-shrink-0" style="flex-basis: 8rem;">
-        <img loading="lazy" class="object-cover h-full w-full" referrerpolicy="no-referrer" src="{{ include.image_url }}">
-    </div>
-
-    <div class="flex-grow">
+<div class="flex flex-col gap-8 my-6">
+  
+    <!-- 单个条目部分 -->
+    <div class="flex flex-row gap-4">
+  
+      <!-- 图片部分 -->
+      <div class="h-48 avg-color w-32 flex-shrink-0" style="flex-basis: 8rem;">
+        <img loading="lazy" class="object-cover h-40 w-full" referrerpolicy="no-referrer" src="{{ include.image_url }}">
+      </div>
+  
+      <!-- 文字内容部分 -->
+      <div class="flex-grow">
         <div class="flex flex-col">
-            <!-- 标题部分，包含超链接，加粗并增大字体 -->
-            <p><a class="text-3xl font-bold border-b-2 border-gray-600" href="{{ include.book_url }}">{{ include.title }}</a></p>
+          <!-- 标题部分，带有超链接 -->
+          <p><a class="border-b-2 border-gray-600 text-2xl font-bold" href="{{ include.book_url }}">{{ include.title }}</a></p>
         </div>
-
+  
         <!-- 日期部分 -->
         <time class="text-sm text-gray-500 inline-block py-2">{{ include.date }}</time>
-
+  
         <!-- 描述部分 -->
         <div class="prose text-gray-800">
-            <p>{{ include.description }}</p>
+          <p>{{ include.description }}</p>
         </div>
+      </div>
+  
     </div>
-</div>
-
-<!-- 分割线 -->
-<hr class="my-6 border-gray-300 border-2">
+    
+    <!-- 分割线 -->
+    <hr class="my-6 border-gray-300 border-2">
+  
+  </div>
+  
