@@ -26,13 +26,13 @@ comments: false
 <body>
 
 <div class="image-container">
-  <img src="/files/images/Daily/hobbies/music/taylor.jpg" alt="Image 1" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/lana.jpg" alt="Image 2" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/beyonce.jpg" alt="Image 3" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/anson.jpg" alt="Image 4" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/lalaland.jpg" alt="Image 5" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/lorde.jpg" alt="Image 6" style="width: 50%; height: 50%;">
-  <img src="/files/images/Daily/hobbies/music/accusefive.jpg" alt="Image 7" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032125156.jpg" alt="Image 1" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032127837.jpg" alt="Image 2" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032128875.jpg" alt="Image 3" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032128064.jpg" alt="Image 4" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032129642.jpg" alt="Image 5" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032129374.jpg" alt="Image 6" style="width: 50%; height: 50%;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409032129230.jpg" alt="Image 7" style="width: 50%; height: 50%;">
 </div>
 </body>
 </html>
