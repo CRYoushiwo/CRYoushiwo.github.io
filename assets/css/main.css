@@ -423,7 +423,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   text-indent: 2em;
 }
 
-/* .daily-list */
+/************************************************************daily.html************************************************************/
 
 /* 样式整个列表项的容器 */
 .daily-list {
@@ -486,4 +486,40 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   line-height: 1.4; /* 行高保持不变 */
   text-align: justify; /* 文本对齐方式保持不变 */
   margin-bottom: 10px; /* 增加描述与图片之间的间距 */
+}
+
+/************************************************************daily-page.html************************************************************/
+
+/* 容器样式，用于包裹图片和标题 */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* 使所有子元素居中对齐 */
+  gap: 16px; /* 设置图片之间的间距 */
+  padding: 10px; /* 容器的内边距 */
+}
+
+/* 图片样式 */
+.gallery img {
+  width: 100%; /* 图片宽度自动填满容器 */
+  height: auto; /* 高度自动调整保持比例 */
+  border-radius: 10px; /* 四角为弧度角 */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 图片阴影 */
+  object-fit: cover; /* 覆盖整个内容区域 */
+}
+
+/* 图片容器样式，用于单独控制每张图片和标题 */
+.gallery-item {
+  flex: 1 1 300px; /* flex-grow, flex-shrink 和 flex-basis */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* 子元素居中对齐 */
+}
+
+/* 标题样式 */
+.caption {
+  margin-top: 8px; /* 标题距图片的距离 */
+  color: #333;
+  font-size: 14px; /* 字体大小 */
+  text-align: center; /* 文本居中对齐 */
 }
