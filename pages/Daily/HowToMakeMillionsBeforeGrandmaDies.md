@@ -5,24 +5,24 @@ title: Daily
 comments: false
 ---
 
-<div class="gallery">
-    <div class="gallery-item">
+<div class="daily-page-image">
+    <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051102009.jpg" alt="Image 1">
     </div>
-    <div class="gallery-item">
+    <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051102160.jpg" alt="Image 2">
     </div>
 </div>
 
 这两天和多年没见的高中好友在西安相见，临别时，她决定和我一同去看一部电影。其实最初听到这是一部泰国电影时，我并没有非常激动，原因很简单，我本身就不是一个常去电影院的人，更别提是一步非中/英文电影。就像电影对我的吸引力一样，「姥姥的外孙」似乎并没有俘获国人的芳心，两个人到场后才发现，我们包了全场，结果最后看完哭得稀里哗啦。
-<div class="gallery">
-    <div class="gallery-item">
+<div class="daily-page-image">
+    <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051102404.jpg" alt="Image 3">
     </div>
 </div>
 当然，这属于是题外话了。言归正传，我认为「姥姥的外孙」或许是我这几年看的，为数不多的电影中，最具启示意义的一部电影。养老困局、就业难题，加上贫苦家庭子女间的微妙博弈，十分贴合当下国内的状况。
-<div class="gallery">
-    <div class="gallery-item">
+<div class="daily-page-image">
+    <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051102746.jpg" alt="Image 4">
     </div>
 </div>

@@ -491,35 +491,38 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 /************************************************************daily-page.html************************************************************/
 
 /* 容器样式，用于包裹图片和标题 */
-.gallery {
+/* 为图片容器设置样式 */
+/* 为图片容器设置样式 */
+.daily-page-image {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center; /* 使所有子元素居中对齐 */
-  gap: 16px; /* 设置图片之间的间距 */
-  padding: 10px; /* 容器的内边距 */
+  flex-wrap: wrap;  /* 允许图片自动换行 */
+  justify-content: space-around;  /* 图片间平均分布 */
+  align-items: flex-start;  /* 对齐到容器的顶部 */
+  gap: 10px;  /* 图片间隔 */
 }
 
-/* 图片样式 */
-.gallery img {
-  width: 100%; /* 图片宽度自动填满容器 */
-  height: auto; /* 高度自动调整保持比例 */
-  border-radius: 10px; /* 四角为弧度角 */
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* 图片阴影 */
-  object-fit: cover; /* 覆盖整个内容区域 */
+/* 为单张图片及其标题设置样式 */
+.daily-page-image .image-item {
+  flex: 1 1 200px;  /* 基础大小为200px，但可伸缩 */
+  display: flex;
+  flex-direction: column;  /* 垂直排列 */
+  align-items: center;  /* 水平居中对齐 */
 }
 
-/* 图片容器样式，用于单独控制每张图片和标题 */
-.gallery-item {
-  flex: 1 1 300px; /* flex-grow, flex-shrink 和 flex-basis */
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* 子元素居中对齐 */
+.daily-page-image img {
+  width: 100%;  /* 图片宽度自动填充容器宽度 */
+  height: auto;  /* 高度自动，保持原始比例 */
+  border-radius: 10px;  /* 圆角边框 */
+  object-fit: cover;  /* 裁剪图片以填充定位区域 */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.15);  /* 轻微的阴影 */
 }
 
 /* 标题样式 */
-.caption {
-  margin-top: 8px; /* 标题距图片的距离 */
-  color: #333;
-  font-size: 14px; /* 字体大小 */
-  text-align: center; /* 文本居中对齐 */
+.daily-page-image .caption {
+  margin-top: 8px;  /* 标题距图片的距离 */
+  font-size: 14px;  /* 字体大小 */
+  color: #333;  /* 字体颜色 */
+  text-align: center;  /* 文本居中对齐 */
 }
+
+
