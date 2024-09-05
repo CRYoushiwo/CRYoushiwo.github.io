@@ -494,13 +494,15 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .daily-page-image {
   display: flex;
   flex-wrap: wrap; /* 允许内容自动换行 */
-  justify-content: space-between; /* 图片之间保持平均间距 */
+  justify-content: center; /* 居中对齐 */
   margin-bottom: 20px; /* 容器底部间距 */
 }
 
 /* 单个图片项，包含图片和标题 */
 .image-item {
-  flex-basis: 48%; /* 每项占据大约一半的宽度，适用于两列布局 */
+  flex: 1 1 30%; /* 基础大小为30%，允许成长和缩小 */
+  max-width: 30%; /* 最大宽度为30%，适用于三列布局 */
+  margin: 0 1.5%; /* 水平间隔 */
   margin-bottom: 10px; /* 图片项底部间距 */
 }
 
@@ -520,7 +522,6 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   font-size: 14px; /* 标题字体大小 */
 }
 
-
 /* 自定义文本样式 */
 .daily-page-text-style p {
   text-indent: 2em; /* 设置首行缩进 */
@@ -531,3 +532,4 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   font-size: 1.2em; /* 第一个字母字体放大 */
   font-weight: bold; /* 加粗第一个字母 */
 }
+
