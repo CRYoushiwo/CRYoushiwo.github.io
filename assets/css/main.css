@@ -530,9 +530,8 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 主要CSS规则 */
 #main article {
-  margin: 0 auto;          /* 保持居中 */
-  width: 80%;              /* 更新宽度为80% */
-  margin-left: 10%;        /* 更新左边距为10%，以使内容居中 */
+  width: 70%;              /* 更新宽度为80% */
+  margin-left: 20%;        /* 更新左边距为10%，以使内容居中 */
   margin-right: 10%;       /* 更新右边距为10%，以使内容居中 */
   margin-bottom: 2em;      /* 保持底部外边距 */
 }
@@ -540,40 +539,40 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 /* 响应式媒体查询 */
 @media only screen and (min-width: 30em) {
   #main article {
-      width: 80%;
-      margin-left: 10%;
+      width: 70%;
+      margin-left: 20%;
       margin-right: 10%;
   }
 }
 
 @media only screen and (min-width: 37.5em) {
   #main article {
-      width: 80%;
-      margin-left: 10%;
+      width: 70%;
+      margin-left: 20%;
       margin-right: 10%;
   }
 }
 
 @media only screen and (min-width: 48em) {
   #main article {
-      width: 80%;
-      margin-left: 10%;
+      width: 70%;
+      margin-left: 20%;
       margin-right: 10%;
   }
 }
 
 @media only screen and (min-width: 62em) {
   #main article {
-      width: 80%;
-      margin-left: 10%;
+      width: 70%;
+      margin-left: 20%;
       margin-right: 10%;
   }
 }
 
 @media only screen and (min-width: 86.375em) {
   #main article {
-      width: 80%;
-      margin-left: 10%;
+      width: 70%;
+      margin-left: 20%;
       margin-right: 10%;
   }
 }
