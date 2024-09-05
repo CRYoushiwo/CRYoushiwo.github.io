@@ -506,7 +506,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 图片样式 */
 .image-item img {
-  width: 100%; /* 图片宽度自适应容器宽度 */
+  width: 80%; /* 图片宽度自适应容器宽度 */
   height: auto; /* 高度自动，保持图片原始比例 */
   border-radius: 8px; /* 图片圆角 */
   box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* 图片阴影 */
@@ -521,4 +521,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 }
 
 
+/* 自定义文本样式 */
+.daily-page-text-style p {
+  text-indent: 2em; /* 设置首行缩进 */
+  font-size: 1em; /* 默认字体大小 */
+}
 
+.daily-page-text-style p::first-letter {
+  font-size: 1.2em; /* 第一个字母字体放大 */
+  font-weight: bold; /* 加粗第一个字母 */
+}
