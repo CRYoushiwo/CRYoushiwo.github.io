@@ -418,9 +418,9 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     #main article {
         display: inline;
         float: left;
-        width: 70%;  /* Updated width to 70% */
-        margin-left: 0;  /* Adjust margins to zero to use alongside another block */
-        margin-right: 0;
+        width: 65%;  /* Updated width to 65% */
+        margin-left: 0%;  /* Adjust margins to zero to use alongside another block */
+        margin-right: 5%;
     }
     #index {
         display: inline;
@@ -440,9 +440,9 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
         display: block;
         display: inline;
         float: left;
-        width: 30%;  /* Updated to take remaining 30% space */
-        margin-left: 0%;
-        margin-right: 0%;
+        width: 16.666666666666668%;  /* Updated to take remaining 30% space */
+        margin-left: 4.166666666666667%%;
+        margin-right: 4.166666666666667%%;
     }
     .article-author-bottom {
         display: none;
@@ -494,9 +494,9 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     #main article {
         display: inline;
         float: left;
-        width: 70%;  /* Updated width to 70% */
+        width: 65%;  /* Updated width to 65% */
         margin-left: 0%;  /* Adjust margin-left if necessary */
-        margin-right: 0%;  /* Adjust margin-right if necessary */
+        margin-right: 5%;  /* Adjust margin-right if necessary */
     }
     #index {
         display: inline;
@@ -520,13 +520,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
     .article-author-top {
         display: inline;
         float: left;
-        width: 30%;  /* Updated to 30% to match the proportionate space alongside article */
-        margin-left: 0%;  /* Adjusted margin-left to zero */
-        margin-right: 0%;  /* Adjusted margin-right to zero */
+        width: 12.5%;  /* Updated to 30% to match the proportionate space alongside article */
+        margin-left: 16.666666666666668%%;  /* Adjusted margin-left to zero */
     }
 }
 
 @media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
+
 /*目录设置*/
 .toc {
   position: sticky;
