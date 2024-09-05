@@ -5,11 +5,11 @@ title: Daily
 comments: false
 ---
 
-# 观电影「姥姥的外孙」有感
+### 观电影「姥姥的外孙」有感
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125854.jpg" style="max-width: 50%; height: auto;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125863.jpg" style="max-width: 50%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125854.jpg" style="max-width: 40%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125863.jpg" style="max-width: 40%; height: auto;">
 </div>
 
 这两天和多年没见的高中好友在西安相见，临别时，她决定和我一同去看一部电影。其实最初听到这是一部泰国电影时，我并没有非常激动，原因很简单，我本身就不是一个常去电影院的人，更别提是一部非中/英文电影。就像电影对我的吸引力一样，「姥姥的外孙」似乎并没有俘获国人的芳心，两个人到场后才发现，我们包了全场，结果最后看完哭得稀里哗啦。
