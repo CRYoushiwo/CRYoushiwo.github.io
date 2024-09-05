@@ -496,7 +496,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 /* 单个图片项，包含图片和标题 */
 .image-item {
   flex: 1 1 30%; /* 基础大小为30%，允许成长和缩小 */
-  max-width: 30%; /* 最大宽度为30%，适用于三列布局 */
+  max-width: 80%; /* 最大宽度为30%，适用于三列布局 */
   margin: 0 1.5%; /* 水平间隔 */
   margin-bottom: 10px; /* 图片项底部间距 */
 }
