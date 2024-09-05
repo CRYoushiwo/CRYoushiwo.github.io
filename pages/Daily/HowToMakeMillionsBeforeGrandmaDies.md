@@ -9,9 +9,11 @@ comments: false
     <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125854.jpg" alt="Image 1">
     </div>
+    <div class="caption"> </div>
     <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125863.jpg" alt="Image 2">
     </div>
+    <div class="caption"> </div>
 </div>
 
 <div class="custom-text-style">
@@ -22,6 +24,7 @@ comments: false
     <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051125762.jpg" alt="Image 3">
     </div>
+    <div class="caption"> </div>
 </div>
 
 <div class="custom-text-style">
@@ -32,6 +35,7 @@ comments: false
     <div class="image-item">
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409051129269.jpg" alt="Image 4">
     </div>
+    <div class="caption"> </div>
 </div>
 
 
