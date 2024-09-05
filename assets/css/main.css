@@ -506,7 +506,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 图片样式 */
 .image-item img {
-  width: 80%; /* 图片宽度自适应容器宽度 */
+  width: 100%; /* 图片宽度自适应容器宽度 */
   height: auto; /* 高度自动，保持图片原始比例 */
   border-radius: 8px; /* 图片圆角 */
   box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* 图片阴影 */
