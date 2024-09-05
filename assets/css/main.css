@@ -529,8 +529,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /* 自定义文本样式 */
 .daily-page-text-style p {
-  text-indent: 2em; /* 设置首行缩进 */
-  font-size: 1em; /* 默认字体大小 */
+  text-indent: 50px; /* 设置首行缩进 */
 }
 
 
