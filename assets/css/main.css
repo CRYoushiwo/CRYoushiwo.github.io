@@ -490,39 +490,35 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /************************************************************daily-page.html************************************************************/
 
-/* 容器样式，用于包裹图片和标题 */
-/* 为图片容器设置样式 */
-/* 为图片容器设置样式 */
+/* 容器，包含所有图片和标题 */
 .daily-page-image {
   display: flex;
-  flex-wrap: wrap;  /* 允许图片自动换行 */
-  justify-content: space-around;  /* 图片间平均分布 */
-  align-items: flex-start;  /* 对齐到容器的顶部 */
-  gap: 10px;  /* 图片间隔 */
+  flex-wrap: wrap; /* 允许内容自动换行 */
+  justify-content: space-between; /* 图片之间保持平均间距 */
+  margin-bottom: 20px; /* 容器底部间距 */
 }
 
-/* 为单张图片及其标题设置样式 */
-.daily-page-image .image-item {
-  flex: 1 1 200px;  /* 基础大小为200px，但可伸缩 */
-  display: flex;
-  flex-direction: column;  /* 垂直排列 */
-  align-items: center;  /* 水平居中对齐 */
+/* 单个图片项，包含图片和标题 */
+.image-item {
+  flex-basis: 48%; /* 每项占据大约一半的宽度，适用于两列布局 */
+  margin-bottom: 10px; /* 图片项底部间距 */
 }
 
-.daily-page-image img {
-  width: 100%;  /* 图片宽度自动填充容器宽度 */
-  height: auto;  /* 高度自动，保持原始比例 */
-  border-radius: 10px;  /* 圆角边框 */
-  object-fit: cover;  /* 裁剪图片以填充定位区域 */
-  box-shadow: 0 2px 4px rgba(0,0,0,0.15);  /* 轻微的阴影 */
+/* 图片样式 */
+.image-item img {
+  width: 100%; /* 图片宽度自适应容器宽度 */
+  height: auto; /* 高度自动，保持图片原始比例 */
+  border-radius: 8px; /* 图片圆角 */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15); /* 图片阴影 */
 }
 
-/* 标题样式 */
-.daily-page-image .caption {
-  margin-top: 8px;  /* 标题距图片的距离 */
-  font-size: 14px;  /* 字体大小 */
-  color: #333;  /* 字体颜色 */
-  text-align: center;  /* 文本居中对齐 */
+/* 图片标题样式 */
+.image-item .caption {
+  text-align: center; /* 标题居中对齐 */
+  margin-top: 5px; /* 标题与图片间距 */
+  color: #333; /* 标题颜色 */
+  font-size: 14px; /* 标题字体大小 */
 }
+
 
 
