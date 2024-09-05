@@ -494,7 +494,7 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 .daily-page-image {
   display: flex;
   flex-wrap: wrap; /* 允许内容自动换行 */
-  justify-content: center; /* 居中对齐 */
+  justify-content: center; /* 居中对齐，确保单张图片也居中 */
   margin-bottom: 20px; /* 容器底部间距 */
 }
 
@@ -504,6 +504,11 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   max-width: 30%; /* 最大宽度为30%，适用于三列布局 */
   margin: 0 1.5%; /* 水平间隔 */
   margin-bottom: 10px; /* 图片项底部间距 */
+}
+
+/* 特别对待只有一张图片的情况 */
+.image-item:only-child {
+  max-width: 100%; /* 单张图片时宽度为100% */
 }
 
 /* 图片样式 */
@@ -528,8 +533,4 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   font-size: 1em; /* 默认字体大小 */
 }
 
-.daily-page-text-style p::first-letter {
-  font-size: 1.2em; /* 第一个字母字体放大 */
-  font-weight: bold; /* 加粗第一个字母 */
-}
 
