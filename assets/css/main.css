@@ -1,402 +1,2023 @@
+/* 设置article, aside, details等块级元素默认为块级显示 */
 article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,summary{display:block;}
+
+/* 设置audio, canvas, video为内联块级元素 */
 audio,canvas,video{display:inline-block;}
+
+/* 如果audio元素没有控制条，则不显示 */
 audio:not([controls]){display:none;height:0;}
+
+/* 隐藏具有hidden属性的元素 */
 [hidden]{display:none;}
+
+/* 设置全局默认字体为无衬线字体，调整文字大小不受设备影响 */
 html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}
+
+/* 设置body的外边距为0 */
 body{margin:0;}
+
+/* 设置聚焦时的轮廓线样式 */
 a:focus{outline:thin dotted;}
+
+/* 设置激活状态和鼠标悬停时不显示轮廓线 */
 a:active,a:hover{outline:0;}
+
+/* 设置一级标题的字体大小和外边距 */
 h1{font-size:2em;margin:0.67em 0;}
+
+/* 设置缩写元素的下划线样式 */
 abbr[title]{border-bottom:1px dotted;}
+
+/* 设置粗体字元素的字体加粗 */
 b,strong{font-weight:bold;}
+
+/* 设置定义元素的字体样式为斜体 */
 dfn{font-style:italic;}
+
+/* 设置水平线的盒子模型，无高度 */
 hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0;}
+
+/* 设置标记元素的背景色和文字颜色 */
 mark{background:#ff0;color:#000;}
+
+/* 设置代码显示相关元素的字体和大小 */
 code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}
+
+/* 设置预格式化文本的换行样式 */
 pre{white-space:pre-wrap;}
+
+/* 设置引用的样式 */
 q{quotes:"\201C" "\201D" "\2018" "\2019";}
+
+/* 设置小号字体的大小为80% */
 small{font-size:80%;}
+
+/* 设置上标和下标的字体大小、行高和相对定位 */
 sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}
-sup{top:-0.5em;}
-sub{bottom:-0.25em;}
+sup{top:-0.5em;}  /* 上标偏移 */
+sub{bottom:-0.25em;}  /* 下标偏移 */
+
+/* 设置图片边框为0 */
 img{border:0;}
+
+/* 设置SVG非根元素隐藏溢出 */
 svg:not(:root){overflow:hidden;}
+
+/* 设置figure元素的外边距为0 */
 figure{margin:0;}
+
+/* 设置字段集的边框、外边距和内边距 */
 fieldset{border:1px solid #c0c0c0;margin:0 2px;padding:0.35em 0.625em 0.75em;}
+
+/* 设置图例的边框和内边距为0 */
 legend{border:0;padding:0;}
+
+/* 设置按钮、输入框、选择框、文本区的字体、大小和外边距 */
 button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}
+
+/* 设置按钮和输入框的行高为正常 */
 button,input{line-height:normal;}
+
+/* 设置按钮和选择框的文本不进行转换 */
 button,select{text-transform:none;}
+
+/* 设置按钮和某些输入类型的外观 */
 button,html input[type="button"],input[type="reset"],input[type="submit"]{-webkit-appearance:button;cursor:pointer;}
+
+/* 设置禁用状态的按钮和输入框的光标样式 */
 button[disabled],html input[disabled]{cursor:default;}
+
+/* 设置复选框和单选框的盒子模型和内边距 */
 input[type="checkbox"],input[type="radio"]{box-sizing:border-box;padding:0;}
+
+/* 设置搜索框的外观和盒子模型 */
 input[type="search"]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}
+
+/* 移除搜索框的取消按钮和装饰 */
 input[type="search"]::-webkit-search-cancel-button,input[type="search"]::-webkit-search-decoration{-webkit-appearance:none;}
+
+/* 移除按钮和输入框焦点内部的边距和边框 */
 button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+/* 设置文本区的自动溢出和垂直对齐方式 */
 textarea{overflow:auto;vertical-align:top;}
+
+/* 设置表格的边框合并、间隔和外边距 */
 table{border-collapse:collapse;border-spacing:0;margin-bottom:1.5em;}
+
+/* 设置文字选择的背景颜色和文字颜色 */
 ::-moz-selection{background-color:#dadada;color:#343434;text-shadow:none;}
 ::selection{background-color:#dadada;color:#343434;text-shadow:none;}
+
+/* 设置全大写文本的转换 */
 .all-caps{text-transform:uppercase;}
+
+/* 设置元素向左浮动 */
 .pull-left{float:left;}
+
+/* 设置元素向右浮动 */
 .pull-right{float:right;}
+
+/* 设置清除浮动的工具类 */
 .clearfix{*zoom:1;}.clearfix:before,.clearfix:after{display:table;content:"";}
 .clearfix:after{clear:both;}
+
+/* 设置无样式列表的样式和外边距 */
 .unstyled-list{list-style:none;margin-left:0;padding-left:0;}.unstyled-list li{list-style-type:none;}
-@font-face{font-family:"Ampersand";src:local("Georgia"),local("Garamond"),local("Palatino"),local("Book Antiqua");unicode-range:U+270C;}@font-face{font-family:"Ampersand";src:local("Georgia");unicode-range:U+270C;}.ampersand-placeholder{font-family:Verdana,sans-serif;}
-.breakword{word-wrap:break-word;}
-.normal-wrap{word-wrap:normal;}
-.inherit-wrap{word-wrap:auto;}
-.drop-cap:first-letter{float:left;margin:inherit;padding:inherit;font-size:4em;font-family:inherit;line-height:1;text-indent:0;background:transparent;color:inherit;}
-html{font:normal 112.5%/1.65 serif;}
-body{word-wrap:normal;color:#333332;}
-.tera{font-size:117px;font-size:6.5rem;margin-bottom:0.25384615384615383rem;}
-.giga{font-size:90px;font-size:5rem;margin-bottom:0.33rem;}
-.mega{font-size:72px;font-size:4rem;margin-bottom:0.4125rem;}
-.alpha{font-size:60px;font-size:3.3333333333333335rem;margin-bottom:0.495rem;}
-.beta{font-size:48px;font-size:2.6666666666666665rem;margin-bottom:0.61875rem;}
-.gamma{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
-.delta{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;}
-.epsilon{font-size:21px;font-size:1.1666666666666667rem;margin-bottom:1.4142857142857141rem;}
-.zeta{font-size:18px;font-size:1rem;margin-bottom:1.65rem;}
-h1{font-size:60px;font-size:3.3333333333333335rem;margin-bottom:0.495rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-h2{font-size:48px;font-size:2.6666666666666665rem;margin-bottom:0.61875rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-h3{font-size:36px;font-size:2rem;margin-bottom:0.825rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-h4{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-h5{font-size:21px;font-size:1.1666666666666667rem;margin-bottom:1.4142857142857141rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-h6{font-size:18px;font-size:1rem;margin-bottom:1.65rem;text-rendering:optimizeLegibility;line-height:1;margin-top:0;}
-p{margin:0 0 1.5em;}p+p{text-indent:1.5em;margin-top:-1.5em;}
-abbr,acronym,blockquote,code,dir,kbd,listing,plaintext,q,samp,tt,var,xmp{-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;-o-hyphens:none;hyphens:none;}
-pre code{word-wrap:normal;white-space:-moz-pre-wrap;white-space:pre-wrap;}
-pre{white-space:pre;}
-code{white-space:pre;font-family:monospace;}
-abbr{font-variant:small-caps;font-weight:400;text-transform:lowercase;color:#333332;}abbr:hover{cursor:help;}
-h1,h2,h3,h4,h5,h6{color:#333332;}
-.lining dt,.lining dd{display:inline;margin:0;}
-.lining dt+dt:before,.lining dd+dt:before{content:"\A";white-space:pre;}
-.lining dd+dd:before{content:", ";}
-.lining dd:before{content:": ";margin-left:-0.2rem;}
-.dictionary-style dt{display:inline;counter-reset:definitions;}.dictionary-style dt+dt:before{content:", ";margin-left:-0.2rem;}
-.dictionary-style dd{display:block;counter-increment:definitions;}.dictionary-style dd:before{content:counter(definitions, decimal) ". ";}
-.stats-tabs{padding:0;}.stats-tabs li{display:inline-block;margin:0 0.625rem 0 0;padding:0 0.625rem 0 0;border-right:0.125rem solid #cccccc;}.stats-tabs li:last-child{margin:0;padding:0;border:none;}
-.stats-tabs li a{display:inline-block;font-size:1.5rem;font-weight:bold;}.stats-tabs li a b{display:block;margin:0.125rem 0 0 0;font-size:0.875rem;font-weight:normal;}
-.cite{display:block;font-size:0.875em;text-align:right;}
-.pull-quote{position:relative;padding:1em;}.pull-quote:before,.pull-quote:after{height:1em;opacity:0.15;position:absolute;font-size:4em;}
-.pull-quote:before{content:'“';top:0em;left:0em;}
-.pull-quote:after{content:'”';bottom:0em;right:0em;}
-h1,h2,h3,h4,h5,h6{font-family:'PT Sans Narrow',sans-serif;font-weight:700;}
-h6{font-weight:400;}
-a{text-decoration:none;color:#343434;}a:visited{color:#4e4e4e;}
-a:hover{color:#1a1a1a;}
-a:focus{outline:thin dotted;color:#343434;}
-a:hover,a:active{outline:0;}
-b,strong{font-weight:700;}
-ul li{list-style-type:square;}
-ol li{list-style-type:upper-roman;}
-p>a,li>a,em>a,a>em,footer a{text-decoration:none;border-bottom:1px dotted #b3b3b1;}
-p>a:hover,li>a:hover,em>a:hover,footer a:hover{text-decoration:none;border-bottom:1px solid #b3b3b1;}
-figcaption{margin-top:0.75em;line-height:1.25;font-size:18px;font-size:1rem;margin-bottom:1.65rem;font-family:'PT Sans Narrow',sans-serif;counter-increment:captions;}figcaption:before{font-weight:700;text-transform:uppercase;content:"Figure " counter(captions) ": ";}
-.notice{margin-top:1.5em;padding:.5em 1em;text-indent:0;font-size:90%;background-color:#ddd;border-left:10px solid #ccc;}
-blockquote{font-style:italic;margin-left:0;padding-left:1em;border-left:10px solid #ccc;}blockquote p+p{text-indent:0;margin-top:0;}
-.footnotes{font-size:90%;}
-tt,code,kbd,samp,pre{font-family:Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;}
-p code{font-size:80%;white-space:nowrap;margin:0 2px;padding:0 5px;border:1px solid #e6e6e6;background-color:#f2f2f2;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
-.highlight{background-color:#efefef;font-family:Monaco,"Courier New","DejaVu Sans Mono","Bitstream Vera Sans Mono",monospace;font-size:80%;color:#333332;margin-bottom:1.5em;}
-.highlight pre{margin:0px;padding:1em;}
-.hll{background-color:#ffffcc;}
-.c{color:#999988;font-style:italic;}
-.err{color:#a61717;background-color:#e3d2d2;}
-.k{color:#000000;font-weight:bold;}
-.o{color:#000000;font-weight:bold;}
-.cm{color:#999988;font-style:italic;}
-.cp{color:#999999;font-weight:bold;font-style:italic;}
-.c1{color:#999988;font-style:italic;}
-.cs{color:#999999;font-weight:bold;font-style:italic;}
-.gd{color:#000000;background-color:#ffdddd;}
-.ge{color:#000000;font-style:italic;}
-.gr{color:#aa0000;}
-.gh{color:#999999;}
-.gi{color:#000000;background-color:#ddffdd;}
-.go{color:#888888;}
-.gp{color:#555555;}
-.gs{font-weight:bold;}
-.gu{color:#aaaaaa;}
-.gt{color:#aa0000;}
-.kc{color:#000000;font-weight:bold;}
-.kd{color:#000000;font-weight:bold;}
-.kn{color:#000000;font-weight:bold;}
-.kp{color:#000000;font-weight:bold;}
-.kr{color:#000000;font-weight:bold;}
-.kt{color:#445588;font-weight:bold;}
-.m{color:#009999;}
-.s{color:#d01040;}
-.na{color:#008080;}
-.nb{color:#0086b3;}
-.nc{color:#445588;font-weight:bold;}
-.no{color:#008080;}
-.nd{color:#3c5d5d;font-weight:bold;}
-.ni{color:#800080;}
-.ne{color:#990000;font-weight:bold;}
-.nf{color:#990000;font-weight:bold;}
-.nl{color:#990000;font-weight:bold;}
-.nn{color:#555555;}
-.nt{color:#000080;}
-.nv{color:#008080;}
-.ow{color:#000000;font-weight:bold;}
-.w{color:#bbbbbb;}
-.mf{color:#009999;}
-.mh{color:#009999;}
-.mi{color:#009999;}
-.mo{color:#009999;}
-.sb{color:#d01040;}
-.sc{color:#d01040;}
-.sd{color:#d01040;}
-.s2{color:#d01040;}
-.se{color:#d01040;}
-.sh{color:#d01040;}
-.si{color:#d01040;}
-.sx{color:#d01040;}
-.sr{color:#009926;}
-.s1{color:#d01040;}
-.ss{color:#990073;}
-.bp{color:#999999;}
-.vc{color:#008080;}
-.vg{color:#008080;}
-.vi{color:#008080;}
-.il{color:#009999;}
-.hidden{display:none;visibility:hidden;}
-.visuallyhidden.focusable:active,.visuallyhidden.focusable:focus{position:static;clip:auto;height:auto;width:auto;margin:0;overflow:visible;}
-.visible-phone{display:none !important;}
-.visible-tablet{display:none !important;}
-.hidden-desktop{display:none !important;}
-/*@media (max-width:767px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:768px) and (max-width:979px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}*/
-/* Update in 28 Aug 2023 by Hanlin */
-@media (max-width:1100px){.visible-phone{display:inherit !important;} .hidden-phone{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important;}}@media (min-width:1100px) and (max-width:1300px){.visible-tablet{display:inherit !important;} .hidden-tablet{display:none !important;} .hidden-desktop{display:inherit !important;} .visible-desktop{display:none !important ;}}hr{display:block;margin:1em 0;padding:0;height:1px;border:0;border-top:1px solid #ccc;border-bottom:1px solid #fff;}
-article img{max-width:100%;height:auto;border-width:0;vertical-align:middle;-ms-interpolation-mode:bicubic;}
-svg:not(:root){overflow:hidden;}
-.half{margin:0 auto;width:100%;*zoom:1;}.half:before,.half:after{display:table;content:"";}
-.half:after{clear:both;}
-.half:before,.half:after{content:"";display:table;}
-.half:after{clear:both;}
-.half img{display:inline;float:left;width:50%;}
-.half figcaption{display:inline;float:left;width:100%;}
-.third{margin:0 auto;width:100%;*zoom:1;}.third:before,.third:after{display:table;content:"";}
-.third:after{clear:both;}
-.third:before,.third:after{content:"";display:table;}
-.third:after{clear:both;}
-.third img{display:inline;float:left;width:33.333333333333336%;}
-.third figcaption{display:inline;float:left;width:100%;}
-img.floatpic{float:right; margin-left:1em; width:33%;}
-.btn{display:inline-block;*display:inline;*zoom:1;padding:12px 24px;margin-bottom:2em;line-height:1;text-align:center;text-transform:uppercase;vertical-align:middle;border:4px double #333332;-webkit-border-radius:50px;-moz-border-radius:50px;border-radius:50px;cursor:pointer;*margin-left:.3em;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.btn:visited{border:4px double #4e4e4e;}
-.btn:hover{border:4px double #1a1a1a;}
-.btn:first-child{*margin-left:0;}
-.btn-inverse{border:4px double #ffffff;color:#ffffff;background-color:#000000;}.btn-inverse:visited{color:#ffffff;border-color:#ffffff;}
-.btn-inverse:hover{color:#ffffff;border-color:#ffffff;}
-.btn-small{font-size:60%;padding:6px 12px;}
-.well{min-height:20px;padding:19px;margin-bottom:20px;background-color:#f5f5f5;border:1px solid #e3e3e3;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;-webkit-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);-moz-box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);box-shadow:inset 0 1px 1px rgba(0, 0, 0, 0.05);}
-@font-face{font-family:'icomoon';src:url('../fonts/icomoon.eot');src:url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'),url('../fonts/icomoon.woff') format('woff'),url('../fonts/icomoon.ttf') format('truetype'),url('../fonts/icomoon.svg#icomoon') format('svg');font-weight:normal;font-style:normal;}[data-icon]:before{font-family:'icomoon';content:attr(data-icon);speak:none;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;}
-.icon-instagram,.icon-facebook,.icon-twitter,.icon-google-plus,.icon-feed,.icon-feed-2,.icon-linkedin,.icon-tumblr,.icon-lastfm,.icon-mail,.icon-github{font-family:'icomoon';speak:none;font-style:normal;font-weight:normal;font-variant:normal;text-transform:none;line-height:1;-webkit-font-smoothing:antialiased;}
-.icon-instagram:before{content:"\e004";}
-.icon-facebook:before{content:"\e003";}
-.icon-twitter:before{content:"\e007";}
-.icon-google-plus:before{content:"\e00a";}
-.icon-feed:before{content:"\e00b";}
-.icon-feed-2:before{content:"\e00c";}
-.icon-linkedin:before{content:"\e001";}
-.icon-tumblr:before{content:"\e002";}
-.icon-lastfm:before{content:"\e005";}
-.icon-mail:before{content:"\e006";}
-.icon-github:before{content:"\e000";}
-form{margin:0 0 5px 0;}form fieldset{margin-bottom:5px;padding:0;border-width:0;}
-form legend{display:block;width:100%;margin-bottom:10px;*margin-left:-7px;padding:0;color:#333332;border:0;border-bottom:1px solid #cccccc;white-space:normal;}
-form p{margin-bottom:2.5px;}
-form ul{list-style-type:none;margin:0 0 5px 0;padding:0;}
-form br{display:none;}
-label,input,button,select,textarea{vertical-align:baseline;*vertical-align:middle;}
-input,button,select,textarea{font-family:'PT Serif',serif;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;}
-label{display:block;margin-bottom:1.25px;font-weight:bold;color:#333332;cursor:pointer;}label input,label textarea,label select{display:block;}
-input,textarea,select{display:inline-block;width:100%;padding:4px;margin-bottom:1.25px;background-color:#ffffff;border:1px solid #cccccc;color:#333332;}input:hover,textarea:hover,select:hover{border-color:#808080;}
-.input-mini{width:60px;}
-.input-small{width:90px;}
-input[type="image"],input[type="checkbox"],input[type="radio"]{width:auto;height:auto;padding:0;margin:3px 0;*margin-top:0;line-height:normal;cursor:pointer;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;border:0 \9;}
-input[type="checkbox"],input[type="radio"]{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;-ms-box-sizing:border-box;box-sizing:border-box;padding:0;*width:13px;*height:13px;}
-input[type="image"]{border:0;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
-input[type="file"]{width:auto;padding:initial;line-height:initial;border:initial;background-color:transparent;background-color:initial;-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
-input[type="button"],input[type="reset"],input[type="submit"]{width:auto;height:auto;cursor:pointer;*overflow:visible;}
-select,input[type="file"]{*margin-top:4px;}
-select{width:auto;background-color:#ffffff;}
-select[multiple],select[size]{height:auto;}
-textarea{resize:vertical;height:auto;overflow:auto;vertical-align:top;}
-input[type="hidden"]{display:none;}
-.radio,.checkbox{padding-left:18px;font-weight:normal;}
-.radio input[type="radio"],.checkbox input[type="checkbox"]{float:left;margin-left:-18px;}
-.radio.inline,.checkbox.inline{display:inline-block;padding-top:5px;margin-bottom:0;vertical-align:middle;}
-.radio.inline+.radio.inline,.checkbox.inline+.checkbox.inline{margin-left:10px;}
-input[disabled],select[disabled],textarea[disabled],input[readonly],select[readonly],textarea[readonly]{-webkit-opacity:0.5;-moz-opacity:0.5;opacity:0.5;cursor:not-allowed;}
-input:focus,textarea:focus{border-color:#000000;outline:0;outline:thin dotted \9;}
-input[type="file"]:focus,input[type="radio"]:focus,input[type="checkbox"]:focus,select:focus{-webkit-box-shadow:none;-moz-box-shadow:none;box-shadow:none;}
-.help-block,.help-inline{color:#808080;}
-.help-block{display:block;margin-bottom:1em;line-height:1em;}
-.help-inline{display:inline-block;vertical-align:middle;padding-left:5px;}
-.form-inline input,.form-inline textarea,.form-inline select{display:inline-block;margin-bottom:0;}
-.form-inline label{display:inline-block;}
-.form-inline .radio,.form-inline .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
-.form-inline .radio input[type="radio"],.form-inline .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
-.form-search input,.form-search textarea,.form-search select{display:inline-block;margin-bottom:0;}
-.form-search .search-query{padding-left:14px;padding-right:14px;margin-bottom:0;-webkit-border-radius:14px;-moz-border-radius:14px;border-radius:14px;}
-.form-search label{display:inline-block;}
-.form-search .radio,.form-search .checkbox,.form-inline .radio{padding-left:0;margin-bottom:0;vertical-align:middle;}
-.form-search .radio input[type="radio"],.form-search .checkbox input[type="checkbox"]{float:left;margin-left:0;margin-right:3px;}
-html{background-color:#ffffff;font-family:'PT Serif',serif;font-color:#333332;font-size:90%;}
-.navigation-wrapper{margin:0 auto;width:100%;padding:2em 0 3em;font-family:'PT Sans Narrow',sans-serif;font-weight:700;text-transform:uppercase;}
-.site-name{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
-.top-navigation{margin:0 auto;width:100%;display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:1em;}
-.top-navigation ul{list-style:none;margin:0;padding:0;}
-.top-navigation li{list-style-type:none;display:inline;margin-right:25px;}.top-navigation li a{decoration:none;border-bottom:0 solid transparent;-webkit-transition:all 0.2s;-moz-transition:all 0.2s;-ms-transition:all 0.2s;-o-transition:all 0.2s;transition:all 0.2s;}
-.top-navigation-current{text-decoration: overline;}
-#main{counter-reset:captions;margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;}#main:before,#main:after{display:table;content:"";}
-#main:after{clear:both;}
-#main:before,#main:after{content:"";display:table;}
-#main:after{clear:both;}
+
+/* 定义一个新的字体族名为 "Ampersand"，指定多个本地字体源，覆盖的Unicode范围为 U+270C（✌手势符号） */
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia"), local("Garamond"), local("Palatino"), local("Book Antiqua");
+  unicode-range: U+270C;
+}
+
+/* 重复定义 "Ampersand" 字体，但这次只包含一个字体源，同样覆盖的Unicode范围为 U+270C */
+@font-face {
+  font-family: "Ampersand";
+  src: local("Georgia");
+  unicode-range: U+270C;
+}
+
+/* 定义类 .ampersand-placeholder，设置字体为 Verdana 或者无衬线字体（sans-serif） */
+.ampersand-placeholder {
+  font-family: Verdana, sans-serif;
+}
+
+/* 定义类 .breakword，设置单词换行方式为 break-word，超出部分自动换行到下一行 */
+.breakword {
+  word-wrap: break-word;
+}
+
+/* 定义类 .normal-wrap，设置单词换行方式为 normal，即不强制换行，只在必要时自动换行 */
+.normal-wrap {
+  word-wrap: normal;
+}
+
+/* 定义类 .inherit-wrap，设置单词换行方式继承自父元素 */
+.inherit-wrap {
+  word-wrap: auto;
+}
+
+/* 定义类 .drop-cap 针对首字母，将首字母浮动到左侧，字体放大到 4 倍，使用继承自父元素的字体和颜色 */
+.drop-cap:first-letter {
+  float: left;            /* 首字母左浮动 */
+  margin: inherit;        /* 继承外边距 */
+  padding: inherit;       /* 继承内边距 */
+  font-size: 4em;         /* 字体大小为正常的 4 倍 */
+  font-family: inherit;   /* 继承字体 */
+  line-height: 1;         /* 行高为 1 */
+  text-indent: 0;         /* 文本缩进为 0 */
+  background: transparent;/* 背景透明 */
+  color: inherit;         /* 继承文字颜色 */
+}
+
+/* 设定根元素（HTML）的默认字体样式、行高和字体类型 */
+html {
+  font: normal 112.5%/1.65 serif;
+}
+
+/* 设定body元素的换行行为和文字颜色 */
+body {
+  word-wrap: normal;
+  color: #333332;
+}
+
+/* 定义一系列类用于设置不同的字体大小和底部边距 */
+.tera, .giga, .mega, .alpha, .beta, .gamma, .delta, .epsilon, .zeta {
+  font-size: /* 每个类别有不同的像素值和rem值 */;
+  margin-bottom: /* 不同的底部边距 */;
+}
+
+/* 设置所有标题（h1至h6）的字体大小、底部边距、文本渲染优化、行高和顶部边距 */
+h1, h2, h3, h4, h5, h6 {
+  font-size: /* 根据级别不同有不同的像素值和rem值 */;
+  margin-bottom: /* 不同的底部边距 */;
+  text-rendering: optimizeLegibility;  /* 优化字体的可读性 */
+  line-height: 1;
+  margin-top: 0;
+}
+
+/* p元素默认不设顶部边距，底部边距为1.5em */
+p {
+  margin: 0 0 1.5em;
+}
+
+/* 连续p元素第二个开始设定文本缩进，调整顶部边距以贴合前一个段落 */
+p+p {
+  text-indent: 1.5em;
+  margin-top: -1.5em;
+}
+
+/* 特殊元素的字体处理和排版行为 */
+abbr, acronym, blockquote, code, dir, kbd, listing, plaintext, q, samp, tt, var, xmp {
+  -webkit-hyphens: none;
+  -moz-hyphens: none;
+  -ms-hyphens: none;
+  -o-hyphens: none;
+  hyphens: none;  /* 不使用连字符自动分割 */
+}
+
+/* 代码元素的处理 */
+pre code {
+  word-wrap: normal;
+  white-space: pre-wrap;  /* 代码块内保持空白符和格式 */
+}
+pre {
+  white-space: pre;  /* 预格式化文本 */
+}
+code {
+  white-space: pre;
+  font-family: monospace;  /* 等宽字体 */
+}
+
+/* 缩写和首字母缩略词的处理 */
+abbr {
+  font-variant: small-caps;
+  font-weight: 400;
+  text-transform: lowercase;
+  color: #333332;
+}
+abbr:hover {
+  cursor: help;  /* 鼠标悬停时显示帮助指针 */
+}
+
+/* 设置所有标题元素的颜色和字体 */
+h1, h2, h3, h4, h5, h6 {
+  color: #333332;
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-weight: 700; /* 加粗 */
+}
+
+h6 {
+  font-weight: 400; /* h6不加粗 */
+}
+
+/* 设置超链接的默认样式、访问后的颜色和悬停状态 */
+a {
+  text-decoration: none; /* 去掉下划线 */
+  color: #343434;
+}
+a:visited {
+  color: #4e4e4e; /* 访问后的颜色 */
+}
+a:hover, a:active {
+  color: #1a1a1a; /* 悬停或激活时的颜色 */
+  outline: 0; /* 去掉轮廓 */
+}
+
+/* 重点文本样式 */
+b, strong {
+  font-weight: 700; /* 加粗 */
+}
+
+/* 列表样式 */
+ul li {
+  list-style-type: square; /* 方块列表标记 */
+}
+ol li {
+  list-style-type: upper-roman; /* 罗马数字大写 */
+}
+
+/* 引用和提醒样式 */
+blockquote {
+  font-style: italic; /* 斜体 */
+  margin-left: 0;
+  padding-left: 1em;
+  border-left: 10px solid #ccc; /* 左边框 */
+}
+.notice {
+  margin-top: 1.5em;
+  padding: 0.5em 1em;
+  font-size: 90%;
+  background-color: #ddd;
+  border-left: 10px solid #ccc; /* 注意条的左边框 */
+}
+
+/* 图例和脚注样式 */
+figcaption {
+  margin-top: 0.75em;
+  line-height: 1.25;
+  font-size: 1rem; /* 使用rem单位确保相对大小 */
+  margin-bottom: 1.65rem;
+  font-family: 'PT Sans Narrow', sans-serif;
+  counter-increment: captions; /* 为每个图例增加一个计数器 */
+}
+figcaption:before {
+  font-weight: 700; /* 加粗 */
+  text-transform: uppercase; /* 大写 */
+  content: "Figure " counter(captions) ": "; /* 自动编号图例 */
+}
+
+/* 拉引号引用样式 */
+.pull-quote {
+  position: relative;
+  padding: 1em;
+}
+.pull-quote:before, .pull-quote:after {
+  height: 1em;
+  opacity: 0.15;
+  position: absolute;
+  font-size: 4em; /* 大引号 */
+}
+.pull-quote:before {
+  content: '“'; /* 左引号 */
+  top: 0em;
+  left: 0em;
+}
+.pull-quote:after {
+  content: '”'; /* 右引号 */
+  bottom: 0em;
+  right: 0em;
+}
+
+/* 编程代码样式 */
+tt, code, kbd, samp, pre {
+  font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace; /* 等宽字体 */
+}
+
+/* 为代码片段设置样式，如在<p>标签中嵌入<code> */
+p code {
+  font-size: 80%;
+  white-space: nowrap; /* 不换行 */
+  margin: 0 2px; /* 外边距 */
+  padding: 0 5px; /* 内边距 */
+  border: 1px solid #e6e6e6; /* 边框 */
+  background-color: #f2f2f2; /* 背景色 */
+  border-radius: 3px; /* 边框圆角 */
+}
+
+/* 为高亮显示的代码块设置背景色和字体样式 */
+.highlight {
+  background-color: #efefef; /* 背景色 */
+  font-family: Monaco, "Courier New", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", monospace; /* 等宽字体 */
+  font-size: 80%;
+  color: #333332; /* 字体颜色 */
+  margin-bottom: 1.5em; /* 下外边距 */
+}
+
+/* 设置预格式化文本的边距和内边距 */
+.highlight pre {
+  margin: 0px;
+  padding: 1em;
+}
+
+/* 设置各种语法高亮颜色和样式 */
+.hll { background-color: #ffffcc; }
+.c { color: #999988; font-style: italic; } /* 注释 */
+.err { color: #a61717; background-color: #e3d2d2; } /* 错误 */
+.k, .kp, .kt, .kr, .kc, .kd, .kn { color: #000000; font-weight: bold; } /* 关键字 */
+.o { color: #000000; font-weight: bold; } /* 运算符 */
+.cm, .c1, .cs { color: #999988; font-style: italic; } /* 注释 */
+.gd { background-color: #ffdddd; } /* 删除部分 */
+.ge { color: #000000; font-style: italic; }
+.gr { color: #aa0000; }
+.gh { color: #999999; }
+.gi { background-color: #ddffdd; } /* 添加部分 */
+.go { color: #888888; }
+.gp { color: #555555; }
+.gs { font-weight: bold; }
+.gu { color: #aaaaaa; }
+.gt { color: #aa0000; }
+.m, .mf, .mh, .mi, .mo { color: #009999; } /* 数字 */
+.s, .sb, .sc, .sd, .s2, .se, .sh, .si, .sx, .sr, .s1, .ss { color: #d01040; } /* 字符串 */
+.na, .no, .nv { color: #008080; } /* 名称 */
+.nb { color: #0086b3; }
+.nc { color: #445588; font-weight: bold; } /* 类名 */
+.nd { color: #3c5d5d; font-weight: bold; } /* 日期 */
+.ni { color: #800080; }
+.ne, .nf, .nl, .nn { color: #990000; font-weight: bold; }
+.nt { color: #000080; } /* 标签名 */
+.ow { color: #000000; font-weight: bold; } /* 覆盖关键字 */
+.w { color: #bbbbbb; } /* 空白符 */
+
+/* 设置隐藏元素的显示逻辑 */
+.hidden { display: none; visibility: hidden; }
+.visible-phone { display: none !important; }
+.visible-tablet { display: none !important; }
+.hidden-desktop { display: none !important; }
+.visuallyhidden.focusable:active, .visuallyhidden.focusable:focus {
+  position: static;
+  clip: auto;
+  height: auto;
+  width: auto;
+  margin: 0;
+  overflow: visible;
+}
 
 /* Update in 28 Aug 2023 by Hanlin */
-.wide {
-    width: 90% !important;
+/* 媒体查询，用于处理不同屏幕尺寸下的显示逻辑 */
+@media (max-width:1100px) {
+  .visible-phone {
+      display: inherit !important; /* 在手机尺寸显示 */
   }
-#main article{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}
-#index{margin:0 auto;width:100%;display:inline;float:left;width:90%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;margin-bottom:2em;}#index article h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;margin-bottom:0;}
-#index article p+p{text-indent:0;}
+  .hidden-phone {
+      display: none !important; /* 在手机尺寸隐藏 */
+  }
+  .hidden-desktop {
+      display: inherit !important; /* 在桌面尺寸隐藏的内容，在手机尺寸显示 */
+  }
+  .visible-desktop {
+      display: none !important; /* 在桌面尺寸显示的内容，在手机尺寸隐藏 */
+  }
+}
 
-#index article p+p{text-indent:0;}
-.image-wrap{position:relative;margin-bottom:2em;}.image-wrap:after{content:" ";display:block;position:absolute;bottom:-1px;left:8%;width:0;height:0;border:20px solid transparent;border-bottom-color:#ffffff;}
-.image-wrap img{width:100%;height:auto;-ms-interpolation-mode:bicubic;}
-.image-wrap .headline-wrap{position:absolute;bottom:25px;margin-left:8.333333333333334%;}.image-wrap .headline-wrap h1,.image-wrap .headline-wrap h2{color:#ffffff;text-shadow:0 1px 2px rgba(0, 0, 0, 0.25);}
-.headline-wrap h1{font-size:48px;font-size:2.6666666666666665rem;margin-bottom:0.61875rem;}
-.headline-wrap h2{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;text-transform:uppercase;}
-.article-wrap h2{font-size:36px;font-size:2rem;margin-bottom:0.825rem;}
-.article-wrap h3{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;}
-.byline{clear:both;font-size:80%;}
-.article-author-top h4,.article-author-bottom h4{margin-bottom:0.5em;}
-.article-author-top p,.article-author-bottom p{font-size:80%;font-style:italic;}
-.article-author-top a,.article-author-bottom a,.article-author-top a:hover,.article-author-bottom a:hover{border-bottom:0 solid transparent;}
-.article-author-top img.bio-photo,.article-author-bottom img.bio-photo{-webkit-border-radius:100px;-moz-border-radius:100px;border-radius:100px;}
-.article-author-top{display:none;}
-.article-author-bottom .bio-photo{float:left;margin-right:25px;}
-.toc{display:none;font-size:95%;-webkit-opacity:0.7;-moz-opacity:0.7;opacity:0.7;-webkit-transition:opacity 0.2s ease-in-out;-moz-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;}.toc:hover{-webkit-opacity:1;-moz-opacity:1;opacity:1;}
-.toc header{background:#1a1a1a;}
-.toc h3{margin:0;padding:5px 10px;color:#ffffff;}.toc h3:hover{cursor:pointer;}
-.toc ul{margin:2px 0 0;padding:0;background:#4d4d4d;line-height:1;}
-.toc li{display:block;margin:0;padding:0;font-family:'PT Sans Narrow',sans-serif;border-bottom:1px solid #808080;}.toc li:last-child{border-bottom:0 solid transparent;}
-.toc li a,.toc li a:hover{color:#ffffff;border-bottom:0 solid transparent;}
-.toc li a{padding:10px;display:block;}
-.toc li ul{margin:0;border-top:1px solid #808080;}
-.image-grid{*zoom:1;list-style:none;margin:0 0 1em;padding:0;}.image-grid:before,.image-grid:after{display:table;content:"";}
-.image-grid:after{clear:both;}
-.image-grid:before,.image-grid:after{content:"";display:table;}
-.image-grid:after{clear:both;}
-.image-grid li{display:inline;float:left;width:50%;}
-.recent-grid{*zoom:1;list-style:none;margin:1em 0;}.recent-grid:before,.recent-grid:after{display:table;content:"";}
-.recent-grid:after{clear:both;}
-.recent-grid:before,.recent-grid:after{content:"";display:table;}
-.recent-grid:after{clear:both;}
-.recent-grid li{display:inline;}.recent-grid li a{border-bottom:0 solid transparent;}.recent-grid li a:hover{border-bottom:0 solid transparent;}
-.recent-grid img{width:19%;margin-bottom:1%;}
-.holder{font-family:'PT Sans Narrow',sans-serif;}.holder a{cursor:pointer;margin:0 5px;}
-.holder a.jp-previous{margin-left:0;margin-right:15px;}
-.holder a.jp-next{margin-left:15px;margin-right:0;}
-.holder a.jp-current{font-weight:bold;}
-.holder a.jp-current,.holder a.jp-current:hover,.holder a.jp-disabled,.holder a.jp-disabled:hover{cursor:default;background:none;}
-.holder span{margin:0 5px;}
-.footer-wrap{margin:0 auto;width:100%;*zoom:1;clear:both;margin-top:1em;padding-top:2em;padding-bottom:3em;background-color:#000000;}.footer-wrap:before,.footer-wrap:after{display:table;content:"";}
-.footer-wrap:after{clear:both;}
-.footer-wrap:before,.footer-wrap:after{content:"";display:table;}
-.footer-wrap:after{clear:both;}
-.footer-wrap a,.footer-wrap a:active,.footer-wrap a:visited,.footer-wrap p,.footer-wrap h4,.footer-wrap h5,.footer-wrap h6{color:#bfbfbf;}
-.footer-wrap a{border-bottom:0 solid transparent;}.footer-wrap a:hover{color:#ffffff;border-bottom:0 solid transparent;}
-.footer-wrap footer{display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;}
-.related-articles{display:inline;float:left;width:83.33333333333334%;margin-left:8.333333333333334%;margin-right:8.333333333333334%;}.related-articles h4{font-size:21px;font-size:1.1666666666666667rem;margin-bottom:1.4142857142857141rem;text-transform:uppercase;margin-bottom:0;}
-.related-articles li{margin-bottom:0;color:#ffffff;}
-.footer-icons li{display:inline-block;padding-right:5px;}.footer-icons li a{font-size:24px;font-size:1.3333333333333333rem;margin-bottom:1.2375rem;color:#9a9a9a;-webkit-transition:0.4s linear;-moz-transition:0.4s linear;-ms-transition:0.4s linear;-o-transition:0.4s linear;transition:0.4s linear;}.footer-icons li a:hover{text-decoration:none;border-bottom:none;}.footer-icons li a:hover .icon-twitter,.footer-icons li a:hover .icon-twitter-sign{color:#2aa9df;}
-.footer-icons li a:hover .icon-facebook,.footer-icons li a:hover .icon-facebook-sign{color:#3a5a98;}
-.footer-icons li a:hover .icon-instagram,.footer-icons li a:hover .icon-instagram-sign{color:#306088;}
-.footer-icons li a:hover .icon-google-plus,.footer-icons li a:hover .icon-google-plus-sign{color:#b63324;}
-.footer-icons li a:hover .icon-lastfm,.footer-icons li a:hover .icon-lastfm-sign{color:#d80049;}
-.footer-icons li a:hover .icon-github{color:#4183c4;}
-.chrome-frame{background:#000;margin:0 0 2em 0;padding:10px;text-align:center;color:#ffffff;}.chrome-frame a{color:#ffffff;border-bottom:1px dotted #ffffff;text-decoration:none;}.chrome-frame a:hover{border-bottom:1px solid #ffffff;}
-.mfp-bg{top:0;left:0;width:100%;height:100%;z-index:502;overflow:hidden;position:fixed;background:#0b0b0b;opacity:0.8;filter:alpha(opacity=80);}
-.mfp-wrap{top:0;left:0;width:100%;height:100%;z-index:503;position:fixed;outline:none !important;-webkit-backface-visibility:hidden;}
-.mfp-container{text-align:center;position:absolute;width:100%;height:100%;left:0;top:0;padding:0 8px;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;}
-.mfp-container:before{content:'';display:inline-block;height:100%;vertical-align:middle;}
-.mfp-align-top .mfp-container:before{display:none;}
-.mfp-content{position:relative;display:inline-block;vertical-align:middle;margin:0 auto;text-align:left;z-index:505;}
-.mfp-inline-holder .mfp-content,.mfp-ajax-holder .mfp-content{width:100%;cursor:auto;}.mfp-inline-holder .mfp-content:after,.mfp-ajax-holder .mfp-content:after{content:'';display:block;width:auto;height:auto;position:absolute;left:0;top:0;bottom:0;right:0;z-index:-1;box-shadow:0 0 8px rgba(0, 0, 0, 0.6);}
-.mfp-ajax-cur{cursor:progress;}
-.mfp-zoom-out-cur,.mfp-zoom-out-cur .mfp-image-holder .mfp-close{cursor:-moz-zoom-out;cursor:-webkit-zoom-out;cursor:zoom-out;}
-.mfp-zoom,.image-popup{cursor:pointer;cursor:-webkit-zoom-in;cursor:-moz-zoom-in;cursor:zoom-in;}
-.mfp-auto-cursor .mfp-content{cursor:auto;}
-.mfp-close,.mfp-arrow,.mfp-preloader,.mfp-counter{-webkit-user-select:none;-moz-user-select:none;user-select:none;}
-.mfp-loading.mfp-figure{display:none;}
-.mfp-hide{display:none !important;}
-.mfp-preloader{color:#cccccc;position:absolute;top:50%;width:auto;text-align:center;margin-top:-0.8em;left:8px;right:8px;z-index:504;}
-.mfp-preloader a{color:#cccccc;}
-.mfp-preloader a:hover{color:white;}
-.mfp-s-ready .mfp-preloader{display:none;}
-.mfp-s-error .mfp-content{display:none;}
-button.mfp-close,button.mfp-arrow{overflow:visible;cursor:pointer;border:0;-webkit-appearance:none;display:block;padding:0;z-index:506;}
-button.mfp-close{background:transparent;}
-button::-moz-focus-inner{padding:0;border:0;}
-.mfp-close{width:44px;height:44px;line-height:44px;position:absolute;right:0;top:0;text-decoration:none;text-align:center;opacity:0.65;padding:0 0 18px 10px;color:white;font-style:normal;font-size:28px;font-family:Arial, Baskerville, monospace;}
-.mfp-close:hover,.mfp-close:focus{opacity:1;}
-.mfp-close:active{top:1px;}
-.mfp-close-btn-in .mfp-close{color:#333333;}
-.mfp-image-holder .mfp-close,.mfp-iframe-holder .mfp-close{color:white;right:-6px;text-align:right;padding-right:6px;width:100%;}
-.mfp-counter{position:absolute;top:0;right:0;color:#cccccc;font-size:12px;line-height:18px;}
-.mfp-arrow{text-indent:100%;white-space:nowrap;overflow:hidden;position:absolute;top:0;opacity:0.65;margin:0;top:50%;margin-top:-55px;padding:0;width:90px;height:110px;background-color:#000000;-webkit-transition:opacity 0.2s ease-in-out;-moz-transition:opacity 0.2s ease-in-out;-ms-transition:opacity 0.2s ease-in-out;-o-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out;-webkit-tap-highlight-color:rgba(0, 0, 0, 0);}
-.mfp-arrow:active{margin-top:-54px;}
-.mfp-arrow:hover,.mfp-arrow:focus{opacity:1;}
-.mfp-arrow:before,.mfp-arrow:after,.mfp-arrow .mfp-b,.mfp-arrow .mfp-a{content:'';display:block;width:0;height:0;position:absolute;left:0;top:0;margin-top:35px;margin-left:35px;border:solid transparent;}
-.mfp-arrow:after,.mfp-arrow .mfp-a{opacity:0.8;border-top-width:12px;border-bottom-width:12px;top:8px;}
-.mfp-arrow:before,.mfp-arrow .mfp-b{border-top-width:20px;border-bottom-width:20px;}
-.mfp-arrow-left{left:0;-webkit-border-top-right-radius:5px;-webkit-border-bottom-right-radius:5px;-webkit-border-bottom-left-radius:0;-webkit-border-top-left-radius:0;-moz-border-radius-topright:5px;-moz-border-radius-bottomright:5px;-moz-border-radius-bottomleft:0;-moz-border-radius-topleft:0;border-top-right-radius:5px;border-bottom-right-radius:5px;border-bottom-left-radius:0;border-top-left-radius:0;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;}
-.mfp-arrow-left:after,.mfp-arrow-left .mfp-a{border-right:12px solid #fff;left:5px;}
-.mfp-arrow-left:before,.mfp-arrow-left .mfp-b{border-right:20px solid #fff;}
-.mfp-arrow-right{right:0;-webkit-border-top-right-radius:0;-webkit-border-bottom-right-radius:0;-webkit-border-bottom-left-radius:5px;-webkit-border-top-left-radius:5px;-moz-border-radius-topright:0;-moz-border-radius-bottomright:0;-moz-border-radius-bottomleft:5px;-moz-border-radius-topleft:5px;border-top-right-radius:0;border-bottom-right-radius:0;border-bottom-left-radius:5px;border-top-left-radius:5px;-webkit-background-clip:padding-box;-moz-background-clip:padding;background-clip:padding-box;}
-.mfp-arrow-right:after,.mfp-arrow-right .mfp-a{border-left:12px solid #fff;left:3px;}
-.mfp-arrow-right:before,.mfp-arrow-right .mfp-b{border-left:20px solid #fff;}
-.mfp-iframe-holder{padding-top:40px;padding-bottom:40px;}
-.mfp-iframe-holder .mfp-content{line-height:0;width:100%;max-width:900px;}
-.mfp-iframe-scaler{width:100%;height:0;overflow:hidden;padding-top:56.25%;}
-.mfp-iframe-scaler iframe{position:absolute;display:block;top:0;left:0;width:100%;height:100%;box-shadow:0 0 8px rgba(0, 0, 0, 0.6);background:black;}
-.mfp-iframe-holder .mfp-close{top:-40px;}
-img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;padding:40px 0 40px;margin:0 auto;}
-.mfp-figure:after{content:'';position:absolute;left:0;top:40px;bottom:40px;display:block;right:0;width:auto;height:auto;z-index:-1;box-shadow:0 0 8px rgba(0, 0, 0, 0.6);}
-.mfp-figure{line-height:0;}
-.mfp-bottom-bar{margin-top:-36px;position:absolute;top:100%;left:0;width:100%;cursor:auto;}
-.mfp-title{text-align:left;line-height:18px;color:#f3f3f3;}
-.mfp-figure small{color:#bdbdbd;display:block;font-size:12px;line-height:14px;}
-.mfp-image-holder .mfp-content{max-width:100%;}
-.mfp-gallery .mfp-image-holder .mfp-figure{cursor:pointer;}
-@media screen and (max-width:800px) and (orientation:landscape),screen and (max-height:300px){.mfp-img-mobile .mfp-image-holder{padding-left:0;padding-right:0;} .mfp-img-mobile img.mfp-img{padding:0;} .mfp-img-mobile .mfp-figure:after{top:0;bottom:0;} .mfp-img-mobile .mfp-bottom-bar{background:rgba(0, 0, 0, 0.6);bottom:0;margin:0;top:auto;padding:3px 5px;position:fixed;-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box;} .mfp-img-mobile .mfp-bottom-bar:empty{padding:0;} .mfp-img-mobile .mfp-counter{right:5px;top:3px;} .mfp-img-mobile .mfp-close{top:0;right:0;width:35px;height:35px;line-height:35px;background:rgba(0, 0, 0, 0.6);position:fixed;text-align:center;padding:0;} .mfp-img-mobile .mfp-figure small{display:inline;margin-left:5px;}}@media all and (max-width:800px){.mfp-arrow{-webkit-transform:scale(0.75);transform:scale(0.75);} .mfp-arrow-left{-webkit-transform-origin:0;transform-origin:0;} .mfp-arrow-right{-webkit-transform-origin:100%;transform-origin:100%;} .mfp-container{padding-left:6px;padding-right:6px;}}.mfp-ie7 .mfp-img{padding:0;}
-.mfp-ie7 .mfp-bottom-bar{width:600px;left:50%;margin-left:-300px;margin-top:5px;padding-bottom:5px;}
-.mfp-ie7 .mfp-container{padding:0;}
-.mfp-ie7 .mfp-content{padding-top:44px;}
-.mfp-ie7 .mfp-close{top:0;right:0;padding-top:0;}
-.mfp-fade .zoom-anim-dialog{opacity:0;-webkit-transition:all 0.2s ease-in-out;-moz-transition:all 0.2s ease-in-out;-ms-transition:all 0.2s ease-in-out;-o-transition:all 0.2s ease-in-out;transition:all 0.2s ease-in-out;-webkit-transform:scale(0.8);-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);transform:scale(0.8);}
-.mfp-fade.mfp-ready .zoom-anim-dialog{opacity:1;-webkit-transform:scale(1);-moz-transform:scale(1);-ms-transform:scale(1);-o-transform:scale(1);transform:scale(1);}
-.mfp-fade.mfp-removing .zoom-anim-dialog{-webkit-transform:scale(0.8);-moz-transform:scale(0.8);-ms-transform:scale(0.8);-o-transform:scale(0.8);transform:scale(0.8);opacity:0;}
-.mfp-fade.mfp-bg{opacity:0;-webkit-transition:opacity 0.3s ease-out;-moz-transition:opacity 0.3s ease-out;-ms-transition:opacity 0.3s ease-out;-o-transition:opacity 0.3s ease-out;transition:opacity 0.3s ease-out;}
-.mfp-fade.mfp-ready.mfp-bg{opacity:0.8;}
-.mfp-fade.mfp-removing.mfp-bg{opacity:0;}
+@media (min-width:1100px) and (max-width:1300px) {
+  .visible-tablet {
+      display: inherit !important; /* 在平板尺寸显示 */
+  }
+  .hidden-tablet {
+      display: none !important; /* 在平板尺寸隐藏 */
+  }
+  .hidden-desktop {
+      display: inherit !important; /* 在桌面尺寸隐藏的内容，在平板尺寸显示 */
+  }
+  .visible-desktop {
+      display: none !important; /* 在桌面尺寸显示的内容，在平板尺寸隐藏 */
+  }
+}
+
+/* 通用样式设置 */
+hr {
+  display: block;
+  margin: 1em 0;
+  padding: 0;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc; /* 上边框为灰色 */
+  border-bottom: 1px solid #fff; /* 下边框为白色 */
+}
+
+/* 图片样式 */
+article img {
+  max-width: 100%; /* 图片最大宽度为容器的100% */
+  height: auto; /* 高度自动，保持原始比例 */
+  border-width: 0; /* 无边框 */
+  vertical-align: middle; /* 垂直居中对齐 */
+  -ms-interpolation-mode: bicubic; /* IE下的图像渲染模式 */
+}
+
+/* SVG元素处理 */
+svg:not(:root) {
+  overflow: hidden; /* 非根SVG元素隐藏溢出部分 */
+}
+
+/* 一半宽度布局设置 */
+.half {
+  margin: 0 auto;
+  width: 100%; /* 宽度为父元素的100% */
+  *zoom: 1; /* IE兼容 */
+}
+
+.half:before,
+.half:after {
+  display: table; /* 使用表格布局 */
+  content: ""; /* 内容为空 */
+}
+
+.half:after {
+  clear: both; /* 清除浮动 */
+}
+
+.half img {
+  display: inline; /* 内联显示 */
+  float: left; /* 向左浮动 */
+  width: 50%; /* 宽度为50% */
+}
+
+.half figcaption {
+  display: inline; /* 内联显示 */
+  float: left; /* 向左浮动 */
+  width: 100%; /* 宽度为100% */
+}
+
+/* 三分之一宽度布局设置 */
+.third {
+  margin: 0 auto;
+  width: 100%; /* 宽度为父元素的100% */
+  *zoom: 1; /* IE兼容 */
+}
+
+.third:before,
+.third:after {
+  display: table; /* 使用表格布局 */
+  content: ""; /* 内容为空 */
+}
+
+.third:after {
+  clear: both; /* 清除浮动 */
+}
+
+.third img {
+  display: inline; /* 内联显示 */
+  float: left; /* 向左浮动 */
+  width: 33.333333333333336%; /* 宽度为33.333% */
+}
+
+.third figcaption {
+  display: inline; /* 内联显示 */
+  float: left; /* 向左浮动 */
+  width: 100%; /* 宽度为100% */
+}
+
+/* 图片浮动样式 */
+img.floatpic {
+  float: right; /* 向右浮动 */
+  margin-left: 1em; /* 左边距为1em */
+  width: 33%; /* 宽度为33% */
+}
+
+/* 按钮样式 */
+.btn {
+  display: inline-block; /* 内联块级元素 */
+  *display: inline; /* IE兼容 */
+  *zoom: 1; /* IE兼容 */
+  padding: 12px 24px; /* 内边距 */
+  margin-bottom: 2em; /* 下边距 */
+  line-height: 1; /* 行高 */
+  text-align: center; /* 文本居中 */
+  text-transform: uppercase; /* 文本转大写 */
+  vertical-align: middle; /* 垂直居中 */
+  border: 4px double #333332; /* 双线边框 */
+  -webkit-border-radius: 50px; /* 圆角 */
+  -moz-border-radius: 50px; /* 圆角 */
+  border-radius: 50px; /* 圆角 */
+  cursor: pointer; /* 鼠标指针为手形 */
+  *margin-left: .3em; /* IE兼容，左边距 */
+  -webkit-transition: 0.4s linear; /* 过渡效果 */
+  -moz-transition: 0.4s linear; /* 过渡效果 */
+  -ms-transition: 0.4s linear; /* 过渡效果 */
+  -o-transition: 0.4s linear; /* 过渡效果 */
+  transition: 0.4s linear; /* 过渡效果 */
+}
+
+.btn:visited {
+  border: 4px double #4e4e4e; /* 访问后的边框颜色 */
+}
+
+.btn:hover {
+  border: 4px double #1a1a1a; /* 鼠标悬停时的边框颜色 */
+}
+
+.btn:first-child {
+  *margin-left: 0; /* 第一个子元素的左边距为0 */
+}
+
+.btn-inverse {
+  border: 4px double #ffffff; /* 反色按钮的边框颜色 */
+  color: #ffffff; /* 反色按钮的文字颜色 */
+  background-color: #000000; /* 反色按钮的背景颜色 */
+}
+
+.btn-inverse:visited {
+  color: #ffffff; /* 访问后的文字颜色 */
+  border-color: #ffffff; /* 访问后的边框颜色 */
+}
+
+.btn-inverse:hover {
+  color: #ffffff; /* 悬停时的文字颜色 */
+  border-color: #ffffff; /* 悬停时的边框颜色 */
+}
+
+.btn-small {
+  font-size: 60%; /* 小号按钮的字体大小 */
+  padding: 6px 12px; /* 小号按钮的内边距 */
+}
+
+.well {
+  min-height: 20px; /* 最小高度 */
+  padding: 19px; /* 内边距 */
+  margin-bottom: 20px; /* 下边距 */
+  background-color: #f5f5f5; /* 背景颜色 */
+  border: 1px solid #e3e3e3; /* 边框 */
+  -webkit-border-radius: 4px; /* 圆角 */
+  -moz-border-radius: 4px; /* 圆角 */
+  border-radius: 4px; /* 圆角 */
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); /* 内阴影 */
+  -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); /* 内阴影 */
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05); /* 内阴影 */
+}
+
+/* 通过@font-face引入自定义字体'icomoon'，包含多种格式以确保兼容不同的浏览器 */
+@font-face {
+  font-family: 'icomoon';
+  src: url('../fonts/icomoon.eot'); /* IE9兼容模式 */
+  src: url('../fonts/icomoon.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/icomoon.woff') format('woff'), /* 现代浏览器 */
+       url('../fonts/icomoon.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/icomoon.svg#icomoon') format('svg'); /* 旧版iOS */
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 使用伪元素:before为带有[data-icon]属性的元素设置图标 */
+[data-icon]:before {
+  font-family: 'icomoon';
+  content: attr(data-icon); /* 使用元素的data-icon属性值作为内容 */
+  speak: none;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased; /* 在macOS和iOS上优化字体渲染 */
+}
+
+/* 各社交媒体图标的基本样式 */
+.icon-instagram, .icon-facebook, .icon-twitter, .icon-google-plus,
+.icon-feed, .icon-feed-2, .icon-linkedin, .icon-tumblr,
+.icon-lastfm, .icon-mail, .icon-github {
+  font-family: 'icomoon';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 指定不同图标的字符代码 */
+.icon-instagram:before { content: "\e004"; }
+.icon-facebook:before { content: "\e003"; }
+.icon-twitter:before { content: "\e007"; }
+.icon-google-plus:before { content: "\e00a"; }
+.icon-feed:before { content: "\e00b"; }
+.icon-feed-2:before { content: "\e00c"; }
+.icon-linkedin:before { content: "\e001"; }
+.icon-tumblr:before { content: "\e002"; }
+.icon-lastfm:before { content: "\e005"; }
+.icon-mail:before { content: "\e006"; }
+.icon-github:before { content: "\e000"; }
+
+/* 表单的全局样式设置 */
+form {
+  margin: 0 0 5px 0;
+}
+
+/* fieldset用于将表单内的元素分组，这里移除了默认的外边距和边框 */
+form fieldset {
+  margin-bottom: 5px;
+  padding: 0;
+  border-width: 0;
+}
+
+/* legend标签为fieldset组提供标题，这里设置其样式 */
+form legend {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0;
+  color: #333332;
+  border: 0;
+  border-bottom: 1px solid #cccccc;
+  white-space: normal;
+}
+
+/* 设置表单内p标签的底部外边距 */
+form p {
+  margin-bottom: 2.5px;
+}
+
+/* 无样式列表用于表单中的列表项，去除默认的列表样式 */
+form ul {
+  list-style-type: none;
+  margin: 0 0 5px 0;
+  padding: 0;
+}
+
+/* 表单中不显示br标签 */
+form br {
+  display: none;
+}
+
+/* 设置标签和表单控件的垂直对齐和字体样式 */
+label, input, button, select, textarea {
+  vertical-align: baseline; /* 基线对齐 */
+  *vertical-align: middle; /* IE兼容性处理 */
+}
+
+/* 统一输入框、按钮、选择框和文本域的字体样式和盒模型 */
+input, button, select, textarea {
+  font-family: 'PT Serif', serif; /* 字体样式 */
+  -webkit-box-sizing: border-box; /* 盒模型，内容、内边距和边框总宽度不变 */
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* 标签样式，显示为块级元素，并设置底部外边距和字体加粗 */
+label {
+  display: block;
+  margin-bottom: 1.25px;
+  font-weight: bold;
+  color: #333332;
+  cursor: pointer; /* 鼠标悬停时显示指针 */
+}
+
+/* 确保标签内的表单控件也是块级显示 */
+label input, label textarea, label select {
+  display: block;
+}
+
+/* 输入框、文本域和选择框的宽度为100%，加上内边距和边框 */
+input, textarea, select {
+  display: inline-block;
+  width: 100%;
+  padding: 4px;
+  margin-bottom: 1.25px;
+  background-color: #ffffff;
+  border: 1px solid #cccccc;
+  color: #333332;
+}
+
+/* 鼠标悬停时改变边框颜色 */
+input:hover, textarea:hover, select:hover {
+  border-color: #808080;
+}
+
+/* 输入框的特定大小设置 */
+.input-mini {
+  width: 60px;
+}
+.input-small {
+  width: 90px;
+}
+
+/* 特定类型的输入框样式设置 */
+input[type="image"], input[type="checkbox"], input[type="radio"] {
+  width: auto;
+  height: auto;
+  padding: 0;
+  margin: 3px 0;
+  *margin-top: 0; /* IE兼容性处理 */
+  line-height: normal;
+  cursor: pointer;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+  border: 0 \9; /* IE兼容性处理 */
+}
+
+/* 输入类型为文件的样式 */
+input[type="file"] {
+  width: auto;
+  padding: initial;
+  line-height: initial;
+  border: initial;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 按钮和提交输入的样式 */
+input[type="button"], input["type=reset"], input[type="submit"] {
+  width: auto;
+  height: auto;
+  cursor: pointer;
+  *overflow: visible; /* IE兼容性处理 */
+}
+
+/* 选择框和文件输入类型的顶部外边距调整 */
+select, input[type="file"] {
+  *margin-top: 4px;
+}
+
+/* 选择框的宽度自动调整，背景颜色为白色 */
+select {
+  width: auto;
+  background-color: #ffffff;
+}
+
+/* 允许多选或指定大小的选择框高度自动调整 */
+select[multiple], select[size] {
+  height: auto;
+}
+
+/* 文本域可以垂直调整大小，高度和溢出自动调整 */
+textarea {
+  resize: vertical;
+  height: auto;
+  overflow: auto;
+  vertical-align: top;
+}
+
+/* 隐藏类型的输入隐藏显示 */
+input[type="hidden"] {
+  display: none;
+}
+
+/* 单选和复选框的样式 */
+.radio, .checkbox {
+  padding-left: 18px;
+  font-weight: normal;
+}
+
+/* 单选和复选框内部输入的浮动和外边距调整 */
+.radio input[type="radio"], .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: -18px;
+}
+
+/* 行内单选和复选框的显示样式 */
+.radio.inline, .checkbox.inline {
+  display: inline-block;
+  padding-top: 5px;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* 行内单选和复选框之间的间距 */
+.radio.inline+.radio.inline, .checkbox.inline+.checkbox.inline {
+  margin-left: 10px;
+}
+
+/* 禁用状态的输入、选择框和文本域的样式 */
+input[disabled], select[disabled], textarea[disabled], input[readonly], select[readonly], textarea[readonly] {
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* 输入、选择框和文本域聚焦时的边框颜色和轮廓样式 */
+input:focus, textarea:focus {
+  border-color: #000000;
+  outline: 0;
+  outline: thin dotted \9; /* IE兼容性处理 */
+}
+
+/* 文件、单选和复选框聚焦时的阴影样式 */
+input[type="file"]:focus, input[type="radio"]:focus, input[type="checkbox"]:focus, select:focus {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+/* 帮助文本的颜色和显示样式 */
+.help-block, .help-inline {
+  color: #808080;
+}
+
+/* 块级帮助文本的显示和行高 */
+.help-block {
+  display: block;
+  margin-bottom: 1em;
+  line-height: 1em;
+}
+
+/* 行内帮助文本的显示和垂直对齐 */
+.help-inline {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 5px;
+}
+
+/* 行内表单的输入、文本域和选择框的显示样式 */
+.form-inline input, .form-inline textarea, .form-inline select {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/* 行内表单的标签显示样式 */
+.form-inline label {
+  display: inline-block;
+}
+
+/* 行内表单的单选和复选框样式 */
+.form-inline .radio, .form-inline .checkbox, .form-inline .radio {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* 行内表单的单选和复选框内部输入的浮动和右边距 */
+.form-inline .radio input[type="radio"], .form-inline .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+/* 搜索表单的输入、文本域和选择框的显示样式 */
+.form-search input, .form-search textarea, .form-search select {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+/* 搜索查询输入框的内边距和圆角 */
+.form-search .search-query {
+  padding-left: 14px;
+  padding-right: 14px;
+  margin-bottom: 0;
+  -webkit-border-radius: 14px;
+  -moz-border-radius: 14px;
+  border-radius: 14px;
+}
+
+/* 搜索表单的标签显示样式 */
+.form-search label {
+  display: inline-block;
+}
+
+/* 搜索表单的单选和复选框样式 */
+.form-search .radio, .form-search .checkbox, .form-inline .radio {
+  padding-left: 0;
+  margin-bottom: 0;
+  vertical-align: middle;
+}
+
+/* 搜索表单的单选和复选框内部输入的浮动和右边距 */
+.form-search .radio input[type="radio"], .form-search .checkbox input[type="checkbox"] {
+  float: left;
+  margin-left: 0;
+  margin-right: 3px;
+}
+
+/* 设置HTML的背景颜色、字体和基本字体大小 */
+html {
+  background-color: #ffffff;  /* 白色背景 */
+  font-family: 'PT Serif', serif;  /* 使用'PT Serif'字体，如果找不到则使用系统默认的衬线体 */
+  font-color: #333332;  /* 字体颜色设置，但应为color而非font-color */
+  font-size: 90%;  /* 字体大小设置为默认大小的90% */
+}
+
+/* 导航栏的整体样式，包括边距、宽度、内边距和字体样式 */
+.navigation-wrapper {
+  margin: 0 auto;  /* 上下边距为0，水平居中 */
+  width: 100%;  /* 宽度为100% */
+  padding: 2em 0 3em;  /* 上内边距为2em，下内边距为3em，左右内边距为0 */
+  font-family: 'PT Sans Narrow', sans-serif;  /* 使用'PT Sans Narrow'字体，如果找不到则使用系统默认的无衬线体 */
+  font-weight: 700;  /* 字体加粗 */
+  text-transform: uppercase;  /* 文本转为大写 */
+}
+
+/* 网站名称部分的样式，设置了宽度和边距 */
+.site-name {
+  margin: 0 auto;  /* 上下边距为0，水平居中 */
+  width: 100%;  /* 宽度为100% */
+  display: inline;  /* 设置为内联显示 */
+  float: left;  /* 左浮动 */
+  width: 83.33333333333334%;  /* 宽度为父容器的83.33% */
+  margin-left: 8.333333333333334%;  /* 左边距为8.33% */
+  margin-right: 8.333333333333334%;  /* 右边距为8.33% */
+  margin-bottom: 1em;  /* 底部外边距为1em */
+}
+
+/* 顶部导航的整体样式 */
+.top-navigation {
+  margin: 0 auto;  /* 上下边距为0，水平居中 */
+  width: 100%;  /* 宽度为100% */
+  display: inline;  /* 设置为内联显示 */
+  float: left;  /* 左浮动 */
+  width: 83.33333333333334%;  /* 宽度为父容器的83.33% */
+  margin-left: 8.333333333333334%;  /* 左边距为8.33% */
+  margin-right: 8.333333333333334%;  /* 右边距为8.33% */
+  margin-bottom: 1em;  /* 底部外边距为1em */
+}
+
+/* 顶部导航的列表样式，无列表标记，内边距和外边距为0 */
+.top-navigation ul {
+  list-style: none;  /* 无列表标记 */
+  margin: 0;  /* 外边距为0 */
+  padding: 0;  /* 内边距为0 */
+}
+
+/* 顶部导航的列表项样式 */
+.top-navigation li {
+  list-style-type: none;  /* 无列表标记类型 */
+  display: inline;  /* 设置为内联显示 */
+  margin-right: 25px;  /* 右边距为25px */
+}
+
+/* 顶部导航的链接样式 */
+.top-navigation li a {
+  decoration: none;  /* 无装饰 */
+  border-bottom: 0 solid transparent;  /* 透明底部边框 */
+  -webkit-transition: all 0.2s;  /* 过渡效果，持续时间0.2秒 */
+  -moz-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+/* 当前选中的顶部导航项样式 */
+.top-navigation-current {
+  text-decoration: overline;  /* 文本上方有线 */
+}
+
+/* 页面主要内容的样式 */
+#main {
+  counter-reset: captions;  /* 重置计数器 */
+  margin: 0 auto;  /* 上下边距为0，水平居中 */
+  width: 100%;  /* 宽度为100% */
+  *zoom: 1;  /* IE兼容性缩放修正 */
+  clear: both;  /* 清除浮动 */
+  margin-top: 1em;  /* 顶部外边距为1em */
+}
+
+/* 页面主要内容之前和之后的内容 */
+#main:before, #main:after {
+  display: table;  /* 显示为表格 */
+  content: "";  /* 内容为空 */
+}
+
+/* 清除#main之后的浮动 */
+#main:after {
+  clear: both;
+}
+
+/* 页面主要内容之前和之后的内容再次定义，确保表格显示 */
+#main:before, #main:after {
+  content: "";  /* 内容为空 */
+  display: table;  /* 显示为表格 */
+}
+
+/* 清除#main之后的浮动 */
+#main:after {
+  clear: both;
+}
+
+
+/* Update in 28 Aug 2023 by Hanlin */
+/* 全局宽度设置 */
+.wide {
+  width: 90% !important;  /* 设置宽度为90%，并使用!important保证此设置的优先级最高 */
+}
+
+/* 主内容区域的样式 */
+#main article {
+  margin: 0 auto;  /* 上下边距为0，左右自动对齐实现居中 */
+  width: 100%;  /* 宽度设置为100% */
+  display: inline;  /* 以行内元素显示 */
+  float: left;  /* 左浮动 */
+  width: 90%;  /* 再次设置宽度为90% */
+  margin-left: 8.333333333333334%;  /* 左边距 */
+  margin-right: 8.333333333333334%;  /* 右边距 */
+  margin-bottom: 2em;  /* 底部外边距 */
+}
+
+/* 索引区域的样式 */
+#index {
+  margin: 0 auto;  /* 水平居中 */
+  width: 100%;  /* 宽度为100% */
+  display: inline;  /* 行内显示 */
+  float: left;  /* 左浮动 */
+  width: 90%;  /* 宽度为90% */
+  margin-left: 8.333333333333334%;  /* 左边距 */
+  margin-right: 8.333333333333334%;  /* 右边距 */
+  margin-bottom: 2em;  /* 底部外边距 */
+}
+
+/* 图像包装样式 */
+.image-wrap {
+  position: relative;  /* 相对定位 */
+  margin-bottom: 2em;  /* 底部外边距为2em */
+}
+.image-wrap:after {
+  content: " ";  /* 添加内容 */
+  display: block;  /* 块级显示 */
+  position: absolute;  /* 绝对定位 */
+  bottom: -1px;  /* 底部偏移-1px */
+  left: 8%;  /* 左偏移8% */
+  width: 0;  /* 宽度为0 */
+  height: 0;  /* 高度为0 */
+  border: 20px solid transparent;  /* 透明边框 */
+  border-bottom-color: #ffffff;  /* 底部边框颜色为白色 */
+}
+.image-wrap img {
+  width: 100%;  /* 宽度为100% */
+  height: auto;  /* 高度自适应 */
+  -ms-interpolation-mode: bicubic;  /* 微软浏览器的图像渲染模式 */
+}
+
+/* 标题样式设置 */
+.headline-wrap h1 {
+  font-size: 48px; /* 主标题的字体大小 */
+  font-size: 2.6666666666666665rem; /* 使用rem单位的主标题字体大小 */
+  margin-bottom: 0.61875rem; /* 主标题下方的间距 */
+}
+.headline-wrap h2 {
+  font-size: 24px; /* 次级标题的字体大小 */
+  font-size: 1.3333333333333333rem; /* 使用rem单位的次级标题字体大小 */
+  margin-bottom: 1.2375rem; /* 次级标题下方的间距 */
+  text-transform: uppercase; /* 将次级标题的文字转换为大写 */
+}
+
+/* 文章内容中的标题样式 */
+.article-wrap h2 {
+  font-size: 36px; /* 文章内部二级标题的字体大小 */
+  font-size: 2rem; /* 使用rem单位的二级标题字体大小 */
+  margin-bottom: 0.825rem; /* 二级标题下方的间距 */
+}
+.article-wrap h3 {
+  font-size: 24px; /* 文章内部三级标题的字体大小 */
+  font-size: 1.3333333333333333rem; /* 使用rem单位的三级标题字体大小 */
+  margin-bottom: 1.2375rem; /* 三级标题下方的间距 */
+}
+
+/* 作者信息样式 */
+.byline {
+  clear: both; /* 清除浮动 */
+  font-size: 80%; /* 字体大小为默认字体的80% */
+}
+.article-author-top h4, .article-author-bottom h4 {
+  margin-bottom: 0.5em; /* 作者名下方的间距 */
+}
+.article-author-top p, .article-author-bottom p {
+  font-size: 80%; /* 作者描述文字的字体大小 */
+  font-style: italic; /* 斜体风格 */
+}
+.article-author-top a, .article-author-bottom a, .article-author-top a:hover, .article-author-bottom a:hover {
+  border-bottom: 0 solid transparent; /* 移除链接下的边框 */
+}
+.article-author-top img.bio-photo, .article-author-bottom img.bio-photo {
+  -webkit-border-radius: 100px; /* 圆角设置 */
+  -moz-border-radius: 100px; /* Firefox的圆角设置 */
+  border-radius: 100px; /* 圆角设置 */
+}
+.article-author-top {
+  display: none; /* 默认不显示顶部作者信息 */
+}
+.article-author-bottom .bio-photo {
+  float: left; /* 左浮动 */
+  margin-right: 25px; /* 右侧边距 */
+}
+
+/* 目录样式 */
+.toc {
+  display: none; /* 默认不显示目录 */
+  font-size: 95%; /* 字体大小为默认的95% */
+  -webkit-opacity: 0.7; /* 透明度设置 */
+  -moz-opacity: 0.7; /* Firefox的透明度设置 */
+  opacity: 0.7; /* 透明度设置 */
+  -webkit-transition: opacity 0.2s ease-in-out; /* 透明度变化的过渡效果 */
+  -moz-transition: opacity 0.2s ease-in-out; /* Firefox的透明度变化的过渡效果 */
+  -ms-transition: opacity 0.2s ease-in-out; /* IE的透明度变化的过渡效果 */
+  -o-transition: opacity 0.2s ease-in-out; /* Opera的透明度变化的过渡效果 */
+  transition: opacity 0.2s ease-in-out; /* 透明度变化的过渡效果 */
+}
+.toc:hover {
+  -webkit-opacity: 1; /* 鼠标悬停时透明度为1 */
+  -moz-opacity: 1; /* Firefox的鼠标悬停时透明度为1 */
+  opacity: 1; /* 鼠标悬停时透明度为1 */
+}
+.toc header {
+  background: #1a1a1a; /* 背景颜色 */
+}
+.toc h3 {
+  margin: 0; /* 边距 */
+  padding: 5px 10px; /* 内边距 */
+  color: #ffffff; /* 字体颜色 */
+}
+.toc h3:hover {
+  cursor: pointer; /* 鼠标悬停时的光标样式 */
+}
+.toc ul {
+  margin: 2px 0 0; /* 上边距 */
+  padding: 0; /* 内边距 */
+  background: #4d4d4d; /* 背景颜色 */
+  line-height: 1; /* 行高 */
+}
+.toc li {
+  display: block; /* 块级显示 */
+  margin: 0; /* 边距 */
+  padding: 0; /* 内边距 */
+  font-family: 'PT Sans Narrow', sans-serif; /* 字体 */
+  border-bottom: 1px solid #808080; /* 底部边框 */
+}
+.toc li:last-child {
+  border-bottom: 0 solid transparent; /* 最后一个列表项底部无边框 */
+}
+.toc li a, .toc li a:hover {
+  color: #ffffff; /* 链接字体颜色 */
+  border-bottom: 0 solid transparent; /* 移除链接下的边框 */
+}
+.toc li a {
+  padding: 10px; /* 内边距 */
+  display: block; /* 块级显示 */
+}
+.toc li ul {
+  margin: 0; /* 边距 */
+  border-top: 1px solid #808080; /* 顶部边框 */
+}
+
+/* 图像网格样式，用于创建多列图像布局 */
+.image-grid {
+  *zoom: 1; /* 针对老版本IE的缩放修复 */
+  list-style: none; /* 移除列表项前的标记 */
+  margin: 0 0 1em; /* 设置外边距 */
+  padding: 0; /* 设置内边距 */
+}
+.image-grid:before, .image-grid:after {
+  display: table; /* 用于清除浮动前的hack */
+  content: ""; /* 必须有内容才能显示 */
+}
+.image-grid:after {
+  clear: both; /* 清除浮动 */
+}
+.image-grid li {
+  display: inline; /* 行内显示 */
+  float: left; /* 左浮动 */
+  width: 50%; /* 占父元素的50%宽度 */
+}
+
+/* 最近图像网格样式 */
+.recent-grid {
+  *zoom: 1; /* 针对老版本IE的缩放修复 */
+  list-style: none; /* 移除列表项前的标记 */
+  margin: 1em 0; /* 设置外边距 */
+}
+.recent-grid:before, .recent-grid:after {
+  display: table; /* 用于清除浮动前的hack */
+  content: ""; /* 必须有内容才能显示 */
+}
+.recent-grid:after {
+  clear: both; /* 清除浮动 */
+}
+.recent-grid li {
+  display: inline; /* 行内显示 */
+}
+.recent-grid li a {
+  border-bottom: 0 solid transparent; /* 移除下划线 */
+}
+.recent-grid li a:hover {
+  border-bottom: 0 solid transparent; /* 鼠标悬停时移除下划线 */
+}
+.recent-grid img {
+  width: 19%; /* 图像宽度 */
+  margin-bottom: 1%; /* 下边距 */
+}
+
+/* 分页器样式 */
+.holder {
+  font-family: 'PT Sans Narrow', sans-serif; /* 字体设置 */
+}
+.holder a {
+  cursor: pointer; /* 鼠标样式为指针 */
+  margin: 0 5px; /* 外边距 */
+}
+.holder a.jp-previous {
+  margin-left: 0; /* 左外边距 */
+  margin-right: 15px; /* 右外边距 */
+}
+.holder a.jp-next {
+  margin-left: 15px; /* 左外边距 */
+  margin-right: 0; /* 右外边距 */
+}
+.holder a.jp-current {
+  font-weight: bold; /* 当前页加粗 */
+}
+.holder a.jp-current, .holder a.jp-current:hover, .holder a.jp-disabled, .holder a.jp-disabled:hover {
+  cursor: default; /* 默认光标 */
+  background: none; /* 无背景 */
+}
+.holder span {
+  margin: 0 5px; /* 外边距 */
+}
+
+/* 页脚样式 */
+.footer-wrap {
+  margin: 0 auto; /* 居中显示 */
+  width: 100%; /* 宽度 */
+  *zoom: 1; /* 针对老版本IE的缩放修复 */
+  clear: both; /* 清除浮动 */
+  margin-top: 1em; /* 上外边距 */
+  padding-top: 2em; /* 上内边距 */
+  padding-bottom: 3em; /* 下内边距 */
+  background-color: #000000; /* 背景颜色 */
+}
+.footer-wrap:before, .footer-wrap:after {
+  display: table; /* 用于清除浮动前的hack */
+  content: ""; /* 必须有内容才能显示 */
+}
+.footer-wrap:after {
+  clear: both; /* 清除浮动 */
+}
+.footer-wrap a, .footer-wrap a:active, .footer-wrap a:visited, .footer-wrap p, .footer-wrap h4, .footer-wrap h5, .footer-wrap h6 {
+  color: #bfbfbf; /* 文字颜色 */
+}
+.footer-wrap a:hover {
+  color: #ffffff; /* 鼠标悬停时文字颜色 */
+  border-bottom: 0 solid transparent; /* 移除下划线 */
+}
+.footer-wrap footer {
+  display: inline; /* 行内显示 */
+  float: left; /* 左浮动 */
+  width: 83.33333333333334%; /* 宽度 */
+  margin-left: 8.333333333333334%; /* 左外边距 */
+  margin-right: 8.333333333333334%; /* 右外边距 */
+}
+
+/* 相关文章样式 */
+.related-articles {
+  display: inline; /* 行内显示 */
+  float: left; /* 左浮动 */
+  width: 83.33333333333334%; /* 宽度 */
+  margin-left: 8.333333333333334%; /* 左外边距 */
+  margin-right: 8.333333333333334%; /* 右外边距 */
+}
+.related-articles h4 {
+  font-size: 21px; /* 字体大小 */
+  font-size: 1.1666666666666667rem; /* 使用rem单位的字体大小 */
+  margin-bottom: 1.4142857142857141rem; /* 下方间距 */
+  text-transform: uppercase; /* 文字大写 */
+  margin-bottom: 0; /* 下方间距 */
+}
+.related-articles li {
+  margin-bottom: 0; /* 下方间距 */
+  color: #ffffff; /* 文字颜色 */
+}
+
+/* 页脚图标样式 */
+.footer-icons li {
+  display: inline-block; /* 行内块显示 */
+  padding-right: 5px; /* 右内边距 */
+}
+.footer-icons li a {
+  font-size: 24px; /* 字体大小 */
+  font-size: 1.3333333333333333rem; /* 使用rem单位的字体大小 */
+  margin-bottom: 1.2375rem; /* 下方间距 */
+  color: #9a9a9a; /* 文字颜色 */
+  -webkit-transition: 0.4s linear; /* 过渡效果 */
+  -moz-transition: 0.4s linear; /* Firefox的过渡效果 */
+  -ms-transition: 0.4s linear; /* IE的过渡效果 */
+  -o-transition: 0.4s linear; /* Opera的过渡效果 */
+  transition: 0.4s linear; /* 过渡效果 */
+}
+.footer-icons li a:hover {
+  text-decoration: none; /* 移除下划线 */
+  border-bottom: none; /* 移除下划线 */
+}
+/* 社交媒体图标颜色变化 */
+.footer-icons li a:hover .icon-twitter, .footer-icons li a:hover .icon-twitter-sign { color: #2aa9df; }
+.footer-icons li a:hover .icon-facebook, .footer-icons li a:hover .icon-facebook-sign { color: #3a5a98; }
+.footer-icons li a:hover .icon-instagram, .footer-icons li a:hover .icon-instagram-sign { color: #306088; }
+.footer-icons li a:hover .icon-google-plus, .footer-icons li a:hover .icon-google-plus-sign { color: #b63324; }
+.footer-icons li a:hover .icon-lastfm, .footer-icons li a:hover .icon-lastfm-sign { color: #d80049; }
+.footer-icons li a:hover .icon-github { color: #4183c4; }
+
+/* Chrome Frame提示条样式 */
+.chrome-frame {
+  background: #000; /* 背景颜色黑色 */
+  margin: 0 0 2em 0; /* 外边距设置 */
+  padding: 10px; /* 内边距设置 */
+  text-align: center; /* 文本居中显示 */
+  color: #ffffff; /* 文本颜色白色 */
+}
+.chrome-frame a {
+  color: #ffffff; /* 链接文本颜色白色 */
+  border-bottom: 1px dotted #ffffff; /* 链接下方白色点状下划线 */
+  text-decoration: none; /* 无文本装饰 */
+}
+.chrome-frame a:hover {
+  border-bottom: 1px solid #ffffff; /* 鼠标悬停时下划线变为实线 */
+}
+
+/* 弹窗背景样式 */
+.mfp-bg {
+  top: 0;
+  left: 0;
+  width: 100%; /* 宽度为视口宽度 */
+  height: 100%; /* 高度为视口高度 */
+  z-index: 502; /* 层叠顺序 */
+  overflow: hidden; /* 隐藏超出部分 */
+  position: fixed; /* 固定定位 */
+  background: #0b0b0b; /* 背景颜色深黑 */
+  opacity: 0.8; /* 透明度 */
+  filter: alpha(opacity=80); /* IE的透明度 */
+}
+
+/* 弹窗包裹层样式 */
+.mfp-wrap {
+  top: 0;
+  left: 0;
+  width: 100%; /* 宽度为视口宽度 */
+  height: 100%; /* 高度为视口高度 */
+  z-index: 503; /* 层叠顺序 */
+  position: fixed; /* 固定定位 */
+  outline: none !important; /* 无轮廓线 */
+  -webkit-backface-visibility: hidden; /* 隐藏背面 */
+}
+
+/* 弹窗容器样式 */
+.mfp-container {
+  text-align: center; /* 文本居中 */
+  position: absolute; /* 绝对定位 */
+  width: 100%; /* 宽度为100% */
+  height: 100%; /* 高度为100% */
+  left: 0;
+  top: 0;
+  padding: 0 8px; /* 左右内边距 */
+  -webkit-box-sizing: border-box; /* 盒模型 */
+  -moz-box-sizing: border-box; /* 盒模型 */
+  box-sizing: border-box; /* 盒模型 */
+}
+.mfp-container:before {
+  content: ''; /* 生成内容 */
+  display: inline-block; /* 行内块级元素 */
+  height: 100%; /* 高度为100% */
+  vertical-align: middle; /* 垂直居中 */
+}
+.mfp-align-top .mfp-container:before {
+  display: none; /* 对齐顶部时不显示 */
+}
+
+/* 弹窗内容样式 */
+.mfp-content {
+  position: relative; /* 相对定位 */
+  display: inline-block; /* 行内块级元素 */
+  vertical-align: middle; /* 垂直居中 */
+  margin: 0 auto; /* 水平居中 */
+  text-align: left; /* 文本左对齐 */
+  z-index: 505; /* 层叠顺序 */
+}
+.mfp-inline-holder .mfp-content,
+.mfp-ajax-holder .mfp-content {
+  width: 100%; /* 宽度为100% */
+  cursor: auto; /* 默认光标 */
+}
+.mfp-inline-holder .mfp-content:after,
+.mfp-ajax-holder .mfp-content:after {
+  content: ''; /* 生成内容 */
+  display: block; /* 块级元素 */
+  width: auto; /* 宽度自动 */
+  height: auto; /* 高度自动 */
+  position: absolute; /* 绝对定位 */
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1; /* 层叠顺序 */
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6); /* 阴影效果 */
+}
+
+.mfp-ajax-cur {
+  cursor: progress; /* 进度光标 */
+}
+.mfp-zoom-out-cur,
+.mfp-zoom-out-cur .mfp-image-holder .mfp-close {
+  cursor: -moz-zoom-out; /* Firefox缩小光标 */
+  cursor: -webkit-zoom-out; /* Chrome缩小光标 */
+  cursor: zoom-out; /* 缩小光标 */
+}
+.mfp-zoom,
+.image-popup {
+  cursor: pointer; /* 指针光标 */
+  cursor: -webkit-zoom-in; /* Chrome放大光标 */
+  cursor: -moz-zoom-in; /* Firefox放大光标 */
+  cursor: zoom-in; /* 放大光标 */
+}
+.mfp-auto-cursor .mfp-content {
+  cursor: auto; /* 默认光标 */
+}
+
+/* 其他元素的样式，如关闭按钮、箭头、预加载器、计数器 */
+.mfp-close, .mfp-arrow, .mfp-preloader, .mfp-counter {
+  -webkit-user-select: none; /* 禁止选择文本 */
+  -moz-user-select: none; /* 禁止选择文本 */
+  user-select: none; /* 禁止选择文本 */
+}
+
+.mfp-loading.mfp-figure {
+  display: none; /* 加载时不显示图片 */
+}
+
+.mfp-hide {
+  display: none !important; /* 强制不显示 */
+}
+
+/* 预加载器样式 */
+.mfp-preloader {
+  color: #cccccc; /* 文本颜色 */
+  position: absolute; /* 绝对定位 */
+  top: 50%; /* 顶部50% */
+  width: auto; /* 宽度自动 */
+  text-align: center; /* 文本居中 */
+  margin-top: -0.8em; /* 调整位置 */
+  left: 8px; /* 左边距 */
+  right: 8px; /* 右边距 */
+  z-index: 504; /* 层叠顺序 */
+}
+.mfp-preloader a {
+  color: #cccccc; /* 链接颜色 */
+}
+.mfp-preloader a:hover {
+  color: white; /* 鼠标悬停颜色 */
+}
+
+.mfp-s-ready .mfp-preloader {
+  display: none; /* 当准备好时不显示预加载器 */
+}
+
+.mfp-s-error .mfp-content {
+  display: none; /* 当有错误时不显示内容 */
+}
+
+/* 对弹窗中的关闭按钮和箭头按钮的样式设置 */
+button.mfp-close, button.mfp-arrow {
+  overflow: visible; /* 设置超出部分为可见，避免内容被裁剪 */
+  cursor: pointer; /* 设置鼠标光标为指针，表示可点击 */
+  border: 0; /* 无边框 */
+  -webkit-appearance: none; /* 取消按钮的默认外观，适用于Webkit浏览器 */
+  display: block; /* 将元素显示为块级元素 */
+  padding: 0; /* 无内边距 */
+  z-index: 506; /* 设置层级高于其他弹窗内容 */
+}
+button.mfp-close {
+  background: transparent; /* 设置按钮背景为透明 */
+}
+
+/* 针对Firefox浏览器取消按钮焦点时的内边距和边框 */
+button::-moz-focus-inner {
+  padding: 0; /* 无内边距 */
+  border: 0; /* 无边框 */
+}
+
+/* 定义关闭按钮的样式 */
+.mfp-close {
+  width: 44px;  /* 设置关闭按钮的宽度 */
+  height: 44px;  /* 设置关闭按钮的高度 */
+  line-height: 44px;  /* 行高与按钮高度一致，使得内容垂直居中 */
+  position: absolute;  /* 绝对定位 */
+  right: 0;  /* 定位到容器的右边 */
+  top: 0;  /* 定位到容器的顶部 */
+  text-decoration: none;  /* 无下划线 */
+  text-align: center;  /* 内容水平居中 */
+  opacity: 0.65;  /* 设置透明度 */
+  padding: 0 0 18px 10px;  /* 设置内边距 */
+  color: white;  /* 设置文字颜色为白色 */
+  font-style: normal;  /* 字体样式为正常 */
+  font-size: 28px;  /* 设置字体大小 */
+  font-family: Arial, Baskerville, monospace;  /* 字体家族设置 */
+}
+
+/* 当鼠标悬停或聚焦时，透明度变为1（全显示） */
+.mfp-close:hover, .mfp-close:focus {
+  opacity: 1;
+}
+
+/* 当按钮被按下时，稍微向下移动 */
+.mfp-close:active {
+  top: 1px;
+}
+
+/* 定义不同情况下的关闭按钮颜色 */
+.mfp-close-btn-in .mfp-close {
+  color: #333333;
+}
+
+/* 定义用于图片或iframe中的关闭按钮 */
+.mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
+  color: white;
+  right: -6px;
+  text-align: right;
+  padding-right: 6px;
+  width: 100%;
+}
+
+/* 定义图片计数器的样式 */
+.mfp-counter {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #cccccc;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+/* 定义箭头的样式 */
+.mfp-arrow {
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  opacity: 0.65;
+  margin: 0;
+  top: 50%;  /* 垂直居中 */
+  margin-top: -55px;  /* 将箭头居中 */
+  padding: 0;
+  width: 90px;  /* 设置箭头宽度 */
+  height: 110px;  /* 设置箭头高度 */
+  background-color: #000000;  /* 设置背景颜色为黑色 */
+  -webkit-transition: opacity 0.2s ease-in-out;
+  transition: opacity 0.2s ease-in-out;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* 当箭头被按下时，微调其位置 */
+.mfp-arrow:active {
+  margin-top: -54px;
+}
+
+/* 当鼠标悬停或聚焦时，透明度变为1（全显示） */
+.mfp-arrow:hover, .mfp-arrow:focus {
+  opacity: 1;
+}
+
+/* 定义箭头的具体形状 */
+.mfp-arrow:before, .mfp-arrow:after, .mfp-arrow .mfp-b, .mfp-arrow .mfp-a {
+  content: '';
+  display: block;
+  width: 0;
+  height: 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin-top: 35px;
+  margin-left: 35px;
+  border: solid transparent;
+}
+
+.mfp-arrow:after, .mfp-arrow .mfp-a {
+  opacity: 0.8;
+  border-top-width: 12px;
+  border-bottom-width: 12px;
+  top: 8px;
+}
+
+.mfp-arrow:before, .mfp-arrow .mfp-b {
+  border-top-width: 20px;
+  border-bottom-width: 20px;
+}
+
+/* 左箭头的样式 */
+.mfp-arrow-left {
+  left: 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-clip: padding-box;
+}
+
+/* 左箭头的内部三角形样式 */
+.mfp-arrow-left:after, .mfp-arrow-left .mfp-a {
+  border-right: 12px solid #fff;
+  left: 5px;
+}
+
+.mfp-arrow-left:before, .mfp-arrow-left .mfp-b {
+  border-right: 20px solid #fff;
+}
+
+/* 右箭头的样式 */
+.mfp-arrow-right {
+  right: 0;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  background-clip: padding-box;
+}
+
+/* 右箭头的内部三角形样式 */
+.mfp-arrow-right:after, .mfp-arrow-right .mfp-a {
+  border-left: 12px solid #fff;
+  left: 3px;
+}
+
+.mfp-arrow-right:before, .mfp-arrow-right .mfp-b {
+  border-left: 20px solid #fff;
+}
+
+/* Iframe容器的样式 */
+.mfp-iframe-holder {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+/* Iframe内容区域的样式 */
+.mfp-iframe-holder .mfp-content {
+  line-height: 0;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* 定义iframe的比例 */
+.mfp-iframe-scaler {
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  padding-top: 56.25%;  /* 16:9的比例 */
+}
+
+/* Iframe的样式 */
+.mfp-iframe-scaler iframe {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  background: black;
+}
+
+/* 调整iframe关闭按钮的位置 */
+.mfp-iframe-holder .mfp-close {
+  top: -40px;
+}
+
+/* 定义图片的样式 */
+img.mfp-img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  line-height: 0;
+  padding: 40px 0;
+  margin: 0 auto;
+}
+
+/* 图片下的阴影 */
+.mfp-figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 40px;
+  bottom: 40px;
+  display: block;
+  right: 0;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+}
+
+/* 定义图片容器的样式 */
+.mfp-figure {
+  line-height: 0;
+}
+
+/* 定义图片下方的状态栏 */
+.mfp-bottom-bar {
+  margin-top: -36px;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  cursor: auto;
+}
+
+/* 标题样式 */
+.mfp-title {
+  text-align: left;
+  line-height: 18px;
+  color: #f3f3f3;
+}
+
+/* 小字体的说明 */
+.mfp-figure small {
+  color: #bdbdbd;
+  display: block;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+/* 图片容器最大宽度 */
+.mfp-image-holder .mfp-content {
+  max-width: 100%;
+}
+
+/* 图片廊的样式 */
+.mfp-gallery .mfp-image-holder .mfp-figure {
+  cursor: pointer;
+}
+
+/* 针对屏幕宽度小于800px且横屏或屏幕高度小于300px的设备进行样式调整 */
+@media screen and (max-width:800px) and (orientation:landscape), screen and (max-height:300px) {
+  
+  /* 调整图片弹出框在移动设备上的布局 */
+  .mfp-img-mobile .mfp-image-holder {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  /* 移除图片的内边距 */
+  .mfp-img-mobile img.mfp-img {
+    padding: 0;
+  }
+  
+  /* 调整图片边界 */
+  .mfp-img-mobile .mfp-figure:after {
+    top: 0;
+    bottom: 0;
+  }
+  
+  /* 固定底部工具栏，调整背景颜色和边距 */
+  .mfp-img-mobile .mfp-bottom-bar {
+    background: rgba(0, 0, 0, 0.6);  /* 设置黑色半透明背景 */
+    bottom: 0;  /* 固定在底部 */
+    margin: 0;  /* 清除外边距 */
+    top: auto;
+    padding: 3px 5px;  /* 设置内边距 */
+    position: fixed;  /* 固定定位 */
+    box-sizing: border-box;  /* 包括内边距在内计算尺寸 */
+  }
+  
+  /* 如果底部工具栏为空，移除其内边距 */
+  .mfp-img-mobile .mfp-bottom-bar:empty {
+    padding: 0;
+  }
+  
+  /* 调整图片计数器的位置 */
+  .mfp-img-mobile .mfp-counter {
+    right: 5px;
+    top: 3px;
+  }
+  
+  /* 调整关闭按钮的位置和样式 */
+  .mfp-img-mobile .mfp-close {
+    top: 0;
+    right: 0;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0, 0, 0, 0.6);  /* 设置黑色半透明背景 */
+    position: fixed;
+    text-align: center;
+    padding: 0;
+  }
+  
+  /* 调整图片标题的样式 */
+  .mfp-img-mobile .mfp-figure small {
+    display: inline;
+    margin-left: 5px;
+  }
+}
+
+/* 针对所有屏幕宽度小于800px的设备 */
+@media all and (max-width:800px) {
+  
+  /* 调整导航箭头的缩放 */
+  .mfp-arrow {
+    transform: scale(0.75);  /* 缩放75% */
+  }
+  
+  /* 设置左箭头的变换原点为左边 */
+  .mfp-arrow-left {
+    transform-origin: 0;
+  }
+  
+  /* 设置右箭头的变换原点为右边 */
+  .mfp-arrow-right {
+    transform-origin: 100%;
+  }
+  
+  /* 调整容器的左右内边距 */
+  .mfp-container {
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+/* 针对IE7浏览器的样式修复 */
+.mfp-ie7 .mfp-img {
+    padding: 0;
+}
+
+.mfp-ie7 .mfp-bottom-bar {
+    width: 600px;
+    left: 50%;
+    margin-left: -300px;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.mfp-ie7 .mfp-container {
+    padding: 0;
+}
+
+.mfp-ie7 .mfp-content {
+    padding-top: 44px;
+}
+
+.mfp-ie7 .mfp-close {
+    top: 0;
+    right: 0;
+    padding-top: 0;
+}
+
+/* 定义弹出动画的淡入淡出效果 */
+.mfp-fade .zoom-anim-dialog {
+    opacity: 0;
+    transition: all 0.2s ease-in-out;
+    transform: scale(0.8);  /* 设置缩放效果 */
+}
+
+/* 当准备好时，淡入显示并将缩放恢复到1 */
+.mfp-fade.mfp-ready .zoom-anim-dialog {
+    opacity: 1;
+    transform: scale(1);
+}
+
+/* 移除时淡出并缩小 */
+.mfp-fade.mfp-removing .zoom-anim-dialog {
+    transform: scale(0.8);
+    opacity: 0;
+}
+
+/* 定义背景的淡入淡出效果 */
+.mfp-fade.mfp-bg {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+}
+
+/* 当背景准备好时，设置其透明度 */
+.mfp-fade.mfp-ready.mfp-bg {
+    opacity: 0.8;
+}
+
+/* 当背景移除时，透明度变为0 */
+.mfp-fade.mfp-removing.mfp-bg {
+    opacity: 0;
+}
+
 
 /*CRYou Rewise: article width in diff media */
-@media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}
-@media only screen and (min-width:30em){.image-grid li{width:33.333333%;}}
-@media only screen and (min-width:37.5em){html{font-size:95%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:25%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
-@media only screen and (min-width:48em){html{font-size:100%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:16.666666666%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
-@media only screen and (min-width:62em){html{font-size:112.5%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:16.666666666%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
-@media only screen and (min-width:86.375em){.site-name{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} .top-navigation{display:inline;float:left;width:66.66666666666667%;} .image-wrap:after{left:33.333333333%;} .image-wrap .headline-wrap{margin-left:8.333333333333334%;} #main article{display:inline;float:left;width:50%;} #index{display:inline;float:left;width:50%;} .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);}}
-@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
+/* 针对打印时的样式设置 */
+@media print {
+  * {
+      background: transparent !important; /* 将所有元素背景设置为透明 */
+      color: black !important; /* 颜色设置为黑色 */
+      box-shadow: none !important; /* 去除所有盒子阴影 */
+      text-shadow: none !important; /* 去除所有文本阴影 */
+      filter: none !important; /* 取消所有滤镜效果 */
+      -ms-filter: none !important; /* 针对IE取消滤镜效果 */
+      position: static !important; /* 取消固定定位，使用静态定位 */
+  }
+  @page { margin: 0.5cm; } /* 设置打印页面的边距 */
+  h2, h3 { orphans: 3; widows: 3; page-break-after: avoid; } /* 避免标题孤行和寡行并控制分页符 */
+  p { orphans: 3; widows: 3; } /* 段落同样避免孤行寡行 */
+  pre, blockquote { 
+      border: 1px solid #333; /* 设置边框颜色为深灰 */
+      page-break-inside: avoid; /* 避免在代码块和引用块内分页 */
+      padding: 1em; /* 设置内边距 */
+  }
+  abbr[title]:after { content: " (" attr(title) ")"; } /* 显示缩写解释 */
+  a, a:visited { text-decoration: underline; } /* 链接文字带下划线 */
+  a[href]:after { content: " (" attr(href) ")"; } /* 链接后添加URL */
+  a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } /* 不显示 JS 和锚点链接的 URL */
+  img { max-width: 100% !important; page-break-inside: avoid; } /* 图片避免分页 */
+  thead { display: table-header-group; } /* 表格头在分页时保持显示 */
+  tr { page-break-inside: avoid; } /* 表格行避免分页 */
+}
 
+/* 针对屏幕宽度超过30em（480px）的设备调整图片网格布局 */
+@media only screen and (min-width: 30em) {
+  .image-grid li { width: 33.333333%; } /* 每行显示3个图片 */
+}
+
+/* 针对屏幕宽度超过37.5em（600px）的设备 */
+@media only screen and (min-width: 37.5em) {
+  html { font-size: 95%; } /* 调整HTML字体大小 */
+  .site-name { 
+      display: inline;
+      float: left;
+      width: 16.666666666666668%; /* 站点名称宽度16.67% */
+      margin-left: 4.166666666666667%; /* 左侧边距4.17% */
+      margin-right: 4.166666666666667%; /* 右侧边距4.17% */
+  }
+  .top-navigation {
+      display: inline;
+      float: left;
+      width: 75%; /* 导航栏宽度为75% */
+  }
+  .image-wrap .headline-wrap, .image-wrap:after { left: 25%; } /* 图片包裹区和标题左移25% */
+  #main article { width: 50%; float: left; } /* 文章宽度为50% */
+  .toc {
+      display: block;
+      float: left;
+      width: 16.666666666666668%; /* 目录宽度为16.67% */
+      margin-left: 4.166666666666667%;
+      margin-right: 4.166666666666667%;
+      position: fixed;
+      top: 120px; /* 固定在顶部120px处 */
+      right: 0;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 目录阴影 */
+  }
+}
+
+/* 针对更大屏幕（宽度超过48em即768px）的设备 */
+@media only screen and (min-width: 48em) {
+  html { font-size: 100%; }
+  /* 保持相同布局调整，字体和布局比例稍有改变 */
+}
+
+/* 针对更大屏幕（宽度超过62em即992px）的设备 */
+@media only screen and (min-width: 62em) {
+  html { font-size: 112.5%; }
+  /* 保持相同布局，稍微增大字体 */
+}
+
+/* 针对超大屏幕（宽度超过86.375em即1380px）的设备 */
+@media only screen and (min-width: 86.375em) {
+  .site-name {
+      width: 12.5%; /* 调整站点名称宽度 */
+      margin-left: 16.666666666666668%; /* 增加左边距 */
+  }
+  .top-navigation { width: 66.66666666666667%; } /* 导航栏宽度为66.67% */
+  /* 其他布局调整，进一步增大宽度 */
+}
+
+/* 针对高像素密度设备 (如Retina屏幕) 的适配 */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* 可添加针对高像素密度设备的特定样式 */
+}
 
 /*blog正文照片*/
 .blog-image {
