@@ -1,0 +1,124 @@
+{% capture tocWorkspace %}
+<!-- 样式定义开始 -->
+<style>
+    .menu {
+    font-size: 1rem;
+    }
+    .menu.is-small {
+    font-size: 0.75rem;
+    }
+    .menu.is-medium {
+    font-size: 1.25rem;
+    }
+    .menu.is-large {
+    font-size: 1.5rem;
+    }
+    .menu-list {
+    line-height: 1.25;
+    }
+    .menu-list a {
+    border-radius: 2px;
+    color: #4a4a4a;
+    display: block;
+    padding: 0.5em 0.75em;
+    }
+    .menu-list a:hover {
+    background-color: #f5f5f5;
+    color: #363636;
+    }
+    .menu-list a.is-active {
+    background-color: #eef3fc;
+    color: #3273dc;
+    }
+    .menu-list li ul {
+    border-left: 1px solid #dbdbdb;
+    margin: 0.75em;
+    padding-left: 0.75em;
+    }
+    .menu-label {
+    color: #7a7a7a;
+    font-size: 0.75em;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    }
+    .menu-label:not(:first-child) {
+    margin-top: 1em;
+    }
+    .menu-label:not(:last-child) {
+    margin-bottom: 1em;
+    }
+
+    .widget .menu-list li ul {
+    margin-right: 0;
+    }
+    .widget .menu-list .level {
+    margin-bottom: 0;
+    }
+    .widget .menu-list .level .level-left,
+    .widget .menu-list .level .level-right,
+    .widget .menu-list .level .level-item {
+    flex-shrink: 1;
+    }
+    .widget .menu-list .level .level-left,
+    .widget .menu-list .level .level-right {
+    align-items: flex-start;
+    }
+    .widget .menu-list .tag {
+    background: $light-grey;
+    color: $white-invert;
+    }
+    .widget .tags .tag:first-child {
+    background: #3273dc;
+    color: #fff;
+    }
+    .widget .tags .tag:last-child {
+    background: $light-grey;
+    color: $white-invert;
+    }
+    .level.is-multiline {
+    flex-wrap: wrap;
+    }
+
+    @media screen and (max-width: 768px) {
+    .widget.card#toc {
+        display: none;
+        position: fixed;
+        margin: 1rem;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 100;
+    }
+    .widget.card#toc .card-content {
+        padding: 0;
+    }
+    .widget.card#toc .menu {
+        padding: 1.5rem;
+        max-height: calc(100vh - 2rem);
+        overflow-y: auto;
+    }
+    #toc-mask {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 99;
+        background: rgba(0,0,0,0.7);
+    }
+    .widget.card#toc.is-active,
+    #toc-mask.is-active {
+        display: block;
+    }
+    #toc {
+        max-height: calc(100vh - 22px);
+        overflow-y: scroll;
+    }
+    }
+</style>
+<!-- 样式定义结束 -->
+
+<!-- 原始的 TOC 逻辑代码 -->
+...
+{% endcapture %}
