@@ -416,6 +416,14 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   padding: 20px;
   background-color: #f5f5f5; /* 调整背景颜色 */
 }
+.toc {
+  position: sticky;
+  top: 30%; /* 调整目录在视口顶部的位置 */
+  left: 0; /* 定位到左侧 */
+  padding: 20px; /* 内边距 */
+  background-color: #f5f5f5; /* 背景颜色 */
+}
+
 /* 一级目录项 */
 .toc > ul > li {
   margin-left: 0;
