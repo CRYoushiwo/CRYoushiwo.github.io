@@ -415,7 +415,6 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
   left: 0;               /* 定位到视口的左侧 */
   padding: 20px;         /* 内边距 */
   background-color: #f5f5f5; /* 背景颜色，提高可读性 */
-  z-index: 1000;         /* 设置一个高的z-index确保覆盖在其他元素上 */
 }
 
 /* 一级目录项 */
