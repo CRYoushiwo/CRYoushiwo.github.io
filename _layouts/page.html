@@ -30,15 +30,15 @@
         {% endif %}
 
         <div id="main" role="main"  itemprop="mainContentOfPage">
+            <div class="article-author-top">
+                {% include author-bio.html %}
+            </div>
             <div class="toc">
                 {% include toc.html html=content %}
             </div>
             <div class="table">
                 {% include table.html html=content %}
-            </div>
-            <div class="article-author-top">
-                {% include author-bio.html %}
-            </div>
+            </div>            
             <article itemscope itemtype="http://schema.org/CreativeWork">
                 {% comment %}
                     <div class="headline-wrap">
