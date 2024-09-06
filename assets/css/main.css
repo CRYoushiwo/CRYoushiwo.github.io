@@ -390,101 +390,18 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /************************************************************menu for diff Table of Contents************************************************************/
 
-/* Base styling for the menu */
-.menu {
-  font-family: Arial, sans-serif;
-  background: #f9f9f9;
-  border-radius: 4px;
-  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+.toc-sidebar {
+    position: fixed;   /* 相对于视口的固定位置 */
+    top: 100px;        /* 距离视口顶部的距离 */
+    left: 0;           /* 对齐视口的左侧 */
+    width: 250px;      /* 固定宽度 */
+    height: calc(100vh - 100px); /* 视口高度减去顶部距离 */
+    overflow-y: auto;  /* 在 TOC 容器内启用滚动 */
+    z-index: 1000;     /* 高 z-index 确保它位于其他内容之上 */
+    padding: 20px;     /* 内容周围的填充 */
+    background-color: #f8f9fa; /* 侧边栏的浅背景颜色 */
+    border-right: 1px solid #ccc; /* 从内容中细微分隔 */
 }
-
-/* Size variations */
-.menu.is-small { font-size: 0.75rem; }
-.menu.is-medium { font-size: 1.25rem; }
-.menu.is-large { font-size: 1.5rem; }
-
-/* Styling for the list of contents */
-.menu-list {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-  line-height: 1.6;
-}
-
-.menu-list a {
-  display: block;
-  color: #3273dc;
-  padding: 0.5em 0.75em;
-  text-decoration: none;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.menu-list a:hover {
-  background-color: #eef3fc;
-  color: #363636;
-}
-
-.menu-list a.is-active {
-  background-color: #3273dc;
-  color: #ffffff;
-}
-
-/* Nested list styling */
-.menu-list li ul {
-  padding-left: 20px;
-  border-left: 2px solid #e5e5e5;
-}
-
-/* Label styling */
-.menu-label {
-  font-size: 0.85rem;
-  color: #7a7a7a;
-  padding: 0.5em 0.75em;
-  text-transform: uppercase;
-}
-
-.menu-label:not(:first-child) {
-  margin-top: 1rem;
-}
-
-.menu-label:not(:last-child) {
-  margin-bottom: 1rem;
-}
-
-/* Responsive adjustments */
-@media screen and (max-width: 768px) {
-  .widget.card#toc {
-    display: block; /* Show the TOC on mobile */
-    position: fixed;
-    margin: 1rem;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 100;
-    background-color: white;
-    padding: 1rem;
-    border-top: 1px solid #ccc;
-    max-height: 50vh;
-    overflow-y: auto;
-  }
-
-  #toc-mask {
-    display: block;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 99;
-    background: rgba(0,0,0,0.7);
-  }
-
-  .widget.card#toc.is-active,
-  #toc-mask.is-active {
-    display: block;
-  }
-}
-
 
 /*CRYou Rewise: article width in diff media */
 @media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}
