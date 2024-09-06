@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: course-page
 permalink: /CourseRecording/2023/AnalogElectronicTechnology/index.html
 title: AnalogElectronicTechnology
+menu-list: true
 ---
 
 
