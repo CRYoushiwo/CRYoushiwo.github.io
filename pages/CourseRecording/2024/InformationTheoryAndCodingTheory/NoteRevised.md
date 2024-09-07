@@ -1,6 +1,6 @@
 ---
 layout: page
-permalink: /CourseRecording/2024/InformationTheoryAndCodingTheory/Revised/index.html
+permalink: /CourseRecording/2024/InformationTheoryAndCodingTheory/NoteRevised/index.html
 title: InformationTheoryAndCodingTheoryNoteRevised
 ---
 
