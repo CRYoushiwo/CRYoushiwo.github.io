@@ -4,6 +4,14 @@ permalink: /pages/CourseRecording/index.html
 title: Course Recording
 ---
 
+# 2024 
+
+- ## [🔒 信息论与编码理论](https://CRYoushiwo.github.io/CourseRecording/2024/InformationTheoryAndCodingTheory)
+> Embark on a journey into the world of information theory and coding, where you'll explore the principles of data compression, error correction, and efficient transmission of information.
+
+- ## [🔑 现代密码学](https://CRYoushiwo.github.io/CourseRecording/2024/Cryptography)
+> Dive into the realm of modern cryptography, uncovering the intricate mechanisms behind encryption, decryption, key exchange, and securing digital communications in today's interconnected world.
+
 # 2023
 
 - ## [💻 计算机组成](https://CRYoushiwo.github.io/CourseRecording/2023/ComputerOrganization)
