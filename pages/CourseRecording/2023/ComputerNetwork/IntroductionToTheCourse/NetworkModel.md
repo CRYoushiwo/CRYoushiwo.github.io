@@ -8,7 +8,9 @@ title: NetworkModel
 
 ## 发展史
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071426090.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 - 第一代：以传输信息为目的
 - 第二代：以相互共享资源为目的
@@ -18,7 +20,9 @@ title: NetworkModel
 
 - “分而治之”的思想
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/IntroductionToTheCourse/Chapter2/Untitled%201.png" class="blog-image" > 
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071426625.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ## 协议与划分层次
 

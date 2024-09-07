@@ -25,7 +25,9 @@ title: DigitalTransmission
     - 自同步：接收方的位间隔与发送方的位间隔严格对应与匹配
 - 线性编码方案
     
-    <img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter4/Untitled.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071441523.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
     | 类别 | 方案 | 平均带宽需求 | 特点 |
     | --- | --- | --- | --- |

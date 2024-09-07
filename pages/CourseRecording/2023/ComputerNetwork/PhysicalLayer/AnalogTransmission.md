@@ -19,7 +19,9 @@ title: AnalogTransmission
         - 一个信号的比特率为8000 bps ，波特率为1000 baud，问每个信号元素携带多少个数据元素？需要多少个信号元素?
         - 解：
             
-            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter5/Untitled.png" class="blog-image" >
+            <div style="display: flex; justify-content: center;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071436333.png" style="max-width: 80%; height: auto;">
+            </div><br>
             
 - 载波信号：在模拟传输中，发送设备产生一个高频率信号作为基波来承载信息
 - 幅移键控

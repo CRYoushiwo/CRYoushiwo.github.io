@@ -58,4 +58,6 @@ $n = 2^m - 1$ |
             - 36 = **10**0100 $\rightarrow$6 = 0110（和，由左边超出部分与右边部分相加，即 0100 + 0010） $\rightarrow$ 9 = 1001（检验和，即反码）
     - Example 2
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter10/Untitled.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413354.png" style="max-width: 80%; height: auto;">
+        </div><br>

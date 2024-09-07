@@ -6,4 +6,6 @@ title: TransmissionMedia
 
 # 传输介质
 
-<img src="https://CRYoushiwo.github.io/images/blogs/CoursesRecording/ComputerNetwork/PhysicalLayer/Chapter7/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071442044.png" style="max-width: 80%; height: auto;">
+</div><br>

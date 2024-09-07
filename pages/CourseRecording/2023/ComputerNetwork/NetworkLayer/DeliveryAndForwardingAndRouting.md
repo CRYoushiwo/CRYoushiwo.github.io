@@ -37,11 +37,15 @@ title: DeliveryAndForwardingAndRouting
 - 方法
     - 基于源树：每个组每个路由器都需要有一个最短路径树
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter22/Untitled.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428031.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
     - 基于组共享树：只有一个核心路由器，它对多播所涉及的每一个组有一个最短路径树
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter22/Untitled%201.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428807.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
     
 - 洪泛与剪除
@@ -64,7 +68,9 @@ title: DeliveryAndForwardingAndRouting
 - 网络中的每一个路由器都要维护从它自己到其他每一个目的网络的距离记录
 - 更新方法
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/NetworkLayer/Chapter22/Untitled%201.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428226.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 - 协议位置：应用层
 - 特点

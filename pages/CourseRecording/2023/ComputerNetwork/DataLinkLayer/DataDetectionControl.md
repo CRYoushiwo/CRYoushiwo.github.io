@@ -28,11 +28,15 @@ title: DataDetectionControl
 
 ## 停等ARQ
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071412387.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 - 信道利用率
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%201.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071412163.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 
 ## 后退N帧ARQ
@@ -50,14 +54,18 @@ title: DataDetectionControl
     
     </aside>
     
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%202.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413324.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ### 接收窗口
 
 - 用变量 $R_n$ 定义了大小为1的接收窗口
 - 采用累计确认：连续收到多个按序到达且无误码的数据分组后，才针对最后一个数据分组发送确认分组
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/DataLinkLayer/Chapter11/Untitled%203.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413602.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ## 选择性重传ARQ
 

@@ -20,11 +20,15 @@ title: ApplicationLayer
     - 域名服务器解析
         - **本地域名服务器向根域名服务器的查询**通常是采用**迭代查询**
             
-            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled.png" class="blog-image" >
+            <div style="display: flex; justify-content: center;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406148.png" style="max-width: 80%; height: auto;">
+            </div><br>
             
         - **主机向本地域名服务器的查询**一般都是采用**递归查询**
             
-            <img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%201.png" class="blog-image" >
+            <div style="display: flex; justify-content: center;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406443.png" style="max-width: 80%; height: auto;">
+            </div><br>
             
 
 ## 文件传送协议
@@ -51,14 +55,18 @@ title: ApplicationLayer
 
 ## 远程终端协议 TELNET
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%202.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406007.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 - NVT格式
     - 网络虚拟终端的数据传输格式
 
 ## 电子邮件
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerNetwork/ApplicationLayer/Untitled%203.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406064.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 - 简单邮件传送协议 SMTP
     - 只能传送 ASCII码
