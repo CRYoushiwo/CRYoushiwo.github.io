@@ -40,7 +40,7 @@ title: ComputerOrganizationChapter5
         - 例题
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071451720.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072355999.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 边界对齐
@@ -87,11 +87,11 @@ title: ComputerOrganizationChapter5
    | 源操作数|目的操作数|下条指令地址|
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071451434.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072355477.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071451954.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072355826.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 操作码设计
@@ -106,7 +106,7 @@ title: ComputerOrganizationChapter5
             </aside>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071451388.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072355365.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 
@@ -147,7 +147,7 @@ title: ComputerOrganizationChapter5
 - 例题
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071451162.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072355234.png" style="max-width: 80%; height: auto;">
     </div><br>
 
 ## 指令系统结构的发展

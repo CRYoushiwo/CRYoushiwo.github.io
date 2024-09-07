@@ -28,7 +28,7 @@ title: OperatingSystemChapter4
         - 按键存取法
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507371.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072357427.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -86,15 +86,15 @@ title: OperatingSystemChapter4
     - 基于索引节点【指针是否共享（静态），进程是否并发（动态）】
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507942.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072357210.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507089.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072358638.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507323.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072358649.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     - 利用符号链接共享文件

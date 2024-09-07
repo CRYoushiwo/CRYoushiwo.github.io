@@ -7,17 +7,17 @@ title: InformationTheoryAndCodingTheoryNoteRevised
 # 整理笔记
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071718224.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409080019577.png" style="max-width: 80%; height: auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071718357.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409080019398.png" style="max-width: 80%; height: auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071718338.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409080019992.png" style="max-width: 80%; height: auto;">
 </div>
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071718393.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409080019483.png" style="max-width: 80%; height: auto;">
 </div>

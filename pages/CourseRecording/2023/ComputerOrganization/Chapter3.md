@@ -12,34 +12,34 @@ title: ComputerOrganizationChapter3
 - 并行加法加法器各个位和产生时间
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071448468.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072352599.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - BCD码加法器
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071448261.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072352250.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 乘法器框图
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071448494.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072352484.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071448706.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353213.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 补码除法不能用于定点纯整数！（处理定点纯整数时，应使用原码除法）
 - 除法器框图
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071448334.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353049.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071449469.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353243.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 运算器内部总线
@@ -52,5 +52,5 @@ title: ComputerOrganizationChapter3
    |三总线|0|1 |
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071449934.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353420.png" style="max-width: 80%; height: auto;">
     </div><br>

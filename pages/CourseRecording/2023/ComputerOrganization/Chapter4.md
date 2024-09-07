@@ -15,13 +15,13 @@ title: ComputerOrganizationChapter4
 - DRAM刷新周期
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071450343.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353909.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 闪存
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071450655.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353843.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 同步DRAM（SDRM）
@@ -43,17 +43,17 @@ title: ComputerOrganizationChapter4
         - 注意字节允许型号的书写
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071450857.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072353241.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 交叉组织方式
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071450227.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072354059.png" style="max-width: 80%; height: auto;">
             </div><br>
 
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071450278.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072354233.png" style="max-width: 80%; height: auto;">
             </div><br>
             
     - 双端口存储器

@@ -92,7 +92,7 @@ title: ComputerOrganizationChapter6
 - 例题（x86控制单元为例）
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071452778.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072356778.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 优缺点【速度，修改不灵活，电路实现困难】

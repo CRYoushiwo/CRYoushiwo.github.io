@@ -54,7 +54,7 @@ title: ComputerOrganizationChapter7
         - DMC与CPU总线控制权的交换（4）
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071453260.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072356794.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - I/O通道方式
