@@ -391,94 +391,13 @@ img.mfp-img{width:auto;max-width:100%;height:auto;display:block;line-height:0;-w
 
 /*CRYou Rewise: article width in diff media */
 /* 针对打印时的样式设置 */
-@media print {
-  * {
-      background: transparent !important; /* 将所有元素背景设置为透明 */
-      color: black !important; /* 颜色设置为黑色 */
-      box-shadow: none !important; /* 去除所有盒子阴影 */
-      text-shadow: none !important; /* 去除所有文本阴影 */
-      filter: none !important; /* 取消所有滤镜效果 */
-      -ms-filter: none !important; /* 针对IE取消滤镜效果 */
-      position: static !important; /* 取消固定定位，使用静态定位 */
-  }
-  @page { margin: 0.5cm; } /* 设置打印页面的边距 */
-  h2, h3 { orphans: 3; widows: 3; page-break-after: avoid; } /* 避免标题孤行和寡行并控制分页符 */
-  p { orphans: 3; widows: 3; } /* 段落同样避免孤行寡行 */
-  pre, blockquote { 
-      border: 1px solid #333; /* 设置边框颜色为深灰 */
-      page-break-inside: avoid; /* 避免在代码块和引用块内分页 */
-      padding: 1em; /* 设置内边距 */
-  }
-  abbr[title]:after { content: " (" attr(title) ")"; } /* 显示缩写解释 */
-  a, a:visited { text-decoration: underline; } /* 链接文字带下划线 */
-  a[href]:after { content: " (" attr(href) ")"; } /* 链接后添加URL */
-  a[href^="javascript:"]:after, a[href^="#"]:after { content: ""; } /* 不显示 JS 和锚点链接的 URL */
-  img { max-width: 100% !important; page-break-inside: avoid; } /* 图片避免分页 */
-  thead { display: table-header-group; } /* 表格头在分页时保持显示 */
-  tr { page-break-inside: avoid; } /* 表格行避免分页 */
-}
-
-/* 针对屏幕宽度超过30em（480px）的设备调整图片网格布局 */
-@media only screen and (min-width: 30em) {
-  .image-grid li { width: 33.333333%; } /* 每行显示3个图片 */
-}
-
-/* 针对屏幕宽度超过37.5em（600px）的设备 */
-@media only screen and (min-width: 37.5em) {
-  html { font-size: 95%; } /* 调整HTML字体大小 */
-  .site-name { 
-      display: inline;
-      float: left;
-      width: 16.666666666666668%; /* 站点名称宽度16.67% */
-      margin-left: 4.166666666666667%; /* 左侧边距4.17% */
-      margin-right: 4.166666666666667%; /* 右侧边距4.17% */
-  }
-  .top-navigation {
-      display: inline;
-      float: left;
-      width: 75%; /* 导航栏宽度为75% */
-  }
-  .image-wrap .headline-wrap, .image-wrap:after { left: 25%; } /* 图片包裹区和标题左移25% */
-  #main article { width: 50%; float: left; } /* 文章宽度为50% */
-  .toc {
-      display: block;
-      float: left;
-      width: 16.666666666666668%; /* 目录宽度为16.67% */
-      margin-left: 4.166666666666667%;
-      margin-right: 4.166666666666667%;
-      position: fixed;
-      top: 120px; /* 固定在顶部120px处 */
-      right: 0;
-      box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* 目录阴影 */
-  }
-}
-
-/* 针对更大屏幕（宽度超过48em即768px）的设备 */
-@media only screen and (min-width: 48em) {
-  html { font-size: 100%; }
-  /* 保持相同布局调整，字体和布局比例稍有改变 */
-}
-
-/* 针对更大屏幕（宽度超过62em即992px）的设备 */
-@media only screen and (min-width: 62em) {
-  html { font-size: 112.5%; }
-  /* 保持相同布局，稍微增大字体 */
-}
-
-/* 针对超大屏幕（宽度超过86.375em即1380px）的设备 */
-@media only screen and (min-width: 86.375em) {
-  .site-name {
-      width: 12.5%; /* 调整站点名称宽度 */
-      margin-left: 16.666666666666668%; /* 增加左边距 */
-  }
-  .top-navigation { width: 66.66666666666667%; } /* 导航栏宽度为66.67% */
-  /* 其他布局调整，进一步增大宽度 */
-}
-
-/* 针对高像素密度设备 (如Retina屏幕) 的适配 */
-@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-  /* 可添加针对高像素密度设备的特定样式 */
-}
+@media print{*{background:transparent !important;color:black !important;box-shadow:none !important;text-shadow:none !important;filter:none !important;-ms-filter:none !important;position:static !important;} @page {margin:0.5cm;}h2,h3{orphans:3;widows:3;page-break-after:avoid;} p{orphans:3;widows:3;} pre,blockquote{border:1px solid #333;page-break-inside:avoid;padding:1em;} abbr[title]:after{content:" (" attr(title) ")";} a,a:visited{text-decoration:underline;} a[href]:after{content:" (" attr(href) ")";} a[href^="javascript:"]:after,a[href^="#"]:after{content:"";} img{max-width:100% !important;page-break-inside:avoid;} thead{display:table-header-group;} tr{page-break-inside:avoid;}}
+@media only screen and (min-width:30em){.image-grid li{width:33.333333%;}}
+@media only screen and (min-width:37.5em){html{font-size:95%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:25%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
+@media only screen and (min-width:48em){html{font-size:100%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:16.666666666%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
+@media only screen and (min-width:62em){html{font-size:112.5%;} .site-name{display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .top-navigation{display:inline;float:left;width:75%;margin-left:0%;margin-right:0%;} .image-wrap .headline-wrap,.image-wrap:after{left:25%;} .image-wrap .headline-wrap{margin-left:0;} #main article{display:inline;float:left;width:50%;margin-left:0%;margin-right:0%;} #index{display:inline;float:left;width:65%;margin-left:0%;margin-right:0%;} .footer-wrap footer{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;} .article-author-top{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;} .article-author-bottom{display:none;} .toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);} .image-grid li{width:16.666666666%;} .related-articles{display:inline;float:left;width:50%;margin-left:25%;margin-right:25%;}}
+@media only screen and (min-width:86.375em){.site-name{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} .top-navigation{display:inline;float:left;width:66.66666666666667%;} .image-wrap:after{left:33.333333333%;} .image-wrap .headline-wrap{margin-left:8.333333333333334%;} #main article{display:inline;float:left;width:50%;} #index{display:inline;float:left;width:50%;} .related-articles{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .footer-wrap footer{display:inline;float:left;width:37.5%;margin-left:33.333333333333336%;margin-right:29.166666666666668%;} .article-author-top{display:inline;float:left;width:12.5%;margin-left:16.666666666666668%;} toc{display:block;display:inline;float:left;width:16.666666666666668%;margin-left:4.166666666666667%;margin-right:4.166666666666667%;position:fixed;top:120px;right:0;-webkit-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);-moz-box-shadow:0 0 5px rgba(0, 0, 0, 0.5);box-shadow:0 0 5px rgba(0, 0, 0, 0.5);}}
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:192dpi){}
 
 /*blog正文照片*/
 .blog-image {
