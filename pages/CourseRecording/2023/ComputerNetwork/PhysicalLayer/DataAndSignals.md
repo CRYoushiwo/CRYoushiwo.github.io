@@ -15,7 +15,7 @@ title: DataAndSignals
     - 频域和时域的表示
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071440508.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072222994.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 用频域图中单个峰值可表示时域图中一个完整正弦波
@@ -23,7 +23,7 @@ title: DataAndSignals
         - 周期和非周期信号分解
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071440672.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072222112.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 - 数字信号
@@ -32,7 +32,7 @@ title: DataAndSignals
     - 周期和非周期信号分解
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071440205.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072222109.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 
@@ -75,7 +75,7 @@ title: DataAndSignals
 ## 数据速率限制
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071441549.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072222854.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 定义

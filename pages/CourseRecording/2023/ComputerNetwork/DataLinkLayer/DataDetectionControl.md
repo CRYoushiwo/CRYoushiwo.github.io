@@ -29,13 +29,13 @@ title: DataDetectionControl
 ## 停等ARQ
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071412387.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072207076.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 信道利用率
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071412163.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072207177.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -55,7 +55,7 @@ title: DataDetectionControl
     </aside>
     
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413324.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072208396.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ### 接收窗口
@@ -64,7 +64,7 @@ title: DataDetectionControl
 - 采用累计确认：连续收到多个按序到达且无误码的数据分组后，才针对最后一个数据分组发送确认分组
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413602.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072208538.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## 选择性重传ARQ

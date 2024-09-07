@@ -17,7 +17,7 @@ title: ProcessDelivery
 ## 用户数据报协议（UDP）
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071443403.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072223293.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - UDP长度 = IP长度 - IP头部长度
@@ -26,14 +26,14 @@ title: ProcessDelivery
     - Example
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071444444.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072223011.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 
 ## 传输控制协议（TCP）
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071444086.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072223911.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 控制字段
@@ -55,7 +55,7 @@ title: ProcessDelivery
     </aside>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071444912.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072224419.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 流量控制和拥塞控制
@@ -66,7 +66,7 @@ title: ProcessDelivery
     - 慢开始和拥塞避免
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071444947.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072224982.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 基本概念

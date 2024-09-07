@@ -20,7 +20,7 @@ title: AnalogTransmission
         - 解：
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071436333.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072220891.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 - 载波信号：在模拟传输中，发送设备产生一个高频率信号作为基波来承载信息

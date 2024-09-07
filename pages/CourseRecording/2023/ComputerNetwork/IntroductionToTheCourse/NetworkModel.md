@@ -9,7 +9,7 @@ title: NetworkModel
 ## 发展史
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071426090.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072214758.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 第一代：以传输信息为目的
@@ -21,7 +21,7 @@ title: NetworkModel
 - “分而治之”的思想
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071426625.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072214339.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## 协议与划分层次

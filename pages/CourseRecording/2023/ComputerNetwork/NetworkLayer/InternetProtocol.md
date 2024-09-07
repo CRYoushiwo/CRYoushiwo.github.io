@@ -10,7 +10,7 @@ title: InternetProtocol
 
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071430646.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216277.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 版本
@@ -32,7 +32,7 @@ title: InternetProtocol
 - **标识-标志-片偏移**
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071430345.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216452.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     - 标识（16b）：计数器，用来产生数据报的标识
@@ -42,13 +42,13 @@ title: InternetProtocol
     - Example 1
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431984.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216650.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - Example 2
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431892.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216676.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 原始总数据长度 4020-20 = 4000
@@ -70,7 +70,7 @@ title: InternetProtocol
     - 反码解决数据段的进位和借位问题
     
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431338.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217479.png" style="max-width: 80%; height: auto;">
         </div><br>
     
     - Example 1
@@ -79,13 +79,13 @@ title: InternetProtocol
     - Example 2
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431365.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217646.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - Example 3
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431583.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217717.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 
@@ -97,17 +97,17 @@ title: InternetProtocol
     - 双协议栈
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431103.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217980.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 隧道策略
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071431942.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217530.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 头部转换策略
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071432146.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072217986.png" style="max-width: 80%; height: auto;">
         </div><br>

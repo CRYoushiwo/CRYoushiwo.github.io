@@ -18,7 +18,7 @@ title: BandwidthUtilization
     - 解：
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071438003.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072220269.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - Example 2
@@ -44,13 +44,13 @@ title: BandwidthUtilization
         - 每个输入连接的数据速率是 1 kbps。一个单元为1位，试确定 : (a) 每个输入单元的时隙, (b) 每个输出单元的时隙  (c) 每个帧的时隙 ?
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071438468.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072220756.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 解：
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071438101.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072220692.png" style="max-width: 80%; height: auto;">
             </div><br>
             
     - Example 2
@@ -58,7 +58,7 @@ title: BandwidthUtilization
         - 解：
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439717.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221307.png" style="max-width: 80%; height: auto;">
             </div><br>
             
     - 存在的问题
@@ -67,25 +67,25 @@ title: BandwidthUtilization
             - 多级复用
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439277.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221874.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             - 多时隙
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439568.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221951.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 脉冲填充
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439597.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221759.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             - 帧同步
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439494.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221835.png" style="max-width: 80%; height: auto;">
             </div><br>
             
     - Example 3
@@ -93,7 +93,7 @@ title: BandwidthUtilization
         - 解：
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071439919.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072221971.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 - 统计时分复用

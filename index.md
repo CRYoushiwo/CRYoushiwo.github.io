@@ -4,7 +4,7 @@ layout: bio
 
 
 # About Me
-<img src="https://CRYoushiwo.github.io/files/images/bio/ChangrongYou.png" class="floatpic" width="421" height="512">
+<img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/bio/202409072145296.png" class="floatpic" width="421" height="512">
 
 Here is **Changrong You (Pekko, 游昌榕)**.
 

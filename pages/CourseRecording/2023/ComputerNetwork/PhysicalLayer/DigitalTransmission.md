@@ -26,7 +26,7 @@ title: DigitalTransmission
 - 线性编码方案
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071441523.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072222125.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     | 类别 | 方案 | 平均带宽需求 | 特点 |

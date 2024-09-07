@@ -21,13 +21,13 @@ title: ApplicationLayer
         - **本地域名服务器向根域名服务器的查询**通常是采用**迭代查询**
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406148.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072206661.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - **主机向本地域名服务器的查询**一般都是采用**递归查询**
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406443.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072206296.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 
@@ -56,7 +56,7 @@ title: ApplicationLayer
 ## 远程终端协议 TELNET
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406007.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072206077.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - NVT格式
@@ -65,7 +65,7 @@ title: ApplicationLayer
 ## 电子邮件
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071406064.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072206521.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 简单邮件传送协议 SMTP

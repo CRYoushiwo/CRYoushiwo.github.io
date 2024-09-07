@@ -7,5 +7,5 @@ title: TransmissionMedia
 # 传输介质
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071442044.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072223623.png" style="max-width: 80%; height: auto;">
 </div><br>

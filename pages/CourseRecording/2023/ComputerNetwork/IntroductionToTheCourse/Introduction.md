@@ -33,7 +33,7 @@ title: Introduction
         - 连接类型：点到点连接与多点连接
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071425783.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072214547.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 物理拓扑结构
@@ -56,7 +56,7 @@ title: Introduction
         | 广域网（WAN） | 几十到几千千米 | 卫星、光纤、电话线 | 网状、星型 |
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071425728.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072214989.png" style="max-width: 80%; height: auto;">
         </div><br>
 
         **由四个广域网和两个局域网组成的混合网络**

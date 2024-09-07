@@ -62,7 +62,7 @@ title: AnalogElectronicTechnologyChapter10
 - CW79系列<输出电压 $U_{XX}$：3引脚-1引脚>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071401377.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072204599.png" style="max-width: 80%; height: auto;">
     </div><br>
 
     - 应用

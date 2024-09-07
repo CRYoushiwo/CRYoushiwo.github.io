@@ -27,7 +27,7 @@ title: WirelessLANs
     - 帧交换时序
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071423764.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072212089.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - DIFS（分布式帧间间隔）：考虑到可能有其他的站有高优先级的帧要发送
@@ -47,11 +47,11 @@ title: WirelessLANs
 - 数据帧
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071423418.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072212922.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071423690.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072212355.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 控制帧
@@ -73,7 +73,7 @@ title: WirelessLANs
 - 隐藏站点问题
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071423325.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072212348.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     - 站点B,C不在各自的传输范围之内（**站点B，C对于站点A来说是相互隐藏的**），此时站点B，站点C同时给站点A发送消息，导致冲突
@@ -81,7 +81,7 @@ title: WirelessLANs
 - 暴露站点问题
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071424075.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072213294.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     - 站点A向站点B传输，站点C向站点B传输，但是站点C被站点A限制了传输（**站点C暴露在站点A的传输范围之内**）

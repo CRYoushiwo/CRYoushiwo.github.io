@@ -11,7 +11,7 @@ title: AddressMappingAndErrorReportAndMulticasting
 - 逻辑地址与物理地址的转换
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071427995.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072215696.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## ARP（地址解析协议）
@@ -36,7 +36,7 @@ title: AddressMappingAndErrorReportAndMulticasting
     - 为了提高 IP 数据报交付成功的机会
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071427211.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072215041.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 类型
@@ -86,7 +86,7 @@ title: AddressMappingAndErrorReportAndMulticasting
 ## D 类 IP 地址 与以太网多播地址的映射关系
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071427111.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072215922.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 多播物理地址范围：01: 00: 5E: 00: 00: 00—01: 00: 5E: **7**F: FF: FF

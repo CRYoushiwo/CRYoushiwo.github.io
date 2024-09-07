@@ -59,5 +59,5 @@ $n = 2^m - 1$ |
     - Example 2
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071413354.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072208843.png" style="max-width: 80%; height: auto;">
         </div><br>

@@ -22,7 +22,7 @@ title: MultipleAccess
         - 广播通信
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415522.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072209561.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 
@@ -46,7 +46,7 @@ title: MultipleAccess
     - 二进制指数回退
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415495.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072209400.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 纯ALOHA可能冲突的时间（脆弱时间）：$2\cdot T_{fr}$
@@ -68,7 +68,7 @@ title: MultipleAccess
     - 关键截点
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072209595.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 最短碰撞检测时间（中间处发生碰撞）：$\tau$
@@ -91,7 +91,7 @@ title: MultipleAccess
     - 信道利用率
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415551.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072209886.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - $S_{max} = \frac{T_0}{T_0 + \tau}$（忽略前面的等待时间）
@@ -113,7 +113,7 @@ title: MultipleAccess
     - 两个功能
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415107.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072210500.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         左边是选择，右边是轮询
@@ -136,7 +136,7 @@ title: MultipleAccess
     - 正交序列（芯片数字序列）
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071415742.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072210816.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 每个序列都有 $N$ 个元素， $N$ 为站点数

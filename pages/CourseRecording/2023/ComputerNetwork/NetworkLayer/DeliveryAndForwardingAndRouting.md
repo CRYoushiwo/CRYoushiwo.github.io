@@ -38,13 +38,13 @@ title: DeliveryAndForwardingAndRouting
     - 基于源树：每个组每个路由器都需要有一个最短路径树
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428031.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072215378.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 基于组共享树：只有一个核心路由器，它对多播所涉及的每一个组有一个最短路径树
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428807.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216329.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     
@@ -69,7 +69,7 @@ title: DeliveryAndForwardingAndRouting
 - 更新方法
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071428226.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072216281.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 协议位置：应用层

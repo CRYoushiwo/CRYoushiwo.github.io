@@ -77,7 +77,7 @@ title: AnalogElectronicTechnologyQA
 - 六种场效应管的符号与特性曲线
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403296.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072204843.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -85,7 +85,7 @@ title: AnalogElectronicTechnologyQA
     - 分压式偏置电路
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403470.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072204743.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - $U_{GS} = \frac{R_1}{R_1+R_2}U_{DD}-I_DR_S$
@@ -93,7 +93,7 @@ title: AnalogElectronicTechnologyQA
     - 自给偏压电路（不适合增强型！！）
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403572.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072205475.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - $U_{GS} = -I_DR_S$
@@ -154,7 +154,7 @@ title: AnalogElectronicTechnologyQA
         - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403027.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072205071.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     

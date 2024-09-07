@@ -45,5 +45,5 @@ title: AnalogElectronicTechnologyChapter6
     - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071354208.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072159360.png" style="max-width: 80%; height: auto;">
     </div><br>

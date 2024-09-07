@@ -31,7 +31,7 @@ title: AnalogElectronicTechnologyChapter7
     
 
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071356692.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072159618.png" style="max-width: 80%; height: auto;">
     </div><br>
 
 - 同相比例运算电路
@@ -40,7 +40,7 @@ title: AnalogElectronicTechnologyChapter7
     $A_u = 1+\frac{R_2}{R_1}$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071356287.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072200538.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 差动比例运算电路
@@ -48,7 +48,7 @@ title: AnalogElectronicTechnologyChapter7
     $U_o = -\frac{R_2}{R_1}U_{i1} + (1+\frac{R_2}{R_1})\frac{R_p}{R_2 + R_p}U_{i2}$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071356287.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072200638.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -57,19 +57,19 @@ title: AnalogElectronicTechnologyChapter7
 - 反相求和电路
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071357774.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072200602.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 同相求和电路
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071357792.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072200152.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 代数求和电路
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071357650.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072200328.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -80,14 +80,14 @@ title: AnalogElectronicTechnologyChapter7
     - 反相积分电路 求$u_o = -\frac{1}{RC}\int u_i dt - u_c(0)$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071357870.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072201743.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 微分电路
     - $u_o = -RC\frac{du_i}{dt}$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071358033.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072201882.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -119,46 +119,46 @@ title: AnalogElectronicTechnologyChapter7
     - 电压跟随器
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071358015.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072201731.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071358962.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072201619.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 加减运算放大器
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071358095.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072201489.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     **同相：**
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071358271.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072202841.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071359001.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072202954.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     **反相：**
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071359638.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072202882.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071359441.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072202681.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 - 占空比：矩形波的高电平持续时间与其周期之比
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071359354.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072203897.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071359812.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072203133.png" style="max-width: 80%; height: auto;">
 </div><br>

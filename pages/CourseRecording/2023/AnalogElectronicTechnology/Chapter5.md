@@ -106,19 +106,19 @@ title: AnalogElectronicTechnologyChapter5
 $X_i = X_f$
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071352000.png" style="max-width: 80%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072158185.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353058.png" style="max-width: 80%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072158837.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353347.png" style="max-width: 80%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072158981.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353375.png" style="max-width: 80%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072158358.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## 根据性能要求，引入负反馈

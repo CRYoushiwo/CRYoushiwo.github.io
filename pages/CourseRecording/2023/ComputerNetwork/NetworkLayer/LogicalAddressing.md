@@ -9,7 +9,7 @@ title: LogicalAddressing
 ## **IP 地址与硬件地址**
 
 <div style="display: flex; justify-content: center;">
-    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434638.png" style="max-width: 80%; height: auto;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218687.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## IPv4
@@ -27,7 +27,7 @@ title: LogicalAddressing
 - 分类
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434369.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218879.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 特殊IP地址
@@ -45,7 +45,7 @@ title: LogicalAddressing
 - Example
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434893.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218122.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -62,7 +62,7 @@ title: LogicalAddressing
     - 二级层次结构
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434906.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218982.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         n=4时
@@ -81,7 +81,7 @@ title: LogicalAddressing
     - 三级层次结构
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434594.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218699.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - Example
@@ -95,21 +95,21 @@ title: LogicalAddressing
             设计这些子块，并求出分配后还有多少可用的地址？
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071434360.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218442.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435570.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072218096.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435125.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072219058.png" style="max-width: 80%; height: auto;">
             </div><br>
             
     - 网络地址转换（NAT）：私网地址和公网地址的转换
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435234.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072219682.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - NAT转换表
@@ -119,7 +119,7 @@ title: LogicalAddressing
             | --- | --- | --- |
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435956.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072219639.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         
@@ -131,13 +131,13 @@ title: LogicalAddressing
 - 基本：十六进制冒号标记法
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435082.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072219440.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 缩写
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071435128.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072219687.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 几种特殊地址

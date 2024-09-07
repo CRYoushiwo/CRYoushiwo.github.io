@@ -32,7 +32,7 @@ title: AnalogElectronicTechnologyChapter4
 增强型：只有在$U_{GS} > U_T > 0$时，存在沟道
 
 <div style="display: flex; justify-content: center;">
-  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071352133.png" style="max-width: 80%; height: auto;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/course-recording/202409072158736.png" style="max-width: 80%; height: auto;">
 </div><br>
 
 ## 场效应管主要参数
