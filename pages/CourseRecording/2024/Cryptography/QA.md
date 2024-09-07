@@ -17,7 +17,7 @@ title: CryptographyQA
 - 密码可能受到不同水平的攻击（四种）？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071732932.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -32,7 +32,7 @@ title: CryptographyQA
     - 线性反馈移位寄存器结构图
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071732243.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - 分析某个线性反馈移位寄存器是否能生成小m序列，周期，游程分布，是否满足golomb？
@@ -90,7 +90,7 @@ title: CryptographyQA
     - 互补性
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733210.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - 由于算法中两次异或运算，使得 DES 在选择明文攻击下所需的工作量减半
@@ -110,7 +110,7 @@ title: CryptographyQA
     - x 运算
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733243.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - AES流程？
@@ -132,7 +132,7 @@ title: CryptographyQA
             - 交换逆列混合和轮密钥加有影响，但是存在等价变形
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733734.png" style="max-width: 80%; height: auto;">
             </div><br>
             
 - 四种分组密码工作模式的优缺点，错误传播，加密解密流程？
@@ -140,7 +140,7 @@ title: CryptographyQA
         - 加密解密流程
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733504.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 特点
@@ -151,11 +151,11 @@ title: CryptographyQA
         - 加密解密流程
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733551.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071733391.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 特点
@@ -168,11 +168,11 @@ title: CryptographyQA
         - 加密解密流程
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734029.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734741.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 特点
@@ -186,11 +186,11 @@ title: CryptographyQA
         - 加密解密流程
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734819.png" style="max-width: 80%; height: auto;">
             </div><br>
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734349.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 特点
@@ -202,7 +202,7 @@ title: CryptographyQA
         - 加密解密过程
             
             <div style="display: flex; justify-content: center;">
-                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+                <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734758.png" style="max-width: 80%; height: auto;">
             </div><br>
             
         - 特点
@@ -212,7 +212,7 @@ title: CryptographyQA
         
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071734470.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -227,7 +227,7 @@ title: CryptographyQA
     - 多数hash函数的设计都是迭代型的
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071735301.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - ~~MD5哈希算法流程？~~
@@ -237,7 +237,7 @@ title: CryptographyQA
     - 分组处理
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071735163.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         - $CV_0 = IV \\
@@ -246,7 +246,7 @@ title: CryptographyQA
 - MD5和SHA-1的第一步（消息填充）？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071735185.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 
@@ -260,19 +260,19 @@ title: CryptographyQA
     - 有限域上的离散对数问题(如公钥密码体制ElGamal)
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071735540.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 椭圆曲线上的离散对数问题(如公钥密码体制ECC)
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071735128.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 背包问题（背包算法）
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071736867.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 基于身份的密码体制（IBE）
@@ -280,47 +280,47 @@ title: CryptographyQA
     - $y^2 = x^3 + ax + b,\ 4a^3+27b^2\neq0$
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071736107.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - RSA算法（基于大整数因子分解）描述？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071736253.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - EIgamal算法描述？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071740036.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741931.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741627.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 快速指数算法？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741627.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - ECC算法描述?
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741098.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741359.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741141.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 混合加密？
@@ -332,7 +332,7 @@ title: CryptographyQA
 - 着重理解以下这一幅图（考得很模糊）？
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741293.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 什么样的公钥密码算法能够作为数字签名？
@@ -342,7 +342,7 @@ title: CryptographyQA
     - 算法描述
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741601.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 为什么对消息的Hash函数值签名而不是直接对消息签名？
@@ -352,32 +352,32 @@ title: CryptographyQA
 - 基于EIGamal数字签名?
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742253.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742475.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742794.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     - 相同消息得到的签名值不同（秘密随机数 k的作用）
     - Example
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742960.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - 基于Schnorr数字签名?
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742784.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742776.png" style="max-width: 80%; height: auto;">
     </div><br>
     
     |  | EIGamal | Schnorr | 说明 |
@@ -389,7 +389,7 @@ title: CryptographyQA
     - 算法描述
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743272.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - **盲签名**
@@ -401,37 +401,37 @@ title: CryptographyQA
     - 算法流程
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743254.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 举例
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743494.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 问题
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743970.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - 端-端密钥协商协议？
     - 算法流程
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743902.png" style="max-width: 80%; height: auto;">
         </div><br>
         
 - Shamir 秘密共享方案？
     - 核心思想：
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743148.png" style="max-width: 80%; height: auto;">
         </div><br>
         
         <div style="display: flex; justify-content: center;">
-            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071743597.png" style="max-width: 80%; height: auto;">
         </div><br>
         
     - 结论
