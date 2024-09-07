@@ -27,7 +27,9 @@ title: OperatingSystemChapter4
         - 直接存取法
         - 按键存取法
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507371.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 
 ## 文件目录
@@ -83,9 +85,17 @@ title: OperatingSystemChapter4
 - 文件共享
     - 基于索引节点【指针是否共享（静态），进程是否并发（动态）】
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%201.png" class="blog-image" >
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%202.png" class="blog-image" >
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/OperatingSystem/Chapter4/Untitled%203.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507942.png" style="max-width: 80%; height: auto;">
+    </div><br>
+
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507089.png" style="max-width: 80%; height: auto;">
+    </div><br>
+
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071507323.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
     - 利用符号链接共享文件
 
