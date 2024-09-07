@@ -76,19 +76,25 @@ title: AnalogElectronicTechnologyQA
     - 增强型MOS场效应管：利用$U_{GS}$控制“感应电荷”数量，沟道电阻随之改变，达到控制漏极电流的效果
 - 六种场效应管的符号与特性曲线
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/QA/Untitled.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403296.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 
 - 分压式偏置电路和自给偏压电路
     - 分压式偏置电路
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%201.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403470.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
         - $U_{GS} = \frac{R_1}{R_1+R_2}U_{DD}-I_DR_S$
         - $I_D = I_{DSS}(1-\frac{U_{GS}}{U_P})^2$
     - 自给偏压电路（不适合增强型！！）
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%202.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403572.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
     - $U_{GS} = -I_DR_S$
     - $I_D = I_{DSS}(1-\frac{U_{GS}}{U_P})^2$
@@ -147,7 +153,9 @@ title: AnalogElectronicTechnologyQA
         - 提高共模抑制比
         - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/QA/Untitled%203.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071403027.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
     
 

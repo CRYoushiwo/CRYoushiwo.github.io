@@ -44,4 +44,6 @@ title: AnalogElectronicTechnologyChapter6
     - 提高共模抑制比
     - $r_{o3} = (1+\frac{\beta R_3}{r_{be}+R_1//R_2+R_3})r_{ce}$
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter6/Untitled.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071354208.png" style="max-width: 80%; height: auto;">
+    </div><br>

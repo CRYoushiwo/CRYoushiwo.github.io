@@ -41,8 +41,12 @@ title: AnalogElectronicTechnologyChapter9
 - 作用：提高电流放大倍数，扩大电流的驱动能力
 - 规则
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter9/Untitled.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071400789.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 - 计算
     - $\beta = \beta_1\beta_2$
     - $r_{be} = r_{be1}+(1+\beta_1)r_{be2}$
+
+    

@@ -105,13 +105,21 @@ title: AnalogElectronicTechnologyChapter5
 
 $X_i = X_f$
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071352000.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%201.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353058.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%202.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353347.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/AnalogElectronicTechnology/Chapter5/Untitled%203.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+  <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071353375.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ## 根据性能要求，引入负反馈
 
