@@ -2,6 +2,7 @@
 layout: page
 permalink: /CourseRecording/2024/Cryptography/QA/index.html
 title: CryptographyQA
+math: true
 ---
 
 # 考点汇总
@@ -9,8 +10,6 @@ title: CryptographyQA
 ## 第一章
 
 - ~~保密学的基本概念？~~
-    
-    
 - ~~明文空间，密文空间，密钥空间的概念？~~
 - 移位，数乘，仿射，维吉尼亚算法？
     - okk
