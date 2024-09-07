@@ -41,16 +41,16 @@ title: CryptographyQA
     - $m = 11110101,c = 10010001$
     - $k_1...k_8 = 01100100$
     - $k_5 = c_1k_4+c_2k_3+c_3k_2+c_4k_1\\
-    k_6 = c_1k_5+c_2k_4+c_3k_3+c_4k_2\\
-    k_7 = c_1k_6+c_2k_5+c_3k_4+c_4k_3\\
-    k_8 = c_1k_7+c_2k_6+c_3k_5+c_4k_4$
+        k_6 = c_1k_5+c_2k_4+c_3k_3+c_4k_2\\
+        k_7 = c_1k_6+c_2k_5+c_3k_4+c_4k_3\\
+        k_8 = c_1k_7+c_2k_6+c_3k_5+c_4k_4$
     - 解得
         
         $c_1 = 0, c_2 = 0, c_3 = 0, c_4 = 1$
         
 - golomb对伪随机周期序列提出的3个随机性公设?
     - 在序列的一个周期内，0与1的个数相差至多为1
-    - 在序列的一个周期内，长为$i$的游程个数占游程有$2^{n-i-1}$ 个，0，1游程各占一半，长为n-1的0游程有一个，长为n的游程有一个
+    - 在序列的一个周期内，长为$i$的游程个数占游程有 $2^{n-i-1}$ 个，0，1游程各占一半，长为n-1的0游程有一个，长为n的游程有一个
     - 异自相关函数（见书本）是一个常数
         - 周期为  $2^n - 1$ 的 $m$ 序列，这个常数就是 $-\frac{1}{2^n - 1}$
 
@@ -241,8 +241,8 @@ title: CryptographyQA
         </div><br>
         
         - $CV_0 = IV \\
-        CV_{q+1} = CV_q \bigoplus RF_I[P_q, RF_H[P_q, RF_G[P_q, RF_F[P_q, CV_q]]]] \\
-        MD = CV_L$
+            CV_{q+1} = CV_q \bigoplus RF_I[P_q, RF_H[P_q, RF_G[P_q, RF_F[P_q, CV_q]]]] \\
+            MD = CV_L$
 - MD5和SHA-1的第一步（消息填充）？
     
     <div style="display: flex; justify-content: center;">
@@ -300,7 +300,7 @@ title: CryptographyQA
     </div><br>
     
     <div style="display: flex; justify-content: center;">
-        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071741627.png" style="max-width: 80%; height: auto;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/daily-images/202409071802338.png" style="max-width: 80%; height: auto;">
     </div><br>
     
 - 快速指数算法？
@@ -380,10 +380,10 @@ title: CryptographyQA
         <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071742776.png" style="max-width: 80%; height: auto;">
     </div><br>
     
-    |  | EIGamal | Schnorr | 说明 |
-    | --- | --- | --- | --- |
-    | 安全性 | g为域GF(p)的本原元素 | g只是域GF(p)的阶为q的元素，非本原元素 | EIGamal离散对数阶高于Schnorr的，前者安全性更高 |
-    | 计算速度 | r的长度为|p|， s的长度为|p-1| | e的长度为|q|， s的长度为|q| | 除此之外，在Schnorr’中，r=g^k(modp)可以预先计算，后者的计算速度快 |
+    | 特性|EIGamal|Schnorr|说明|
+    |-
+    |安全性|g为域GF(p)的本原元素 | g只是域GF(p)的阶为q的元素，非本原元素 | EIGamal离散对数阶高于Schnorr的，前者安全性更高 |
+    |计算速度|r的长度为\|p\|， s的长度为\|p-1\| | e的长度为\|q\|， s的长度为\|q\| | 除此之外，在Schnorr’中，$r=g^k(modp)$可以预先计算，后者的计算速度快 |
     
 - Shamir基于数字身份的数字签名？
     - 算法描述
