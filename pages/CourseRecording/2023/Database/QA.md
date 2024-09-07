@@ -22,9 +22,13 @@ title: DatabaseQA
     - 文件处理系统存在弊端【数据冗余多、数据不一致、不完整、不安全、数据之间的联系弱】
     - 概念模型的E-R图的绘制
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/Database/QA/Untitled.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071504840.png" style="max-width: 80%; height: auto;">
+        </div><br>
 
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/Database/QA/Untitled%201.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071504718.png" style="max-width: 80%; height: auto;">
+        </div><br>
 
         
 
@@ -36,7 +40,9 @@ title: DatabaseQA
 - 函数依赖示意图的绘制
 - 范式的判断与范式相关结论的证明
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/Database/QA/Untitled%202.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071504895.png" style="max-width: 80%; height: auto;">
+    </div><br>
 
 - **函数依赖（3）与范式（4）**
     - 判断函数依赖，判断范式
@@ -96,7 +102,9 @@ title: DatabaseQA
     - 完整性约束命名子句
         - **CONSTRAINIT**
         
-        <img src="https://CRYoushiwo.github.io/images/CoursesRecording/Database/QA/Untitled%203.png" class="blog-image" >
+        <div style="display: flex; justify-content: center;">
+            <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071504903.png" style="max-width: 80%; height: auto;">
+        </div><br>
         
         - 使用 ALTER TABLE 修改完整性约束
 - 域的完整性约束
@@ -104,7 +112,9 @@ title: DatabaseQA
 - 触发器
     - TRIGGER
     
-    <img src="https://CRYoushiwo.github.io/images/CoursesRecording/Database/QA/Untitled%204.png" class="blog-image" >
+    <div style="display: flex; justify-content: center;">
+        <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071505813.png" style="max-width: 80%; height: auto;">
+    </div><br>
     
 
 ## 第五章 数据库内核-存储引擎
