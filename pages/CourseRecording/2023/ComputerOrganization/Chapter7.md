@@ -53,7 +53,9 @@ title: ComputerOrganizationChapter7
     - DMA控制器
         - DMC与CPU总线控制权的交换（4）
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/ComputerOrganization/Chapter7/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071453260.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 - I/O通道方式
     - 具有特殊功能的处理器
