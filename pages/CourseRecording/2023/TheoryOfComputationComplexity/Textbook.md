@@ -10,126 +10,238 @@ title: Textbook
 
 ### Def
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525724.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%201.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525356.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%202.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525230.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%203.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525475.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%204.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525759.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%205.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525932.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%206.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071525987.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%207.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526728.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%208.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526940.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%209.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526301.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2010.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526327.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2011.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526030.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ### Thm
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2012.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526854.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2013.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071526631.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2014.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071527800.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2015.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071527694.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2016.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071527500.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2017.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071527678.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2018.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071527507.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2019.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528986.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2020.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528421.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2021.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528547.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2022.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528386.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2023.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528515.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2024.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071528040.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2025.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529811.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2026.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529914.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2027.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529491.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2028.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529912.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2029.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529392.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2030.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529532.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2031.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071529728.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2032.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530498.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 **怎么写？**
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2033.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530860.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2034.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530413.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ## Chap8
 
 ### Def
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2035.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530231.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2036.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530310.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2037.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530594.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2038.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071530157.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2039.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531051.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2040.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531059.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2041.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531947.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2042.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531822.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ### Thm
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2043.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531813.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2044.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531296.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2045.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071531233.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2046.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532108.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2047.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532986.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2048.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532245.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2049.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532199.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2050.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532664.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2051.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532679.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2052.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071532973.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2053.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071533719.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2054.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071533679.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Textbook/Untitled%2055.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071533098.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 ## Chap9

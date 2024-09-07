@@ -7,8 +7,11 @@ title: Homework
 
 # 十次作业
 
+**Question 1(SOLUTION)**
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/733354936818384047.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071520861.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 **Question 2(SOLUTION)**
 
@@ -16,24 +19,42 @@ TFFTTT
 
 FTTTFF
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/497497643770110364.png" class="blog-image" >
+**Question 3(SOLUTION)**
+
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071520841.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 **Question 4(SOLUTION)**
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071520948.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 **Question 5(SOLUTION)**
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%201.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071520752.png" style="max-width: 80%; height: auto;">
+</div><br>
 
 **Question 6(SOLUTION)**
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%202.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071520687.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/Untitled%203.png" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521183.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/01.jpg" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521553.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/02.jpg" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521431.png" style="max-width: 80%; height: auto;">
+</div><br>
 
-<img src="https://CRYoushiwo.github.io/images/CoursesRecording/TheoryOfComputationComplexity/Homework/03.jpg" class="blog-image" >
+<div style="display: flex; justify-content: center;">
+    <img src="https://cryoushiwo.oss-cn-hangzhou.aliyuncs.com/images/202409071521006.png" style="max-width: 80%; height: auto;">
+</div><br>
